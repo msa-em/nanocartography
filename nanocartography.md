@@ -1,19 +1,8 @@
-**Nanocartography: Planning for success in analytical electron
-microscopy**
+---
+title: 'Nanocartography: Planning for success in analytical electron microscopy'
+---
 
-Olszta, M.J.^1\*^, Fiedler, K.R.^2^
-
-*^1^ Pacific Northwest National Laboratory, Richland, WA 99354, USA*
-
-*^2^ Washington State University, Tri-Cities, Richland, WA, 99354, USA*
-
-*Phone: (509) 371-7217*
-
-*Fax: (509) 375-3033*
-
-*^\*^Corresponding author email: matthew.olszta@pnnl.gov*
-
-**Abstract**
++++ {"part": "abstract"}
 
 With the increasing diversity in material systems, ever-expanding number
 of analysis techniques, and the large capital costs of next generation
@@ -31,6 +20,8 @@ crystallographic unknowns at extremely small scales with minimal
 information. Most importantly, it can convert any sample orientation
 relationships across microscopes to increase optimization and
 collaboration throughout the field.
+
++++
 
 **1. Introduction**
 
