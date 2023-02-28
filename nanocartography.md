@@ -1617,14 +1617,14 @@ y_{ref} - y_{0} \\
 \end{bmatrix}\ \ \overset{\ }{\Rightarrow}\widehat{x} = \frac{\overset{⃑}{x}}{\left| \overset{⃑}{x} \right|} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
 x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Equation 40
 
 $$\widehat{y} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
 {- (y}_{ref} - y_{0}) \\
 x_{ref} - x_{0} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 The tip/tilt coordinates for any position (x,y) in the field of view
 (blue dot/circle in ***Figure 12***) can be calculated to align the
@@ -1647,17 +1647,17 @@ x_{ref} - x_{0} \\
 \end{bmatrix} = \begin{bmatrix}
 x - x_{0} \\
 y - y_{0} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Solving this system of equations for the weights yields:
 
 Equation 42
 
-$$c_{1} = \frac{\left( x - x_{0} \right)\left( x_{ref} - x_{0} \right) + \left( y - y_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$c_{1} = \frac{\left( x - x_{0} \right)\left( x_{ref} - x_{0} \right) + \left( y - y_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
 Equation 43
 
-$$c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \right) - \left( x - x_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \right) - \left( x - x_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
 ![](./images/image19.tiff){width="6.5in" height="2.2111111111111112in"}
 
@@ -1671,7 +1671,7 @@ factor is:
 
 Equation 44
 
-$$Scaling\ Factor = \frac{\alpha}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$Scaling\ Factor = \frac{\alpha}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
 Utilization of these formulae allows for precise small angle tilting
 using CBED or a Ronchigram where there could be a high density of
@@ -1793,7 +1793,7 @@ $$R_{- \alpha,x} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & \cos\alpha & \sin\alpha \\
 0 & {- sin}\alpha & \cos\alpha \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Equation 48
 
@@ -1801,7 +1801,7 @@ $$R_{- \beta,y} = \begin{bmatrix}
 \cos\beta & 0 & {- sin}\beta \\
 0 & 1 & 0 \\
 \sin\beta & 0 & \cos\beta \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Equation 49
 
@@ -1809,7 +1809,7 @@ $$R_{\theta,total} = R_{- \beta,y}R_{- \alpha,x} = \begin{bmatrix}
 \cos\beta & 0 & {- sin}\beta \\
 {\sin\alpha\sin}\beta & \cos\alpha & \sin{\alpha\cos\beta} \\
 \cos\alpha\sin\beta & {- sin}\beta & \cos{\alpha\cos\beta} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Equation 50
 
@@ -1821,7 +1821,7 @@ $$R_{\theta,total}\begin{bmatrix}
 {- sin}\beta\cos\alpha \\
 \sin\alpha \\
 \cos{\alpha\cos\beta} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 This rotation can be performed for any two sets of tilt conditions,
 $(\alpha_{1},\ \beta_{1})$ and $(\alpha_{2},\ \beta_{2})$, and therefore
@@ -1832,11 +1832,11 @@ of the order will provide erroneous results.
 
 Equation 51
 
-$$\cos\theta = {{\sin{\beta_{1}\sin\beta_{2}}\cos}\alpha_{1}\cos\alpha_{2} + sin}\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\beta_{1}\cos\beta_{2}\ \ \ \ \ \ \ \ \ \ \ \ $$
+$$\cos\theta = {{\sin{\beta_{1}\sin\beta_{2}}\cos}\alpha_{1}\cos\alpha_{2} + sin}\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\beta_{1}\cos\beta_{2}$$
 
 Equation 52
 
-$$\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\left( \beta_{1} - \beta_{2} \right) \right)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\left( \beta_{1} - \beta_{2} \right) \right)$$
 
 **3.5 Grain Boundary Misorientation**
 
@@ -1903,7 +1903,7 @@ z_{A1} \\
 {- sin}\beta_{A1}\cos\alpha_{A1} \\
 \sin\alpha_{A1} \\
 \cos{\alpha_{A1}\cos\beta_{A1}} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Similar expressions for the other two poles can be calculated, where the
 subscript 1 has been replaced with either 2 or 3. It is necessary to
@@ -1917,7 +1917,7 @@ $$\overrightarrow{p}\  = \begin{bmatrix}
 p_{Ax} \\
 p_{Ay} \\
 p_{Az} \\
-\end{bmatrix}\sim\lbrack 100\rbrack\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}\sim\lbrack 100\rbrack$$
 
 Equation 55
 
@@ -1925,7 +1925,7 @@ $$\overrightarrow{q}\  = \begin{bmatrix}
 q_{Ax} \\
 q_{Ay} \\
 q_{Az} \\
-\end{bmatrix}\sim\lbrack 010\rbrack\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}\sim\lbrack 010\rbrack$$
 
 Equation 56
 
@@ -1933,7 +1933,7 @@ $$\overrightarrow{t}\  = \begin{bmatrix}
 t_{Ax} \\
 t_{Ay} \\
 t_{Az} \\
-\end{bmatrix}\sim\lbrack 001\rbrack\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}\sim\lbrack 001\rbrack$$
 
 These three unknown Cartesian vectors are the unit vectors that describe
 the orientation of the crystal. In the microscope, regardless of the
@@ -1946,15 +1946,15 @@ are:
 
 Equation 57
 
-$u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+$u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}$
 
 Equation 58
 
-$u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+$u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}$
 
 Equation 59
 
-$u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+$u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}$
 
 These equations can be solved for the components of the vectors
 $\overrightarrow{p}$, $\overrightarrow{q},$ and $\overrightarrow{t}$
@@ -1972,7 +1972,7 @@ u_{A3} & v_{A3} & w_{A3} \\
 x_{A1} & y_{A1} & z_{A1} \\
 x_{A2} & y_{A2} & z_{A2} \\
 x_{A3} & y_{A3} & z_{A3} \\
-\end{matrix} \right\rbrack\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+\end{matrix} \right\rbrack$
 
 After row reducing this augmented matrix to reduced row echelon form:
 
@@ -1986,7 +1986,7 @@ $\left\lbrack \begin{matrix}
 p_{Ax} & p_{Ay} & p_{Az} \\
 q_{Ax} & q_{Ay} & q_{Az} \\
 t_{Ax} & t_{Ay} & t_{Az} \\
-\end{matrix} \right\rbrack\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+\end{matrix} \right\rbrack$
 
 The right-hand side of the row reduced matrix produces the elements of
 the vectors $\overrightarrow{p}$, $\overrightarrow{q},$ and
@@ -2008,7 +2008,7 @@ $$R_{A} = \begin{bmatrix}
 p_{Ax} & q_{Ax} & t_{Ax} \\
 p_{Ay} & q_{Ay} & t_{Ay} \\
 p_{Az} & q_{Az} & t_{Az} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 The previous rotation matrix was derived for Crystal A (Eqn. 62), but
 the exact procedure applies to Crystal B without any modifications
@@ -2020,7 +2020,7 @@ $$R_{B} = \begin{bmatrix}
 p_{Bx} & q_{Bx} & t_{Bx} \\
 p_{By} & q_{By} & t_{By} \\
 p_{Bz} & q_{Bz} & t_{Bz} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Both of these rotation matrices convert from the standard orientation to
 the current rotation of their respective crystal. To get from one
@@ -2029,11 +2029,11 @@ back to the standard orientation and then to other crystal orientation.
 Mathematically, this is done by using the inverse of the rotation matrix
 to get back to the standard orientation.
 
-$$M_{A \rightarrow B} = R_{B}R_{A}^{- 1}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$M_{A \rightarrow B} = R_{B}R_{A}^{- 1}$$
 
 Equation 65
 
-$$M_{B \rightarrow A} = R_{A}R_{B}^{- 1}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$M_{B \rightarrow A} = R_{A}R_{B}^{- 1}$$
 
 These two overall rotation matrices are the misorientation matrices that
 describe the relative orientation of one crystal to another. Most
@@ -2048,14 +2048,14 @@ $$M = \begin{bmatrix}
 M_{11} & M_{12} & M_{13} \\
 M_{21} & M_{22} & M_{23} \\
 M_{31} & M_{32} & M_{33} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Then the axis-angle representation is, where θ~M~ is the misorientation
 angle and ${\overrightarrow{r}}_{M}$ is the misorientation axis:
 
 Equation 67
 
-$$\theta_{M} = \cos^{- 1}\left( \frac{M_{11} + M_{22} + M_{33} - 1}{2} \right)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$\theta_{M} = \cos^{- 1}\left( \frac{M_{11} + M_{22} + M_{33} - 1}{2} \right)$$
 
 Equation 68
 
@@ -2063,7 +2063,7 @@ $${\overrightarrow{r}}_{M} = \begin{bmatrix}
 \frac{M_{32} - M_{23}}{2\sin\theta_{M}} \\
 \frac{M_{13} - M_{31}}{2\sin\theta_{M}} \\
 \frac{M_{21} - M_{12}}{2\sin\theta_{M}} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 It should be noted that in that the relative orientation solution the
 adjacent crystals is important in the calculation of the misorientation
@@ -2150,7 +2150,7 @@ ${\widehat{a}}_{parallel} = \begin{bmatrix}
 {\ cos}\theta \\
 {\ sin}\theta \\
 0 \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+\end{bmatrix}$
 
 Equation 70
 
@@ -2158,7 +2158,7 @@ ${\widehat{b}}_{perpendicular} = \begin{bmatrix}
 {- sin}\theta \\
 \cos\theta \\
 0 \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $
+\end{bmatrix}$
 
 Section 2 details a rotation about an arbitrary axis (see Supplemental),
 and this will be used to rotate about both the vectors
@@ -2193,7 +2193,7 @@ R_{\widehat{a},\varphi} = \begin{bmatrix}
 \cos^{2}\theta + \sin^{2}\theta\cos\varphi & \cos\theta\sin\theta\left( 1 - \cos\varphi \right) & \sin\theta\sin\varphi \\
 \cos\theta\sin\theta\left( 1 - \cos\varphi \right) & \sin^{2}\theta + \cos^{2}\theta\cos\varphi & - \cos\theta\sin\varphi \\
  - \sin\theta\sin\varphi & \cos\theta\sin\varphi & \left( \cos^{2}\theta + \sin^{2}\theta \right)\cos\varphi \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \  \\
+\end{bmatrix} \\
 \end{matrix}$$
 
 Equation 73
@@ -2203,7 +2203,7 @@ R_{\widehat{b},\varphi} = \begin{bmatrix}
 \sin^{2}\theta + \cos^{2}\theta\cos\varphi & - \sin\theta\cos\theta\left( 1 - \cos\varphi \right) & \cos\theta\sin\varphi \\
  - \sin\theta\cos\theta\left( 1 - \cos\varphi \right) & \cos^{2}\theta + \sin^{2}\theta\cos\varphi & \sin\theta\sin\varphi \\
  - \cos\theta\sin\varphi & - \sin\theta\sin\varphi & \left( \sin^{2}\theta + \cos^{2}\theta \right)\cos\varphi \\
-\end{bmatrix}\ \ \ \ \ \ \ \  \\
+\end{bmatrix} \\
 \end{matrix}$$
 
 As with all other tip/tilt conversions, the Cartesian vectors calculated
@@ -2214,11 +2214,11 @@ precise interface orientation calculations.
 
 Equation 74
 
-$$\alpha_{final} = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$\alpha_{final} = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)$$
 
 Equation 75
 
-$$\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)$$
 
 **3.7 Calculating Interface Orientations/Rapid Grain Boundary Analysis**
 
@@ -2300,7 +2300,7 @@ calculations are performed make this orientation irrelevant.
 
 Equation 76
 
-$${\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }$$
+$${\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}}$$
 
 The angle of the interface's long axis to the α axis can be measured
 (i.e., θ in ***Figure 16***a) and using Eqns. 30-35, the tilt conditions
@@ -2324,7 +2324,7 @@ trigonometry.
 
 Equation 77
 
-$${\sin\left( \theta_{3} \right)}{= \ \frac{w_{2}}{IL}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }$$
+$${\sin\left( \theta_{3} \right)}{= \ \frac{w_{2}}{IL}}$$
 
 The interface length (*IL*) is initially unknown, but is constant
 between tilts and can be found using the Pythagorean Theorem once the
@@ -2332,13 +2332,13 @@ initial width (w~1~) and the foil width (FW) are known.
 
 Equation 78
 
-$${IL = \ }{\sqrt{FW^{2} + w_{1}^{2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }$$
+$${IL = \ }{\sqrt{FW^{2} + w_{1}^{2}}}$$
 
 Substituting this above yields the final equation for $\theta_{3}$:
 
 Equation 79
 
-$$\theta_{3}{= \arcsin\left( \frac{w_{2}}{\sqrt{FW^{2} + w_{1}^{2}}} \right)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }$$
+$$\theta_{3}{= \arcsin\left( \frac{w_{2}}{\sqrt{FW^{2} + w_{1}^{2}}} \right)}$$
 
 In a double tilt stage the trace of a plane (or boundary in this
 instance) physically rotates due to the S-curve, and therefore there are
@@ -2481,7 +2481,7 @@ will be returned (e.g., α,β:24.1,26.6 will be the \[112\]).
 
 Equation 80
 
-$$M_{\alpha,\beta} = R_{- \beta,y}R_{- \alpha,x}R_{A}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$M_{\alpha,\beta} = R_{- \beta,y}R_{- \alpha,x}R_{A}$$
 
 Equation 81
 
@@ -2489,13 +2489,13 @@ $${\overset{⃑}{u}}_{\alpha\beta} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 0 \\
 0 \\
 1 \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 $${\overset{⃑}{u}}_{\alpha\beta,\theta\ normal} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 {- sin}\theta \\
 \cos\theta \\
 0 \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 These calculations can be visually corroborated through a tip/tilt map
 of a basic FCC crystal with the \[110\] pole plotted at α,β:5,10
@@ -2534,11 +2534,11 @@ $$M_{reciprocal\ lattice} = \begin{bmatrix}
 \frac{bc\sin\alpha\sin\delta}{V} & 0 & \frac{- ab\cos\beta\sin\delta}{V} \\
 \frac{- bc\sin\alpha\cos\delta}{V} & \frac{ac\sin\beta}{V} & \frac{ab(\sin\alpha\cos{\beta\cos{\delta - \sin\beta\cos{\alpha)}}}}{V} \\
 0 & 0 & \frac{ab\sin\alpha\sin\beta\sin\delta}{V} \\
-\end{bmatrix}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+\end{bmatrix}$$
 
 Equation 84
 
-$${\overset{⃑}{u}}_{interface\ normal} = {\overset{⃑}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$${\overset{⃑}{u}}_{interface\ normal} = {\overset{⃑}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
 
 **3.9 Tilt Series**
 
@@ -2932,11 +2932,11 @@ superellipse. The superellipse is defined by:
 
 Equation 85
 
-$$\alpha = a\cos\theta^{\frac{2}{r}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $$
+$$\alpha = a\cos\theta^{\frac{2}{r}}$$
 
 Equation 86
 
-$\beta = b\sin{\theta^{\frac{2}{r}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }$
+$\beta = b\sin{\theta^{\frac{2}{r}}}$
 
 Where α and β are the tilt stage readouts, a and b are the α and β tilt
 limits, respectively, and r is a shape factor. ***Figure 29*** is a plot
