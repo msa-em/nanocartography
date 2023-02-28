@@ -1353,29 +1353,33 @@ $$\begin{matrix}
 V = (axb) \bullet c = abc\sqrt{1 - {\cos\alpha}^{2} - {\cos\beta}^{2} - {\cos\gamma}^{2} + 2\cos\alpha\cos\beta\cos\gamma} \\
 \end{matrix}$$
 
-Equation 29 $\begin{matrix}
+Equation 29
+
+$$\begin{matrix}
 \underline{a} = \frac{\widehat{b}\  \times \ \widehat{c}}{V} = \begin{bmatrix}
 \frac{bc\sin\alpha\sin\delta}{V} \\
 \frac{- bc\sin\alpha\cos\delta}{V} \\
 0 \\
 \end{bmatrix} \\
-\end{matrix}$
+\end{matrix}$$
 
-Equation 30 $\begin{matrix}
+Equation 30
+$$\begin{matrix}
 \underline{b} = \frac{\ \widehat{c}\  \times \widehat{a}}{V} = \begin{bmatrix}
 0 \\
 \frac{ac\sin\beta}{V} \\
 0 \\
 \end{bmatrix} \\
-\end{matrix}$
+\end{matrix}$$
 
-Equation 31 $\begin{matrix}
+Equation 31 
+$$\begin{matrix}
 \underline{c} = \frac{\widehat{a}\  \times \ \widehat{b}}{V} = \begin{bmatrix}
 \frac{- ab\cos\beta\sin\delta}{V} \\
 \frac{ab(\sin\alpha\cos{\beta\cos{\delta - \sin\beta\cos{\alpha)}}}}{V} \\
 \frac{ab\sin\alpha\sin\beta\sin\delta}{V} \\
 \end{bmatrix} \\
-\end{matrix}$
+\end{matrix}$$
 
 The cubic unit cell can then be calculated by combining the reciprocal
 unit vectors (Eqns. 29-31) into a 3x3 matrix which can then be used to
@@ -1432,13 +1436,14 @@ $$\begin{matrix}
 g_{native(hkl)} = M^{- 1}*g_{(hkl)} \\
 \end{matrix}$$
 
-Equation 36 $\begin{matrix}
+Equation 36
+$$\begin{matrix}
 M^{- 1} = \begin{bmatrix}
 \frac{1}{a\sin\beta} & \frac{- \cos\delta}{a\sin\beta\sin\delta} & 0 \\
 0 & \frac{1}{b\sin\alpha\sin\delta} & 0 \\
 \frac{- \cos\beta}{c\sin\beta} & \frac{\cos\beta\sin\alpha\cos\delta - \sin\beta\cos\alpha}{c\sin\alpha\sin\beta\sin\delta} & \frac{1}{c} \\
 \end{bmatrix} \\
-\end{matrix}$
+\end{matrix}$$
 
 ![](./images/image17.tiff)
 
@@ -1511,9 +1516,9 @@ need not be any conversion from non-cubic systems.
 
 Equation 37
 
-$\begin{matrix}
+$$\begin{matrix}
 F_{hkl} = \sum_{j = 1}^{N}{\sum f_{j}}e^{\left\lbrack - 2\pi i\left( hx_{j} + ky_{j} + lz_{j} \right) \right\rbrack} \\
-\end{matrix}$
+\end{matrix}$$
 
 where f~j~ is the scattering factor of the j-th atom, x~j~,y~j~, z~j~
 are the atomic coordinates, and hkl defines a reciprocal lattice point
@@ -1937,15 +1942,15 @@ are:
 
 Equation 57
 
-$u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}$
+$$u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}$$
 
 Equation 58
 
-$u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}$
+$$u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}$$
 
 Equation 59
 
-$u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}$
+$$u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}$$
 
 These equations can be solved for the components of the vectors
 $\overrightarrow{p}$, $\overrightarrow{q},$ and $\overrightarrow{t}$
@@ -1955,7 +1960,7 @@ like terms, it is equivalent to the augmented matrix:
 
 Equation 60
 
-$\left\lbrack \begin{matrix}
+$$\left\lbrack \begin{matrix}
 u_{A1} & v_{A1} & w_{A1} \\
 u_{A2} & v_{A2} & w_{A2} \\
 u_{A3} & v_{A3} & w_{A3} \\
@@ -1963,13 +1968,13 @@ u_{A3} & v_{A3} & w_{A3} \\
 x_{A1} & y_{A1} & z_{A1} \\
 x_{A2} & y_{A2} & z_{A2} \\
 x_{A3} & y_{A3} & z_{A3} \\
-\end{matrix} \right\rbrack$
+\end{matrix} \right\rbrack$$
 
 After row reducing this augmented matrix to reduced row echelon form:
 
 Equation 61
 
-$\left\lbrack \begin{matrix}
+$$\left\lbrack \begin{matrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1 \\
@@ -1977,7 +1982,7 @@ $\left\lbrack \begin{matrix}
 p_{Ax} & p_{Ay} & p_{Az} \\
 q_{Ax} & q_{Ay} & q_{Az} \\
 t_{Ax} & t_{Ay} & t_{Az} \\
-\end{matrix} \right\rbrack$
+\end{matrix} \right\rbrack$$
 
 The right-hand side of the row reduced matrix produces the elements of
 the vectors $\overrightarrow{p}$, $\overrightarrow{q},$ and
@@ -2136,19 +2141,19 @@ the xy plane and are determined solely by the angle θ.
 
 Equation 69
 
-${\widehat{a}}_{parallel} = \begin{bmatrix}
+$${\widehat{a}}_{parallel} = \begin{bmatrix}
 {\ cos}\theta \\
 {\ sin}\theta \\
 0 \\
-\end{bmatrix}$
+\end{bmatrix}$$
 
 Equation 70
 
-${\widehat{b}}_{perpendicular} = \begin{bmatrix}
+$${\widehat{b}}_{perpendicular} = \begin{bmatrix}
 {- sin}\theta \\
 \cos\theta \\
 0 \\
-\end{bmatrix}$
+\end{bmatrix}$$
 
 Section 2 details a rotation about an arbitrary axis (see Supplemental),
 and this will be used to rotate about both the vectors
@@ -2918,7 +2923,7 @@ $$\alpha = a\cos\theta^{\frac{2}{r}}$$
 
 Equation 86
 
-$\beta = b\sin{\theta^{\frac{2}{r}}}$
+$$\beta = b\sin{\theta^{\frac{2}{r}}}$$
 
 Where α and β are the tilt stage readouts, a and b are the α and β tilt
 limits, respectively, and r is a shape factor. ***Figure 29*** is a plot
