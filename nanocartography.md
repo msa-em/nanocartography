@@ -2411,7 +2411,7 @@ an adjacent boundary width can be measured and then tilted edge on.
 conditions and sample thickness. a) Sample in original tilt, b) sample
 tilted negatively, and c) sample tilted positively.*
 
-![](./images/image25.tif){width="5.797468285214348in"
+![](./images/image25.tiff){width="5.797468285214348in"
 height="2.589659886264217in"}
 
 ***Figure 18:** Tip/tilt map of a theoretical grain boundary tilted edge
@@ -2661,14 +2661,14 @@ exaggerated for demonstration purposes). The trace of the Kikuchi line
 will then be a line plotted through each point, hence mirroring the
 trace of the plane.
 
-![](./images/image29.tif){width="5.424489282589676in"
+![](./images/image29.tiff){width="5.424489282589676in"
 height="2.7713571741032372in"}
 
 ***Figure 22:** Plotting Kikuchi lines as scattering vectors (a) as
 compared to plotting the Bragg angle at each point of the trace of the
 plane (b).*
 
-![](./images/image30.tif){width="6.5in" height="2.254166666666667in"}
+![](./images/image30.tiff){width="6.5in" height="2.254166666666667in"}
 
 ***Figure 23:** Plots of a basic cubic crystal and the trace of the
 (111) plane, and a Kikuchi bands at a Bragg angle of 5°.*
