@@ -721,8 +721,8 @@ position with respect to the remainder of the crystal. This could also
 be a diffraction pattern of the \[111\] pole, but for ease of
 understanding a convergent beam electron diffraction pattern (CBED) is
 presented. The in plane orientation of the crystal is described by the
-angle (φ~c~) that can be used to describe the rotation of the crystal
-about the known pole. As will be subsequently described, the angle φ~c~
+angle ($\varphi_c$) that can be used to describe the rotation of the crystal
+about the known pole. As will be subsequently described, the angle $\varphi_c$
 can be used to freely rotate the crystal (***Figure 6***b-d), or it can
 be assigned as a specific fiducial marker (such as the (1-10) Kikuchi
 line) with known relation to the calibration of the α tilt axis. The
@@ -732,7 +732,7 @@ envision the relationship of the found ZA to the tilt stage (***Figure
 rotation can best be considered by illustrating a vector in a cube
 (e.g., \[111\] in ***Figure 6***) in both the standard projection
 (***Figure 6***c) and a projection normal to the vector (***Figure
-6***d), and the φ~c~ being the relative rotation by which the entire
+6***d), and the $\varphi_c$ being the relative rotation by which the entire
 cube rotates. Again, while the CBED pattern of the \[111\] is presented
 it is only used to orient the practical aspect of the microscope to
 developing a tip/tilt map. From these initial data, the tip/tilt map can
@@ -753,7 +753,7 @@ between two grains).
 In order to create a tip/tilt map, the known vector will be rotated
 through a sequence of rotations to align it with the \[001\] probe
 orientation, subsequently rotated with respect to the crystal
-orientation (φ~c~) using Eqn. 8, and finally the stage will be tilted
+orientation ($\varphi_c$) using Eqn. 8, and finally the stage will be tilted
 from the probe position to the found conditions (observed tilts)
 (***Figure 6***e-g). The known pole will be utilized to derive the
 entire rotation matrix representing the crystal orientation, and
@@ -770,12 +770,12 @@ through that matrix.
 a single vector/pole in relation to the stage tilt axes and their
 relationship to the rotation matrices detailed in the text. a) Kikuchi
 pattern of a \[111\] pole at 𝜶,:5,10. b) Crystallographic orientations
-of given grains (G1, G2) and angle of rotation 𝝋~c~ about each pole. c
-and d) Rotation about an arbitrary vector through a given angle 𝝋~c~ in
+of given grains (G1, G2) and angle of rotation $\varphi_c$ about each pole. c
+and d) Rotation about an arbitrary vector through a given angle $\varphi_c$ in
 two different projections. e) Matrix rotation R~loading~ that describes
 sample rotation (𝝴)about the beam normal \[001\], and vertical and
 horizontal flips about the 𝜶 and 𝜷 axes, respectively. f)Matrix rotation
-R~crystal~ about a given angle (𝝋~c~). g) Matrix rotation R~stage~
+R~crystal~ about a given angle ($\varphi_c$). g) Matrix rotation R~stage~
 describing the found pole back to the stage tilts. h and i) Movies
 showing stage motion.*
 
@@ -785,7 +785,7 @@ orientation of the sample with respect to the holder as it is inserted
 into the microscope (***Figure 6***e). The second step, $R_{crystal}$,
 aligns the mathematical description of the crystal with the one found in
 the microscope (i.e., α,β of the known pole and rotation of the crystal
-φ~c~), but as shown in ***Figure 6***f it does not consider the tilt
+$\varphi_c$), but as shown in ***Figure 6***f it does not consider the tilt
 conditions. The last step, $R_{stage}$, puts the pole at the location
 corresponding to the known α,β coordinates observed (***Figure 6***g).
 Taken together, the multiplication of these matrices yields an overall
