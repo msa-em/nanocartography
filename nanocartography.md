@@ -424,8 +424,6 @@ S3***). As such, all the remaining operations will be performed on cubic
 systems with the understanding that it can be generalized to any crystal
 system using the appropriate conversion matrix, or it's inverse.
 
-Equation 1
-
 $$
 \label{eq1}
 \begin{matrix}
@@ -493,8 +491,6 @@ the unit sphere. When observed in two dimensions (***Figure 4***b) the
 relative position of each vector and the trace between the vectors can
 be derived [](#eq5).
 
-Equation 4
-
 $$\label{eq4}\begin{matrix}
 \begin{bmatrix}
 \frac{u}{\sqrt{u^{2} + v^{2} + w^{2}}} \\
@@ -505,8 +501,6 @@ $$\label{eq4}\begin{matrix}
 
 The line connecting the top of the sphere \[0, 0, 1\] and this point
 will intersect the z = 0 plane at
-
-Equation 5
 
 $$\label{eq5}\begin{matrix}
 \begin{bmatrix}
@@ -616,8 +610,6 @@ three axes (Eqns. [%s](#eq6)-[%s](#eq8)). The rotation about any primary axis wi
 defined by the right-hand rule so that rotation matrices about the x-,
 y-, or z-axis through an angle θ are given by, respectively:
 
-Equation 6
-
 $$\label{eq6}\begin{matrix}
 R_{\theta,x} = \begin{bmatrix}
 1 & 0 & 0 \\
@@ -626,8 +618,6 @@ R_{\theta,x} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 7
-
 $$\label{eq7}\begin{matrix}
 R_{\theta,y} = \begin{bmatrix}
 \cos\theta & 0 & \sin\theta \\
@@ -635,8 +625,6 @@ R_{\theta,y} = \begin{bmatrix}
  - \sin\theta & 0 & \cos\theta \\
 \end{bmatrix} \\
 \end{matrix}$$
-
-Equation 8
 
 $$\label{eq8}\begin{matrix}
 R_{\theta,z} = \begin{bmatrix}
@@ -653,8 +641,6 @@ improper rotations (i.e., reflections about an axis) that describe
 mirroring about a single axis (Eqns. [%s](#eq9)-[%s](#eq11)). These can be illustrated in
 matrix form:
 
-Equation 9
-
 $$\label{eq9}\begin{matrix}
 R_{- x} = \begin{bmatrix}
  - 1 & 0 & 0 \\
@@ -663,8 +649,6 @@ R_{- x} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 10
-
 $$\label{eq10}\begin{matrix}
 R_{- y} = \begin{bmatrix}
 1 & 0 & 0 \\
@@ -672,8 +656,6 @@ R_{- y} = \begin{bmatrix}
 0 & 0 & 1 \\
 \end{bmatrix} \\
 \end{matrix}$$
-
-Equation 11
 
 $$\label{eq11}\begin{matrix}
 R_{- z} = \begin{bmatrix}
@@ -822,8 +804,6 @@ instance where there is no horizontal or vertical flip (i.e., the
 initial analysis of the sample), then these matrices are be replaced
 with the identity matrix (i.e., no rotation is applied).
 
-Equation 12
-
 $$\label{eq12}\begin{matrix}
 R_{horz} = R_{- x}R_{- z} = \begin{bmatrix}
 1 & 0 & 0 \\
@@ -831,8 +811,6 @@ R_{horz} = R_{- x}R_{- z} = \begin{bmatrix}
 0 & 0 & - 1 \\
 \end{bmatrix} \\
 \end{matrix}$$
-
-Equation 13
 
 $$\label{eq13}\begin{matrix}
 R_{vert} = R_{- y}R_{- z} = \begin{bmatrix}
@@ -842,8 +820,6 @@ R_{vert} = R_{- y}R_{- z} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 14
-
 $$\label{eq14}\begin{matrix}
 R_{{position}_{\varepsilon,Z}} = \begin{bmatrix}
 \cos\varepsilon & - \sin\varepsilon & 0 \\
@@ -851,8 +827,6 @@ R_{{position}_{\varepsilon,Z}} = \begin{bmatrix}
 0 & 0 & 1 \\
 \end{bmatrix} \\
 \end{matrix}$$
-
-Equation 15
 
 $$\label{eq15}\begin{matrix}
 R_{loading} = \ R_{position}R_{horz}R_{vert} \\
@@ -888,16 +862,12 @@ in the direction of the pole from its standard orientation (i.e., at
 $\frac{1}{\sqrt{u^{2} + v^{2} + w^{2}}}(u,\ v,\ w)$ in Cartesian
 coordinates):
 
-Equation 16
-
 $$\label{eq16}\begin{matrix}
 \theta = \cos^{- 1}\left( \frac{w}{\sqrt{u^{2} + v^{2} + w^{2}}} \right) \\
 \end{matrix}$$
 
 The axis of rotation is determined from the cross product of the
 normalized known pole and the beam direction:
-
-Equation 17
 
 $$\label{eq17}\begin{matrix}
 \widehat{\mathbf{r}} = \left| \begin{matrix}
@@ -910,8 +880,6 @@ $$\label{eq17}\begin{matrix}
 For these specific axes of rotation that have no z-component (i.e., in
 the derivation of tip/tilt maps), and the general result simplifies to
 (where *r~x~* and *r~y~* are derived from [](#eq17), and θ from [](#eq16)):
-
-Equation 18
 
 $$\label{eq18}\begin{matrix}
 R_{\widehat{\mathbf{r}},\theta} = \begin{bmatrix}
@@ -941,8 +909,6 @@ $R_{\varphi_{c},z}$) will rotate the crystal about the known pole.
 Combining the rotation of the known pole to, and about, the z-axis
 provides the full definition of $R_{crystal}$.
 
-Equation 19
-
 $$\label{eq19}\begin{matrix}
 R_{crystal} = R_{\varphi_{c,z}}R_{\widehat{\mathbf{r}},\theta} \\
 \end{matrix}$$
@@ -958,8 +924,6 @@ vector to the final tip/tilt location $\alpha$/$\beta$ is accomplished
 by multiplication by $R_{\alpha,x}$ followed by $R_{\beta,y}$. This
 combination is called the rotation matrix of the stage $R_{stage}$ [](#eq20) where the tilt conditions for the known vector α,β are substituted
 in to Eqns. [%s](#eq6) and [%s](#eq7), respectively.
-
-Equation 20
 
 $$\label{eq20}\begin{matrix}
 R_{stage} = \ R_{\beta,y}R_{\alpha,x} \\
@@ -980,8 +944,6 @@ projection as compared to the tip/tilt map (***Figure 5***).
 To summarize this set of operations, the action of all these rotations
 in concert can be summarized in the total rotation matrix:
 
-Equation 21
-
 $$\label{eq21}\begin{matrix}
 R_{total} = \ R_{stage}R_{crystal}R_{loading} \\
 \end{matrix}$$
@@ -994,8 +956,6 @@ consider the rotation of a vector from (0, 0, 1) to (X, Y, Z) in
 Cartesian coordinates, where $X^{2} + Y^{2} + Z^{2} = 1$. This
 conversion amounts to solving for the angles $\alpha$/$\beta$ that
 satisfy:
-
-Equation 22
 
 $$\label{eq22}\begin{matrix}
 \begin{bmatrix}
@@ -1020,13 +980,9 @@ Z \\
 After multiplying and solving the individual equations, the final tilt
 angles are:
 
-Equation 23
-
 $$\label{eq23}\begin{matrix}
 \alpha = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)\  \\
 \end{matrix}$$
-
-Equation 24
 
 $$\label{eq24}\begin{matrix}
 \beta = \tan^{- 1}\left( \frac{X}{Z} \right)\  \\
@@ -1299,8 +1255,6 @@ the unit vectors is a combination of the lengths of the unit cell and
 angles describing the cell as calculated by the conversion matrix
 [](#eq1) multiplied by the unit axes vectors:
 
-Equation 25
-
 $$\label{eq25}\begin{matrix}
 M\begin{bmatrix}
 1 \\
@@ -1313,8 +1267,6 @@ a\cos\beta \\
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 26
-
 $$\label{eq26}\begin{matrix}
 \ M\begin{bmatrix}
 0 \\
@@ -1326,8 +1278,6 @@ b\sin\alpha\sin\delta \\
 b\cos\alpha \\
 \end{bmatrix} \\
 \end{matrix}$$
-
-Equation 27
 
 $$\label{eq27}\begin{matrix}
 M\begin{bmatrix}
@@ -1348,13 +1298,9 @@ vectors in real space and then dividing by the volume of the cell [](#eq28) to g
 cross product of two of the unit vectors dotted by the third. In
 condensed form it appears in [](#eq28).
 
-Equation 28
-
 $$\label{eq28}\begin{matrix}
 V = (axb) \bullet c = abc\sqrt{1 - {\cos\alpha}^{2} - {\cos\beta}^{2} - {\cos\gamma}^{2} + 2\cos\alpha\cos\beta\cos\gamma} \\
 \end{matrix}$$
-
-Equation 29
 
 $$\label{eq29}\begin{matrix}
 \underline{a} = \frac{\widehat{b}\  \times \ \widehat{c}}{V} = \begin{bmatrix}
@@ -1364,7 +1310,6 @@ $$\label{eq29}\begin{matrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 30
 $$\label{eq30}\begin{matrix}
 \underline{b} = \frac{\ \widehat{c}\  \times \widehat{a}}{V} = \begin{bmatrix}
 0 \\
@@ -1373,7 +1318,6 @@ $$\label{eq30}\begin{matrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 31 
 $$\label{eq31}\begin{matrix}
 \underline{c} = \frac{\widehat{a}\  \times \ \widehat{b}}{V} = \begin{bmatrix}
 \frac{- ab\cos\beta\sin\delta}{V} \\
@@ -1409,8 +1353,6 @@ normal for the (111) plane. ***Figure 10*** illustrates that the native
 normal for the (111) is actually the \[441\] (which converts to \[221\]
 in the cubic form).
 
-Equation 32
-
 $$\label{eq32}\begin{matrix}
 g_{(hkl)} = \begin{bmatrix}
 \frac{hbc\sin\alpha\sin\delta - lab\cos\beta\sin\delta}{V} \\
@@ -1419,25 +1361,18 @@ g_{(hkl)} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-Equation 33
-
 $$\label{eq33}\begin{matrix}
 \cos{\theta = \frac{g_{(hkl),1}*g_{(hkl),2}}{\left| g_{(hkl),1} \right|*\left| g_{(hkl),2} \right|}} \\
 \end{matrix}$$
-
-Equation 34
 
 $$\label{eq34}\begin{matrix}
 d_{hkl} = \frac{1}{\sqrt{{g_{(hkl)}}^{2}}} \\
 \end{matrix}$$
 
-Equation 35
-
 $$\label{eq35}\begin{matrix}
 g_{native(hkl)} = M^{- 1}*g_{(hkl)} \\
 \end{matrix}$$
 
-Equation 36
 $$\label{eq36}\begin{matrix}
 M^{- 1} = \begin{bmatrix}
 \frac{1}{a\sin\beta} & \frac{- \cos\delta}{a\sin\beta\sin\delta} & 0 \\
@@ -1515,8 +1450,6 @@ crystals with any number of atoms each at any position within the unit
 cell. Note that since the atomic positions of each atom are used, there
 need not be any conversion from non-cubic systems.
 
-Equation 37
-
 $$\label{eq37}\begin{matrix}
 F_{hkl} = \sum_{j = 1}^{N}{\sum f_{j}}e^{\left\lbrack - 2\pi i\left( hx_{j} + ky_{j} + lz_{j} \right) \right\rbrack} \\
 \end{matrix}$$
@@ -1532,8 +1465,6 @@ could be derived by determining only those planes that satisfy the Weiss
 Zone law [](#eq38). Depending on the definition of applicable poles
 (i.e., which poles exhibited appreciable Bragg diffraction spots), the
 positions of those poles could be calculated using [](#eq38) and plotted.
-
-Equation 38
 
 $$\label{eq38}\begin{matrix}
 hu*kv*lw = 0\ given\ \lbrack uvw\rbrack\ and\ (hkl) \\
@@ -1608,8 +1539,6 @@ is normalized to produce a unit vector in the direction of α tilt. The
 direction of β tilt is perpendicular to this, and the unit vector
 $\widehat{y}$ is shown in [](#eq40).
 
-Equation 39
-
 $$\label{eq39}\overset{⃑}{x} = \begin{bmatrix}
 x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
@@ -1617,8 +1546,6 @@ y_{ref} - y_{0} \\
 x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
 \end{bmatrix}$$
-
-Equation 40
 
 $$\label{eq40}\widehat{y} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
 {- (y}_{ref} - y_{0}) \\
@@ -1631,8 +1558,6 @@ feature of interest (e.g., zone axis) with the probe by decomposing this
 location into components along $\widehat{x}$ and $\widehat{y}$. The
 decomposition must be solved for the amount along $\widehat{x}$
 ($c_{1}$) and the amount along $\widehat{y}$ ($c_{2}$) in [](#eq41).
-
-Equation 41
 
 $$\label{eq41}c_{1}\widehat{x} + c_{2}\widehat{y} = \ \begin{bmatrix}
 x - x_{0} \\
@@ -1650,11 +1575,7 @@ y - y_{0} \\
 
 Solving this system of equations for the weights yields:
 
-Equation 42
-
 $$\label{eq42}c_{1} = \frac{\left( x - x_{0} \right)\left( x_{ref} - x_{0} \right) + \left( y - y_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
-
-Equation 43
 
 $$\label{eq43}c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \right) - \left( x - x_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
@@ -1667,8 +1588,6 @@ Once the weights are known, they are converted to tip/tilt coordinates
 using a scaling factor that was derived from the initial α calibration
 tilt divided by the length of the vector. The equation for scaling
 factor is:
-
-Equation 44
 
 $$\label{eq44}Scaling\ Factor = \frac{\alpha}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
@@ -1760,11 +1679,7 @@ accordingly. This also does not consider the movement of backlash within
 the stage, and is only meant as a starting point for creating montaged
 images.
 
-Equation 45
-
 $$\label{eq45}N_{maps} = \ \frac{(X - pY)}{(1 - p)Y}$$
-
-Equation 46
 
 $$\label{eq46}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 
@@ -1784,15 +1699,11 @@ subsequently about the β tilt axis [](#eq48) to the to the beam normal
 \[001\] [](#eq49). That is, given a normalized vector at any tip/tilt
 position (α,β) can be rotated to the \[001\] position [](#eq50).
 
-Equation 47
-
 $$\label{eq47}R_{- \alpha,x} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & \cos\alpha & \sin\alpha \\
 0 & {- sin}\alpha & \cos\alpha \\
 \end{bmatrix}$$
-
-Equation 48
 
 $$\label{eq48}R_{- \beta,y} = \begin{bmatrix}
 \cos\beta & 0 & {- sin}\beta \\
@@ -1800,15 +1711,11 @@ $$\label{eq48}R_{- \beta,y} = \begin{bmatrix}
 \sin\beta & 0 & \cos\beta \\
 \end{bmatrix}$$
 
-Equation 49
-
 $$\label{eq49}R_{\theta,total} = R_{- \beta,y}R_{- \alpha,x} = \begin{bmatrix}
 \cos\beta & 0 & {- sin}\beta \\
 {\sin\alpha\sin}\beta & \cos\alpha & \sin{\alpha\cos\beta} \\
 \cos\alpha\sin\beta & {- sin}\beta & \cos{\alpha\cos\beta} \\
 \end{bmatrix}$$
-
-Equation 50
 
 $$\label{eq50}R_{\theta,total}\begin{bmatrix}
 0 \\
@@ -1827,11 +1734,7 @@ between the two tip/tilt conditions [](#eq52). It should be again be
 noted that the order of rotation, α then β, is important, and reversal
 of the order will provide erroneous results.
 
-Equation 51
-
 $$\label{eq51}\cos\theta = {{\sin{\beta_{1}\sin\beta_{2}}\cos}\alpha_{1}\cos\alpha_{2} + sin}\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\beta_{1}\cos\beta_{2}$$
-
-Equation 52
 
 $$\label{eq52}\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\left( \beta_{1} - \beta_{2} \right) \right)$$
 
@@ -1890,8 +1793,6 @@ first required to have the same magnitude as the crystallographic
 vectors (\[u~A1~,v~A1~,w~A1~\]). This can be accomplished by multiplying
 the tilt vector by the length of the crystallographic vector [](#eq53).
 
-Equation 53
-
 $$\label{eq53}{\overrightarrow{x}}_{A1} = \begin{bmatrix}
 x_{A1} \\
 y_{A1} \\
@@ -1908,23 +1809,17 @@ find three Cartesian vectors which add up to the three known vectors
 given the linear combination weights determined by the crystallographic
 poles.
 
-Equation 54
-
 $$\label{eq54}\overrightarrow{p}\  = \begin{bmatrix}
 p_{Ax} \\
 p_{Ay} \\
 p_{Az} \\
 \end{bmatrix}\sim\lbrack 100\rbrack$$
 
-Equation 55
-
 $$\label{eq55}\overrightarrow{q}\  = \begin{bmatrix}
 q_{Ax} \\
 q_{Ay} \\
 q_{Az} \\
 \end{bmatrix}\sim\lbrack 010\rbrack$$
-
-Equation 56
 
 $$\label{eq56}\overrightarrow{t}\  = \begin{bmatrix}
 t_{Ax} \\
@@ -1941,15 +1836,9 @@ crystal orientation to another (e.g., \[100\] of Crystal A to \[100\] of
 Crystal B). The linear combinations that connect these sets of vectors
 are:
 
-Equation 57
-
 $$\label{eq57}u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}$$
 
-Equation 58
-
 $$\label{eq58}u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}$$
-
-Equation 59
 
 $$\label{eq59}u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}$$
 
@@ -1958,8 +1847,6 @@ $\overrightarrow{p}$, $\overrightarrow{q},$ and $\overrightarrow{t}$
 since there nine equations and nine unknowns. The details of how these
 equations are rearranged are in the Supplemental, but after gathering
 like terms, it is equivalent to the augmented matrix:
-
-Equation 60
 
 $$\label{eq60}\left\lbrack \begin{matrix}
 u_{A1} & v_{A1} & w_{A1} \\
@@ -1972,8 +1859,6 @@ x_{A3} & y_{A3} & z_{A3} \\
 \end{matrix} \right\rbrack$$
 
 After row reducing this augmented matrix to reduced row echelon form:
-
-Equation 61
 
 $$\label{eq61}\left\lbrack \begin{matrix}
 1 & 0 & 0 \\
@@ -1999,8 +1884,6 @@ right-hand side of the row reduced augmented matrix. This can also be
 described as the unit vector matrix in that it can be used to describe
 the location of the unit vectors for a specific crystal.
 
-Equation 62
-
 $$\label{eq62}R_{A} = \begin{bmatrix}
 p_{Ax} & q_{Ax} & t_{Ax} \\
 p_{Ay} & q_{Ay} & t_{Ay} \\
@@ -2010,8 +1893,6 @@ p_{Az} & q_{Az} & t_{Az} \\
 The previous rotation matrix was derived for Crystal A [](#eq62), but
 the exact procedure applies to Crystal B without any modifications
 beyond the subscript, and is denoted by:
-
-Equation 63
 
 $$\label{eq63}R_{B} = \begin{bmatrix}
 p_{Bx} & q_{Bx} & t_{Bx} \\
@@ -2028,8 +1909,6 @@ to get back to the standard orientation.
 
 $$\label{eq64}M_{A \rightarrow B} = R_{B}R_{A}^{- 1}$$
 
-Equation 65
-
 $$\label{eq65}M_{B \rightarrow A} = R_{A}R_{B}^{- 1}$$
 
 These two overall rotation matrices are the misorientation matrices that
@@ -2038,8 +1917,6 @@ frequently, the desired information is how far apart two crystals are
 misaligned and about which axis they must be rotated so that they would
 become aligned. This is called the axis-angle representation of the
 rotation matrix. If the general form a misorientation matrix is:
-
-Equation 66
 
 $$\label{eq66}M = \begin{bmatrix}
 M_{11} & M_{12} & M_{13} \\
@@ -2050,11 +1927,7 @@ M_{31} & M_{32} & M_{33} \\
 Then the axis-angle representation is, where θ~M~ is the misorientation
 angle and ${\overrightarrow{r}}_{M}$ is the misorientation axis:
 
-Equation 67
-
 $$\label{eq67}\theta_{M} = \cos^{- 1}\left( \frac{M_{11} + M_{22} + M_{33} - 1}{2} \right)$$
-
-Equation 68
 
 $$\label{eq68}{\overrightarrow{r}}_{M} = \begin{bmatrix}
 \frac{M_{32} - M_{23}}{2\sin\theta_{M}} \\
@@ -2140,15 +2013,11 @@ vectors parallel and perpendicular to the direction of the interface
 Eqns. [%s](#eq69) and [%s](#eq70) need be derived, respectively. These two vectors lie in
 the xy plane and are determined solely by the angle θ.
 
-Equation 69
-
 $$\label{eq69}{\widehat{a}}_{parallel} = \begin{bmatrix}
 {\ cos}\theta \\
 {\ sin}\theta \\
 0 \\
 \end{bmatrix}$$
-
-Equation 70
 
 $$\label{eq70}{\widehat{b}}_{perpendicular} = \begin{bmatrix}
 {- sin}\theta \\
@@ -2160,8 +2029,6 @@ Section 2 details a rotation about an arbitrary axis (see Supplemental),
 and this will be used to rotate about both the vectors
 ${\widehat{a}}_{parallel}$ and ${\widehat{b}}_{perpendicular}$ [](#eq18). The general formula for rotation of angle $\varphi$ about an axis
 of rotation $\widehat{u}$ (with length equal to one) is:
-
-Equation 71
 
 $$\label{eq71}\begin{matrix}
 R_{\widehat{u},\varphi} = \begin{bmatrix}
@@ -2181,8 +2048,6 @@ $\varphi = 1{^\circ}$, hence there will be 360 steps in the series
 before returning to the original orientation. The simplified rotation
 matrices are:
 
-Equation 72
-
 $$\label{eq72}\begin{matrix}
 R_{\widehat{a},\varphi} = \begin{bmatrix}
 \cos^{2}\theta + \sin^{2}\theta\cos\varphi & \cos\theta\sin\theta\left( 1 - \cos\varphi \right) & \sin\theta\sin\varphi \\
@@ -2190,8 +2055,6 @@ R_{\widehat{a},\varphi} = \begin{bmatrix}
  - \sin\theta\sin\varphi & \cos\theta\sin\varphi & \left( \cos^{2}\theta + \sin^{2}\theta \right)\cos\varphi \\
 \end{bmatrix} \\
 \end{matrix}$$
-
-Equation 73
 
 $$\label{eq73}\begin{matrix}
 R_{\widehat{b},\varphi} = \begin{bmatrix}
@@ -2207,11 +2070,7 @@ in Eqns. [%s](#eq72) and [%s](#eq73) need to be converted to tilts through Eqns.
 subsequently be utilized to create oblique tilt series and perform
 precise interface orientation calculations.
 
-Equation 74
-
 $$\label{eq74}\alpha_{final} = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)$$
-
-Equation 75
 
 $$\label{eq75}\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)$$
 
@@ -2293,8 +2152,6 @@ while the directionality of the boundary (top left to bottom right, or
 top right to bottom left) is inherently unknown, the manner in which the
 calculations are performed make this orientation irrelevant.
 
-Equation 76
-
 $$\label{eq76}{\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}}$$
 
 The angle of the interface's long axis to the α axis can be measured
@@ -2317,21 +2174,15 @@ Once tilted, the projected width of the boundary (w~2~) can be related
 to the angle necessary to tilt the interface on edge (θ~3~) using
 trigonometry.
 
-Equation 77
-
 $$\label{eq77}{\sin\left( \theta_{3} \right)}{= \ \frac{w_{2}}{IL}}$$
 
 The interface length (*IL*) is initially unknown, but is constant
 between tilts and can be found using the Pythagorean Theorem once the
 initial width (w~1~) and the foil width (FW) are known.
 
-Equation 78
-
 $$\label{eq78}{IL = \ }{\sqrt{FW^{2} + w_{1}^{2}}}$$
 
 Substituting this above yields the final equation for $\theta_{3}$:
-
-Equation 79
 
 $$\label{eq79}\theta_{3}{= \arcsin\left( \frac{w_{2}}{\sqrt{FW^{2} + w_{1}^{2}}} \right)}$$
 
@@ -2472,11 +2323,7 @@ cubic crystal with the \[001\] positioned at α,β:0,0 and with the
 by subsequently inputting any α,β coordinates the listed vector/pole/ZA
 will be returned (e.g., α,β:24.1,26.6 will be the \[112\]).
 
-Equation 80
-
 $$\label{eq80}M_{\alpha,\beta} = R_{- \beta,y}R_{- \alpha,x}R_{A}$$
-
-Equation 81
 
 $$\label{eq81}{\overset{⃑}{u}}_{\alpha\beta} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 0 \\
@@ -2520,15 +2367,11 @@ is the volume of the cell. The calculation of the native plane of atoms
 can be derived by multiplying the vector normal [](#eq84) by the inverse
 of the reciprocal lattice matrix [](#eq83).
 
-Equation 83
-
 $$\label{eq83}M_{reciprocal\ lattice} = \begin{bmatrix}
 \frac{bc\sin\alpha\sin\delta}{V} & 0 & \frac{- ab\cos\beta\sin\delta}{V} \\
 \frac{- bc\sin\alpha\cos\delta}{V} & \frac{ac\sin\beta}{V} & \frac{ab(\sin\alpha\cos{\beta\cos{\delta - \sin\beta\cos{\alpha)}}}}{V} \\
 0 & 0 & \frac{ab\sin\alpha\sin\beta\sin\delta}{V} \\
 \end{bmatrix}$$
-
-Equation 84
 
 $$\label{eq84}{\overset{⃑}{u}}_{interface\ normal} = {\overset{⃑}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
 
@@ -2915,11 +2758,7 @@ the corresponding limit of the β tilt. When mapped on the JEOL ARM200CF
 the standard double tilt holder has the shape of a "squircle" or
 superellipse. The superellipse is defined by:
 
-Equation 85
-
 $$\label{eq85}\alpha = a\cos\theta^{\frac{2}{r}}$$
-
-Equation 86
 
 $$\label{eq86}\beta = b\sin{\theta^{\frac{2}{r}}}$$
 
