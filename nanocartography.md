@@ -759,7 +759,7 @@ and d) Rotation about an arbitrary vector through a given angle $\varphi_c$ in
 two different projections. e) Matrix rotation R~loading~ that describes
 sample rotation (𝝴)about the beam normal \[001\], and vertical and
 horizontal flips about the 𝜶 and 𝜷 axes, respectively. f)Matrix rotation
-R~crystal~ about a given angle ($\varphi_c$). g) Matrix rotation R~stage~
+R~crystal~ about a given angle ($\varphi_c$). g) Matrix rotation R{sub}`stage`
 describing the found pole back to the stage tilts. h and i) Movies
 showing stage motion.*
 
@@ -1449,7 +1449,7 @@ $$\label{eq37}\begin{matrix}
 F_{hkl} = \sum_{j = 1}^{N}{\sum f_{j}}e^{\left\lbrack - 2\pi i\left( hx_{j} + ky_{j} + lz_{j} \right) \right\rbrack} \\
 \end{matrix}$$
 
-where f~j~ is the scattering factor of the j-th atom, x~j~,y~j~, z~j~
+where f{sub}`j` is the scattering factor of the j-th atom, x{sub}`j`,y{sub}`j`, z{sub}`j`
 are the atomic coordinates, and hkl defines a reciprocal lattice point
 corresponding to real space planes defined by the Miller indices. After
 a list of allowable planes is calculated, the trace of each of these
@@ -1474,7 +1474,7 @@ The methodologies and protocols derived subsequently in this paper build
 off the derivations in section 2, and serve to better interface
 crystallographic and stage motion in a practical manner. Transmission
 and scanning transmission electron microscopy (S/TEM) data presented in
-this paper were collected on an aberration, C~s~ corrected JEOL ARM200CF
+this paper were collected on an aberration, C{sub}`s` corrected JEOL ARM200CF
 and include diffraction, convergent beam electron diffraction (CBED),
 bright field (BF), and STEM high angle annular darkfield (HAADF). The
 data are generic examples used for demonstration purposes to elucidate
@@ -1526,7 +1526,7 @@ digitally (i.e., the pixel location on the screen, x/y, should be
 correlated with the center of the beam) and noted as the origin
 (x{sub}`0`,y{sub}`0`). Next, the crystal can be tilted in the pure negative or
 positive α direction \~4-5° (or to the edge of the field of view) such
-that the digital position (x~ref~,y~ref~) can be calibrated to the tilt
+that the digital position (x{sub}`ref`,y{sub}`ref`) can be calibrated to the tilt
 (green dot/circle in ***Figure 12***). This position will be denoted as
 the calibration, and a calibration vector can be produced by subtracting
 the reference position from the origin. This vector, shown in [](#eq39),
@@ -1777,15 +1777,15 @@ matrix, but in the microscope the description of the vectors are defined
 by the coordinates of the double tilt stage.
 
 The three observed or known vectors for one crystal (e.g.,
-\[u~A1~,v~A1~,w~A1~\]) are observed at a given tip/tilt position (e.g.,
-α~A1~,β~A1~) (***Figure 15***d). These tip/tilt positions need to be
+\[u{sub}`A1`,v{sub}`A1`,w{sub}`A1`\]) are observed at a given tip/tilt position (e.g.,
+α{sub}`A1`,β{sub}`A1`) (***Figure 15***d). These tip/tilt positions need to be
 converted into Cartesian space similar to the operation performed in
 Eqns. [%s](#eq47)-[%s](#eq52) during the development of the angle between tilt positions
-(e.g., \[x~A1~,y~A1~,z~A1~\]). In order to derive the Cartesian vector
+(e.g., \[x{sub}`A1`,y{sub}`A1`,z{sub}`A1`\]). In order to derive the Cartesian vector
 form of the unit vectors (\[100\], \[010\], \[001\]) for the crystal,
-the tilt position vector in Cartesian form (\[x~A1~,y~A1~,z~A1~\]) is
+the tilt position vector in Cartesian form (\[x{sub}`A1`,y{sub}`A1`,z{sub}`A1`\]) is
 first required to have the same magnitude as the crystallographic
-vectors (\[u~A1~,v~A1~,w~A1~\]). This can be accomplished by multiplying
+vectors (\[u{sub}`A1`,v{sub}`A1`,w{sub}`A1`\]). This can be accomplished by multiplying
 the tilt vector by the length of the crystallographic vector [](#eq53).
 
 $$\label{eq53}{\overrightarrow{x}}_{A1} = \begin{bmatrix}
@@ -1919,7 +1919,7 @@ M_{21} & M_{22} & M_{23} \\
 M_{31} & M_{32} & M_{33} \\
 \end{bmatrix}$$
 
-Then the axis-angle representation is, where θ~M~ is the misorientation
+Then the axis-angle representation is, where θ{sub}`M` is the misorientation
 angle and ${\overrightarrow{r}}_{M}$ is the misorientation axis:
 
 $$\label{eq67}\theta_{M} = \cos^{- 1}\left( \frac{M_{11} + M_{22} + M_{33} - 1}{2} \right)$$
@@ -2296,7 +2296,7 @@ matrix of the given α,β conditions (Eqns. [%s](#eq47) and [%s](#eq48)) by the 
 matrix [](#eq62) to form a rotation matrix at that specific α,β tilt
 condition [](#eq80). This in effect rotates the unit vector at that
 specific tilt condition to the beam direction \[001\], and as such
-multiplying the inverse of this matrix M~αβ~{sup}`-1` by the beam direction
+multiplying the inverse of this matrix $M_{\alpha\beta}^{-1}$ by the beam direction
 will provide the vector at the given tilt conditions [](#eq81).
 
 The unit vector matrix, which describes the location of the unit cell
@@ -2308,7 +2308,7 @@ interface the grain boundary can be envisioned to have a corresponding
 plane of atoms in a specific orientation with relationship to the
 adjacent grain. The vector normal [](#eq70) to the long axis can be
 calculated (dashed line in the plan view of ***Figure 24***b) and
-multiplied by the inverse of the tilt condition matrix, M{sup}`-1`~a,β~. This
+multiplied by the inverse of the tilt condition matrix, $M_{\alpha\beta}^{-1}$. This
 vector describes the current tilt conditions where the grain boundary is
 observed edge on [](#eq82). Instead of calculating the vector parallel
 with the beam direction (\[001\]) the vector normal is substituted
