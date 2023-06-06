@@ -665,7 +665,7 @@ R_{- z} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-These are the *[basic building blocks]{.underline}* upon which more
+These are the *{u}`basic building blocks`* upon which more
 general rotations can be built and will be referred to continuously when
 performing matrix operations to rotate the crystal and orient the
 sample. Whether rotating along a specific interface, tilting from pole
@@ -681,8 +681,7 @@ crystalline sample is at the most basic level through diffraction spots
 or Kikuchi lines. While the principle knowledge of what these optical
 markers represent goes to a fundamental understanding of electron beam
 interactions with samples, at the very core of electron microscopy as an
-observational tool, the understanding of these as [fiduciary
-markers]{.underline} for roadmaps provides the basis for
+observational tool, the understanding of these as {u}`fiduciary markers` for roadmaps provides the basis for
 nanocartography. That is to say, regardless of whether one understands
 the physics of why a zone axis (ZA) appears, the observation and
 acknowledgement of a zone axis as a combination of a series of
@@ -879,7 +878,7 @@ $$\label{eq17}\begin{matrix}
 
 For these specific axes of rotation that have no z-component (i.e., in
 the derivation of tip/tilt maps), and the general result simplifies to
-(where *r~x~* and *r~y~* are derived from [](#eq17), and θ from [](#eq16)):
+(where *r{sub}`x`* and *r{sub}`y`* are derived from [](#eq17), and θ from [](#eq16)):
 
 $$\label{eq18}\begin{matrix}
 R_{\widehat{\mathbf{r}},\theta} = \begin{bmatrix}
@@ -1161,9 +1160,7 @@ and then plotted. As has been previously mentioned (***Figure 5***), due
 to the motion of the double tilt stage the traces of the planes can
 exhibit S-curves and are not always straight. This motion is exactly how
 the planes of atoms within the microscope behave across the entire tilt
-space, and the *[reason why g-vectors in diffraction patterns collected
-at different ZA can appear to rotate in relation to one
-another]{.underline}*. The calculation of the vector normal, or
+space, and the *{u}`reason why g-vectors in diffraction patterns collected at different ZA can appear to rotate in relation to one another`*. The calculation of the vector normal, or
 g-vector, to these hexagonal planes will be discussed in the next
 section.
 
@@ -1178,11 +1175,10 @@ research but have been presented in the manner of simple geometric
 considerations for the purpose of deconvoluting the physical nature of
 electron microscopy samples from the physics of electron beam
 interaction. The ability to understand the motion of and samples within
-a double tilt stage is imperative, *[and]{.underline}* then subsequently
+a double tilt stage is imperative, *{u}`and`* then subsequently
 being able to connect that knowledge to the physics of electron beam
 interaction can elevate any research whether the crystal structure of
-the desired sample is known, or more importantly *[if it is
-not]{.underline}*. As an example, the description of interface motion
+the desired sample is known, or more importantly *{u}`if it is not`*. As an example, the description of interface motion
 can be modeled after the motion of the trace of crystallographic planes,
 thus allowing for the microscopist to orient crystals and physical
 objects such as grain boundaries or surfaces.
@@ -1338,11 +1334,10 @@ is necessary to plot planes of atoms in a tip/tilt map, as well
 calculate the angle between planes [](#eq33) and determine the d-spacing
 of plane ([](#eq34), the distance between any plane is then is the length
 of the normal vector in cubic form). It should be stressed that when
-plotting or representing the planes, the nomenclature for the [native
-planes]{.underline} are still used. The description of the native
+plotting or representing the planes, the nomenclature for the {u}`native planes` are still used. The description of the native
 normals can also be calculated for demonstration purposes (Eqns. 35 and
 36) by multiplying the cubic description of the normal by the inverse of
-the conversion matrix (M^-1^). The initial example provided in this
+the conversion matrix (M{sup}`-1`). The initial example provided in this
 article ([](#fig1)) utilized a tetragonal cell with a c/a ratio of
 2 to demonstrate the calculation of the angle between two vectors. A
 similar schematic illustrated in ***Figure 10*** for a similar
@@ -1529,7 +1524,7 @@ marker close to α,β: 0,0. The location of the probe (red dot/circle in
 ***Figure 12***) or transmitted beam should first be identified
 digitally (i.e., the pixel location on the screen, x/y, should be
 correlated with the center of the beam) and noted as the origin
-(x~0~,y~0~). Next, the crystal can be tilted in the pure negative or
+(x{sub}`0`,y{sub}`0`). Next, the crystal can be tilted in the pure negative or
 positive α direction \~4-5° (or to the edge of the field of view) such
 that the digital position (x~ref~,y~ref~) can be calibrated to the tilt
 (green dot/circle in ***Figure 12***). This position will be denoted as
@@ -1685,7 +1680,7 @@ $$\label{eq46}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 
 ![](./images/image21.png)
 
-Figure 14: Movie illustrating montaging of MoO~3~ particles on a carbon
+Figure 14: Movie illustrating montaging of MoO{sub}`3` particles on a carbon
 film.
 
 ### Pure Tilt Between Tip/Tilt Conditions
@@ -2130,8 +2125,8 @@ they are most often not optimized for chemical analysis and are
 typically not standard to most microscopes.
 
 Using the tilt methodologies developed in previously, a grain boundary
-in [any orientation can be tilted on edge by collecting two tilt
-conditions]{.underline} where an interface width is measured at each
+in {u}`any orientation can be tilted on edge by collecting two tilt
+conditions` where an interface width is measured at each
 tilt condition (provided reasonable assumptions of sample thickness and
 tilt range of a given holder). When the boundary is tilted against its
 long axis in a purely orthogonal manner in a known quantity (φ in
@@ -2140,13 +2135,13 @@ determine not only the necessary tilt conditions to be aligned on edge,
 but as well provide a reasonable measure of the sample thickness
 (***Figure 17***).
 
-For any given interface, the projected width (***Figure 17***a, w~1~)
+For any given interface, the projected width (***Figure 17***a, w{sub}`1`)
 can be measured at the current tip/tilt conditions through the
 difference in contrast where the interface intersects the top and bottom
 of the foil. While initially unknown, the interface has an inclination
-angle to the foil normal (***Figure 17***, θ~1~). The projected width
-(w~1~) can be related to the interface length (IL) by the cosine of the
-inclination angle (θ~1~, [](#eq76)), and the foil width (FW) can be
+angle to the foil normal (***Figure 17***, θ{sub}`1`). The projected width
+(w{sub}`1`) can be related to the interface length (IL) by the cosine of the
+inclination angle (θ{sub}`1`, [](#eq76)), and the foil width (FW) can be
 calculated by the sine of the inclination angle [](#eq77). Additionally,
 while the directionality of the boundary (top left to bottom right, or
 top right to bottom left) is inherently unknown, the manner in which the
@@ -2157,28 +2152,28 @@ $$\label{eq76}{\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}}$$
 The angle of the interface's long axis to the α axis can be measured
 (i.e., θ in ***Figure 16***a) and using Eqns. [%s](#eq30)-[%s](#eq35), the tilt conditions
 for a pure orthogonal tilt normal to the boundary can be calculated
-(***Figure 17***b and c, θ~2~). This angle is commensurate with φ in
+(***Figure 17***b and c, θ{sub}`2`). This angle is commensurate with φ in
 ***Figure 16***b, and these tilt conditions can be either positive or
 negative (***Figure 17***b and c) based on the stage reference. For
 example, at a starting condition of α,β:0,0 with the boundary at 45° to
-the α axis and a tilt of 10° (θ~2~ or φ) puts the tilt stage at
+the α axis and a tilt of 10° (θ{sub}`2` or φ) puts the tilt stage at
 (α,β:-7.1, -7.1) or (α,β:7.1, 7.1).
 
 At this tip/tilt condition, a second apparent grain boundary width
-(w~2~) can be measured (***Figure 17***b). Depending on magnitude of
-w~2~ as compared to w~1~, and knowing the foil width (FW), Eqns. [%s](#eq77)-[%s](#eq79)
+(w{sub}`2`) can be measured (***Figure 17***b). Depending on magnitude of
+w{sub}`2` as compared to w{sub}`1`, and knowing the foil width (FW), Eqns. [%s](#eq77)-[%s](#eq79)
 can be used to calculate the angle necessary to tilt the boundary edge
-on, θ~3~, of which can be derived in the following manner.
+on, θ{sub}`3`, of which can be derived in the following manner.
 
-Once tilted, the projected width of the boundary (w~2~) can be related
-to the angle necessary to tilt the interface on edge (θ~3~) using
+Once tilted, the projected width of the boundary (w{sub}`2`) can be related
+to the angle necessary to tilt the interface on edge (θ{sub}`3`) using
 trigonometry.
 
 $$\label{eq77}{\sin\left( \theta_{3} \right)}{= \ \frac{w_{2}}{IL}}$$
 
 The interface length (*IL*) is initially unknown, but is constant
 between tilts and can be found using the Pythagorean Theorem once the
-initial width (w~1~) and the foil width (FW) are known.
+initial width (w{sub}`1`) and the foil width (FW) are known.
 
 $$\label{eq78}{IL = \ }{\sqrt{FW^{2} + w_{1}^{2}}}$$
 
@@ -2197,12 +2192,12 @@ at α,β:-10,30 it would be change by \~2° due to the S-curve). Therefore,
 when performing the final tip/tilt calculations the choice of the
 appropriate measure of θ is imperative. One can either re-measure the
 angle of the boundary to the α tilt axis at the second tip/tilt
-conditions, or utilize the starting tilt conditions (where w~1~ was
+conditions, or utilize the starting tilt conditions (where w{sub}`1` was
 measured) and the measure of the initial interface angle to the α tilt
-axis. The pure tilt (whether θ~3~ or the difference between θ~2~ and
-θ~3~) will depend on which conditions is chosen. Regardless, either can
+axis. The pure tilt (whether θ{sub}`3` or the difference between θ{sub}`2` and
+θ{sub}`3`) will depend on which conditions is chosen. Regardless, either can
 be performed by using Eqns. [%s](#eq76)-[%s](#eq79) to tilt the sample in a positive or
-negative fashion by θ~3~.
+negative fashion by θ{sub}`3`.
 
 This can be visually demonstrated in ***Figure 18***a where a
 theoretical grain boundary measured at 45° to the α tilt axis at
@@ -2220,18 +2215,18 @@ be (α,β:-26.1,25.0) which is \~2.4° from the correct position. While
 still within the precision of most double tilt stages, it would not be
 correct.
 
-The initial input tilt (***Figure 17***, θ~2~) will be dictated by the
+The initial input tilt (***Figure 17***, θ{sub}`2`) will be dictated by the
 initial interface width due to the possibility of the tilting the sample
 through the edge on condition, thereby invalidating the calculations.
 The wider the initial boundary width, the more the initial tilt can be
 applied. To fully account for the possibility of tilting through the
-edge on condition, a third tilt and a third width, w~3~ would be
+edge on condition, a third tilt and a third width, w{sub}`3` would be
 necessary, but by assessing the approximate width of the sample (e.g.,
-\~100 nm) and the initial interface projected width (w~1~) a protocol
-can be developed by which to determine the initial normal tilt (θ~2~).
+\~100 nm) and the initial interface projected width (w{sub}`1`) a protocol
+can be developed by which to determine the initial normal tilt (θ{sub}`2`).
 
 ***Figure 18***b provides a calculated guide for applicable tilt angles
-provided a starting apparent boundary width (w~1~) for a number of
+provided a starting apparent boundary width (w{sub}`1`) for a number of
 approximate sample thicknesses as to not invalidate the calculations put
 forward in Eqns. [%s](#eq76)-[%s](#eq79). In the theoretical example shown in ***Figure
 18***a where the sample was on the order of \~56 nm thick and the
@@ -2261,8 +2256,8 @@ tilted negatively, and c) sample tilted positively.*
 
 ***Figure 18:** Tip/tilt map of a theoretical grain boundary tilted edge
 on (a), and plot of normal tilt value versus initial projected interface
-width (w~1~) for a number of sample thicknesses to gauge the applicable
-normal tilt angle (θ~2~) without crossing over the edge on condition
+width (w{sub}`1`) for a number of sample thicknesses to gauge the applicable
+normal tilt angle (θ{sub}`2`) without crossing over the edge on condition
 (b).*
 
 ### Interface/Crystallographic Normals
@@ -2301,7 +2296,7 @@ matrix of the given α,β conditions (Eqns. [%s](#eq47) and [%s](#eq48)) by the 
 matrix [](#eq62) to form a rotation matrix at that specific α,β tilt
 condition [](#eq80). This in effect rotates the unit vector at that
 specific tilt condition to the beam direction \[001\], and as such
-multiplying the inverse of this matrix M~αβ~^-1^ by the beam direction
+multiplying the inverse of this matrix M~αβ~{sup}`-1` by the beam direction
 will provide the vector at the given tilt conditions [](#eq81).
 
 The unit vector matrix, which describes the location of the unit cell
@@ -2313,7 +2308,7 @@ interface the grain boundary can be envisioned to have a corresponding
 plane of atoms in a specific orientation with relationship to the
 adjacent grain. The vector normal [](#eq70) to the long axis can be
 calculated (dashed line in the plan view of ***Figure 24***b) and
-multiplied by the inverse of the tilt condition matrix, M^-1^~a,β~. This
+multiplied by the inverse of the tilt condition matrix, M{sup}`-1`~a,β~. This
 vector describes the current tilt conditions where the grain boundary is
 observed edge on [](#eq82). Instead of calculating the vector parallel
 with the beam direction (\[001\]) the vector normal is substituted
