@@ -2125,8 +2125,7 @@ they are most often not optimized for chemical analysis and are
 typically not standard to most microscopes.
 
 Using the tilt methodologies developed in previously, a grain boundary
-in {u}`any orientation can be tilted on edge by collecting two tilt
-conditions` where an interface width is measured at each
+in {u}`any orientation can be tilted on edge by collecting two tilt conditions` where an interface width is measured at each
 tilt condition (provided reasonable assumptions of sample thickness and
 tilt range of a given holder). When the boundary is tilted against its
 long axis in a purely orthogonal manner in a known quantity (φ in
