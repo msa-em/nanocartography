@@ -269,7 +269,7 @@ mutually orthogonal to one another. The angle between any two vectors
 can be described by the dot product, and the normal of any two vectors
 can be calculated through the cross product.
 
-### 2.1 Unit Vectors – Real Space Map
+### Unit Vectors – Real Space Map
 
 The ability to travel through any crystal system is dependent upon
 understanding basic geometric principles of planes and directions. For
@@ -463,7 +463,7 @@ when considering electron beam interactions the structure factor will
 simply act as a filter to determine which of these poles are ultimately
 expressed for any given crystal.
 
-### 2.2 Stereographic Projections – Rotation Maps
+### Stereographic Projections – Rotation Maps
 
 The stereographic projection is most often utilized by microscopists to
 navigate and understand crystalline sample orientations (***Figure
@@ -539,7 +539,7 @@ of a double tilt stage adds an additional conversion that must be
 applied in order to travel throughout any crystal due to the limitation
 of the degrees of freedom.
 
-### 2.3 Double Tilt Holder Coordinates – Tip/Tilt Map
+### Double Tilt Holder Coordinates – Tip/Tilt Map
 
 As has been demonstrated by numerous other researchers, understanding
 the utilization of a double tilt stage in the analysis of solid
@@ -605,7 +605,7 @@ g-vector (between red stars) in an FCC crystal (c) Movie showing the
 tilt series along a {110} trace where the g-vector changes direction
 correlating to the angle of the line in the tip/tilt map.*
 
-### 2.4 Rotation Matrices
+### Rotation Matrices
 
 While rudimentary, in terms of the overall development of the stage
 motion the fundamental mathematical operation being utilized is the
@@ -1109,7 +1109,7 @@ the α,β:0,0 (a and b, respectively) and the \[110\] at α,β:20,10 (c),
 and the hexagonal unit cell (d-f) with c/a ratios of 1.63 (d,e) and 2.72
 (f) with either the \[001\] (d,f) or \[100\] (e) at α,β:0,0
 
-**2.5 Calculation of Planes in a Tip Tilt Map**
+### Calculation of Planes in a Tip Tilt Map
 
 The development of a tip/tilt map for any given crystal system provided
 a manner in which to predict the tilt motion of any possible vector
@@ -1231,7 +1231,7 @@ can be modeled after the motion of the trace of crystallographic planes,
 thus allowing for the microscopist to orient crystals and physical
 objects such as grain boundaries or surfaces.
 
-**2.6 Reciprocal Lattice Vectors -- Reciprocal Space Maps**
+### Reciprocal Lattice Vectors – Reciprocal Space Maps
 
 The study of nanoscale electron beam interactions with solid materials
 (most importantly crystals) in the electron microscope has been a
@@ -1451,7 +1451,7 @@ M^{- 1} = \begin{bmatrix}
 ***Figure 10:** Schematic of two planes in a tetragonal crystal showing
 the relationship of the plane normal in the native and cubic form.*
 
-**2.7 Structure Factor -- Tip/Tilt Filter**
+### Structure Factor – Tip/Tilt Filter
 
 The organization of this research was designed to begin in real space,
 define how to take any solid geometrical object such as a cube or
@@ -1542,7 +1542,7 @@ hu*kv*lw = 0\ given\ \lbrack uvw\rbrack\ and\ (hkl) \\
 These tip/tilt maps of well-defined crystals are only a small part of
 what can be accomplished utilizing the information contained herein.
 
-**3. Practical Derivations of Nanocartography**
+## Practical Derivations of Nanocartography
 
 The methodologies and protocols derived subsequently in this paper build
 off the derivations in section 2, and serve to better interface
@@ -1555,7 +1555,7 @@ data are generic examples used for demonstration purposes to elucidate
 various protocols and will not be described further than identification
 of the imaging mode and/or base crystal type.
 
-**3.1 K-space Calibration, Small Angle Tilting**
+### K-space Calibration, Small Angle Tilting
 
 In the pursuit of analyzing beam sensitive samples or smaller volumes
 within a polycrystalline field it is often necessary to have a guide by
@@ -1679,7 +1679,7 @@ importantly, if the sample is beam sensitive only a single image capture
 need be collected to predict how to tilt within the field of view in
 k-space.
 
-**3.2 Center-beam Darkfield Tilting**
+### Center-beam Darkfield Tilting
 
 Precise off axis tilting of the electron probe using the condenser lens
 deflector coil system has long been utilized to examine the location of
@@ -1724,7 +1724,7 @@ diffraction pattern of an FCC crystal in the \[211\] orientation (a),
 and a schematic illustrating a theoretical example of deflecting the
 probe in a circular manner (b).*
 
-**3.3 Image Montaging**
+### Image Montaging
 
 Although not directly related to the stage tilt movement and additional
 protocol that has been proven extremely productive in scanning electron
@@ -1773,7 +1773,7 @@ $$\label{eq46}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 Figure 14: Movie illustrating montaging of MoO~3~ particles on a carbon
 film.
 
-**3.4 Pure Tilt Between Tip/Tilt Conditions**
+### Pure Tilt Between Tip/Tilt Conditions
 
 It is often necessary to calculate the angle between specific tip/tilt
 conditions, as will be demonstrated later when solving unknown crystal
@@ -1835,7 +1835,7 @@ Equation 52
 
 $$\label{eq52}\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\left( \beta_{1} - \beta_{2} \right) \right)$$
 
-**3.5 Grain Boundary Misorientation**
+### Grain Boundary Misorientation
 
 Possessing the crystallographic solution for two adjacent crystals
 (***Figures 15***a and b) of the same crystal system provides additional
@@ -2081,7 +2081,7 @@ boundary as a physical plane with respect to the stage is required. Once
 the tip/tilt conditions are determined, then these coordinates can be
 used to calculate the description of the plane normals.
 
-**3.6 Interface/Boundary Tilting**
+### Interface/Boundary Tilting
 
 The ability to correctly and accurately predict the motion of crystals
 in an electron microscope using a double tilt stage is crucial to
@@ -2215,7 +2215,7 @@ Equation 75
 
 $$\label{eq75}\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)$$
 
-**3.7 Calculating Interface Orientations/Rapid Grain Boundary Analysis**
+### Calculating Interface Orientations/Rapid Grain Boundary Analysis
 
 Before the advent of atom probe tomography (APT), TEM had long been the
 most advanced technique for understanding materials properties at the
@@ -2414,7 +2414,7 @@ width (w~1~) for a number of sample thicknesses to gauge the applicable
 normal tilt angle (θ~2~) without crossing over the edge on condition
 (b).*
 
-**3.8 Interface/Crystallographic Normals**
+### Interface/Crystallographic Normals
 
 Predicting and controlling the motion of crystals and interfaces is
 important for grain boundary descriptions, determining growth directions
@@ -2532,7 +2532,7 @@ Equation 84
 
 $$\label{eq84}{\overset{⃑}{u}}_{interface\ normal} = {\overset{⃑}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
 
-**3.9 Tilt Series**
+### Tilt Series
 
 As previously described, the derivation of tilt motion of interfaces
 leads to a number of applications in the microscope. Small angle
@@ -2588,7 +2588,7 @@ provides the ability to correctly orient interfaces for spectral
 analyses, and can also be utilized in combination with the solution of
 adjacent crystals to create useful tilt series data.
 
-**3.10 Kikuchi Bands and Diffraction Patterns**
+### Kikuchi Bands and Diffraction Patterns
 
 The ability to create tip/tilt maps of any crystal system is important
 for nanocartography at any length scale. Given a known pole and in plane
@@ -2673,7 +2673,7 @@ is expressed. As demonstrated by Cautaerts et al., if the accuracy of a
 double tilt stage is sufficient, tilting samples to a two beam condition
 could be utilized in this manner (Cautaerts et al., 2018).
 
-**3.11 Unknown Crystal Calculator**
+### Unknown Crystal Calculator
 
 The development of crystalline stereographic projections, pole figures,
 and pole figure tip/tilt maps for both general crystals (i.e., for basic
@@ -2768,9 +2768,9 @@ g-vectors or Kikuchi lines to build unknown crystal maps using a) a
 single line, b) additional lines. c) The provided movie shows how this
 works in practice.*
 
-**4. Practical Applications of Nanocartography**
+## Practical Applications of Nanocartography
 
-**4.1 Calibration of the Double Tilt Stage**
+### Calibration of the Double Tilt Stage
 
 The premise of utilizing nanocartography for electron microscopic
 analysis centers on the knowledge of the α and β axes of a double tilt
@@ -2905,7 +2905,7 @@ in section 3.1, these calibrations can be incorporated into an algorithm
 utilizing digital capture in order to use the computer screen to perform
 small angle tilting of the sample.
 
-**4.2 Tilt Stage Limit**
+### Tilt Stage Limit
 
 In order to understand the limitations of the tilt map produced for any
 number of operations, it is necessary to calculate and map out the limit
@@ -2938,7 +2938,7 @@ beneficial to understanding crystallographic data of an unknown sample.
 ***Figure 29:** Double tilt stage limits as calculated through a
 squircle (superellipse) estimation using various r values.*
 
-**4.3 Crystallographic Orientation**
+### Crystallographic Orientation
 
 The calculations and derivations of formulae surrounding
 crystallographic orientation using a double tilt stage have already been
@@ -3046,7 +3046,7 @@ measuring angles with relationship to the α tilt axis using a Kikuchi
 pattern (a) and plotting out the pattern with respect to the α tilt axis
 (b).*
 
-**4.4 Grain Boundary Characterization**
+### Grain Boundary Characterization
 
 The notion of crystals as physical objects using vectors was considered
 in the development of the mathematics for orientating crystalline
@@ -3124,7 +3124,7 @@ crystallographic solution for both grains is presented with an overlay
 of the tilt orientations for tilting the boundary along (blue) and
 against (red) the long axis of the boundary.
 
-**4.5 Multiple Session Sample Analysis**
+### Multiple Session Sample Analysis
 
 While the impetus for developing nanocartography as a technique was to
 rapidly and accurately perform tiling along known planes and between
@@ -3185,7 +3185,7 @@ would rotate commensurate with sample rotation in the cradle.
 through predicative tilting and mapping and movie illustrating sample
 rotation.*
 
-**5. Discussion**
+## Discussion
 
 The ability to accurately control the stage motion with respect to
 crystallography has long been a desirable function in any microscopist's
@@ -3226,7 +3226,7 @@ overall relationship to the sample. These tools can then be utilized in
 a variety of manners to quickly and efficiently manipulate the sample,
 and also plan for future analyses.
 
-**5.1 Crystals as Physical Objects**
+### Crystals as Physical Objects
 
 In order to deconvolute what is often described as one of the more
 difficult subjects in the conversion of materials science to electron
@@ -3260,8 +3260,7 @@ demonstrating that vectors are transformed in real space provides a
 clearer, more manageable pathway towards more complex analysis in
 reciprocal space.
 
-**5.2 Stage motion of Crystallographic Vectors and Non-Crystallographic
-Structures**
+### Stage motion of Crystallographic Vectors and Non-Crystallographic Structures
 
 This research illustrates a logical method by which to convert all
 crystallographic systems to a cubic system, and then demonstrate
@@ -3326,7 +3325,7 @@ scanning diffraction techniques will eventually automate this analysis,
 but the basic knowledge and understanding of this technique will assist
 in demystifying the often black box approach to their use.
 
-**5.3 Crystallographic Analysis/Conversion to Reciprocal Space**
+### Crystallographic Analysis/Conversion to Reciprocal Space
 
 The description and understanding of crystals as real space objects
 defined by vectors and vector motion is the first step in developing a
@@ -3357,7 +3356,7 @@ planes, the ability to accurately map along the trace of a given plane
 is imperative for accurate imaging of defects and other
 crystallographically dependent structures with a sample.
 
-**5.4 Structure Factor as a Filter**
+### Structure Factor as a Filter
 
 A priori knowledge of the allowable planes and poles within a given
 crystal based on the atomic arrangement in a specific crystal system is
@@ -3388,7 +3387,7 @@ be developed if and when this ever becomes reality. Even so, given the
 tendency for local sample foiling and misorientations, even with the
 most accurate stages this type of tilting may never be practical.
 
-**5.5 General Applications of Nanocartography**
+### General Applications of Nanocartography
 
 Whereas previous research has been confined to crystallographic analysis
 and through the motion of a double tilt stage, it will become evident
@@ -3557,7 +3556,7 @@ suspected dissimilar phases. Digital manipulation and control of either
 small stage tilts or beam deflections provides a clear advantage for
 rapid and accurate data collection.
 
-**6. Conclusions**
+## Conclusions
 
 The ability to precisely navigate nanoscopic volumes will become
 increasingly important to the field of materials science and electron
@@ -3611,7 +3610,7 @@ instruments without each microscopist having to re-map the sample.
 Preplanning of data analysis in between sessions could also assist in
 targeting desired information.
 
-**Acknowledgements**
+## Acknowledgements
 
 The authors acknowledge financial support the U.S. Department of Energy
 (DOE) Office of Science, Basic Energy Sciences, Materials Sciences and
@@ -3622,13 +3621,13 @@ of providing soundproofing and revisions are duly noted. PNNL is a
 multiprogram national laboratory operated by Battelle for the U.S. DOE
 under contract DEAC05-76RL01830.
 
-**Declaration of Competing Interest**
+## Declaration of Competing Interest
 
 The authors declare that they have no known competing personal
 relationships or financial interests that could have appeared to
 influence the work in this paper.
 
-**References**
+## References
 
 ABOLA, E., KUHN, P., EARNEST, T. & STEVENS, R. C. 2000. Automation of
 X-ray crystallography. *Nature Structural Biology,* 7**,** 973-977.
