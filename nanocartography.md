@@ -314,7 +314,7 @@ hexagonal system is provide in ***Figure S1***.
 
 :::{figure} ./images/image2.tiff
 :name: fig1
-Figure 1: Schematic illustrating how a bias on one of the
+Schematic illustrating how a bias on one of the
 axes (e.g., a tetragonal system) does not provide the correct angle
 between vectors. The bias of the z-axis being doubled incorrectly
 predicts the angle between the vectors. Note the positions are being
@@ -343,7 +343,7 @@ these operations.
 
 :::{figure} ./images/image3.tiff
 :name: fig2
-Figure 2: Comparison of vector nomenclature in the native hexagonal
+Comparison of vector nomenclature in the native hexagonal
 system as compared to the cubic formulation.
 :::
 
@@ -390,7 +390,7 @@ unchanged regardless of the specific convention used.
 :::{figure} ./images/image4.tiff
 :name: fig3
 
-Figure 3: Schematic illustrating how to convert any non-cubic
+Schematic illustrating how to convert any non-cubic
 vector coordinate system into a cubic system and the conversion matrix
 (M).
 :::
@@ -512,7 +512,7 @@ $$\label{eq5}\begin{matrix}
 
 :::{figure} ./images/image5.tiff
 :name: fig4
-Figure 4: Geometric stereographic projection (in the \[001\]
+Geometric stereographic projection (in the \[001\]
 direction) in three dimensions (a) and the corresponding two-dimensional
 stereographic projection (b).
 :::
@@ -595,7 +595,7 @@ matrices.
 
 ![](./images/image7.png)
 
-Figure 5: Stereographic projection (a) versus a tip/tilt map (b) of
+Stereographic projection (a) versus a tip/tilt map (b) of
 a cube oriented in the \[001\] orientation illustrating how the oblique
 plane traces vary in path. A diffraction pattern collected along a {110}
 g-vector (between red stars) in an FCC crystal (c) Movie showing the
@@ -752,7 +752,7 @@ through that matrix.
 
 ![](./images/image10.tiff)
 
-Figure 6: Schematic and movies illustrating crystal rotation around
+Schematic and movies illustrating crystal rotation around
 a single vector/pole in relation to the stage tilt axes and their
 relationship to the rotation matrices detailed in the text. a) Kikuchi
 pattern of a \[111\] pole at 𝜶,:5,10. b) Crystallographic orientations
@@ -1060,7 +1060,7 @@ planes of atoms within a crystal.
 :::{figure} ./images/image14.tiff
 :name: fig7
 
-Figure 7: Tip/Tilt plots of the cubic system with \[001\],\[111\] at
+Tip/Tilt plots of the cubic system with \[001\],\[111\] at
 the α,β:0,0 (a and b, respectively) and the \[110\] at α,β:20,10 (c),
 and the hexagonal unit cell (d-f) with c/a ratios of 1.63 (d,e) and 2.72
 (f) with either the \[001\] (d,f) or \[100\] (e) at α,β:0,0
@@ -1133,7 +1133,7 @@ to the beam direction.
 :::{figure} ./images/image15.tiff
 :name: fig8
 
-Figure 8: Schematic illustrating the derivation of traces of
+Schematic illustrating the derivation of traces of
 vectors along a crystallographic plane (green arrows) given the plane
 normal (red arrow). a) \[111\] vector and (111) plane. b) Plotting
 vectors along the (111) plane rotating about the \[111\] vector.
@@ -1171,7 +1171,7 @@ section.
 :::{figure} ./images/image16.tiff
 :name: fig9
 
-Figure 9: Tip/tilt maps of cubic and hexagonal crystals oriented at
+Tip/tilt maps of cubic and hexagonal crystals oriented at
 with the \[001\] and \[001\](a and b, respectively) at the (α,β:0,0)
 positions.
 :::
@@ -1384,7 +1384,7 @@ M^{- 1} = \begin{bmatrix}
 :::{figure} ./images/image17.tiff
 :name: fig10
 
-Figure 10: Schematic of two planes in a tetragonal crystal showing
+Schematic of two planes in a tetragonal crystal showing
 the relationship of the plane normal in the native and cubic form.
 :::
 
@@ -1431,7 +1431,7 @@ provided recognition of specific planes and poles is possible ([](#fig11)).
 :::{figure} ./images/image18.tiff
 :name: fig11
 
-Figure 11: Schematic showing the use of the structure factor as a
+Schematic showing the use of the structure factor as a
 filter to determine which of the infinite number of vectors in real
 space are expressed in reciprocal space (ZA).
 :::
@@ -1585,7 +1585,7 @@ $$\label{eq43}c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \righ
 :::{figure} ./images/image19.tiff
 :name: fig12
 
-Figure 12: Calibration of digital capture for precise, small angle sample tilting.
+Calibration of digital capture for precise, small angle sample tilting.
 :::
 
 Once the weights are known, they are converted to tip/tilt coordinates
@@ -1642,7 +1642,7 @@ analyses.
 :::{figure} ./images/image20.tiff
 :name: fig13
 
-Figure 13: Example of digital capture darkfield tilting using a
+Example of digital capture darkfield tilting using a
 diffraction pattern of an FCC crystal in the \[211\] orientation (a),
 and a schematic illustrating a theoretical example of deflecting the
 probe in a circular manner (b).
@@ -1691,7 +1691,7 @@ $$\label{eq46}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 :::{figure} ./images/image21.png
 :name: fig14
 
-Figure 14: Movie illustrating montaging of MoO{sub}`3` particles on a carbon
+Movie illustrating montaging of MoO{sub}`3` particles on a carbon
 film.
 :::
 
@@ -1775,7 +1775,7 @@ respective unit vectors ([](#fig15)d).
 :::{figure} ./images/image22.tiff
 :name: fig15
 
-Figure 15: Schematic illustrating how the local misorientation
+Schematic illustrating how the local misorientation
 between two crystals is formulated. a and b) Crystals A and B in a given
 orientation. c) Misorientation angle and axis between the two crystals.
 d) Conversion to primary axes coordinate system.
@@ -2007,7 +2007,7 @@ tilt conditions.
 :::{figure} ./images/image23.tiff
 :name: fig16
 
-Figure 16: Plotting tip/tilt coordinates for interface analysis. A
+Plotting tip/tilt coordinates for interface analysis. A
 TEM (BF) image of a grain boundary is shown in with the angle to the α
 tilt axis (θ) highlighted (a). The trace of the boundary on a tip/tilt
 diagram (b) illustrates the angular movement (φ) normal to the boundary
@@ -2261,7 +2261,7 @@ an adjacent boundary width can be measured and then tilted edge on.
 :::{figure} ./images/image24.tiff
 :name: fig17
 
-Figure 17: Schematics illustrating calculation of interface on edge
+Schematics illustrating calculation of interface on edge
 conditions and sample thickness. a) Sample in original tilt, b) sample
 tilted negatively, and c) sample tilted positively.
 :::
@@ -2269,7 +2269,7 @@ tilted negatively, and c) sample tilted positively.
 :::{figure} ./images/image25.tiff
 :name: fig18
 
-Figure 18: Tip/tilt map of a theoretical grain boundary tilted edge
+Tip/tilt map of a theoretical grain boundary tilted edge
 on (a), and plot of normal tilt value versus initial projected interface
 width (w{sub}`1`) for a number of sample thicknesses to gauge the applicable
 normal tilt angle (θ{sub}`2`) without crossing over the edge on condition
@@ -2297,7 +2297,7 @@ and planes to the interface can be calculated (solid red arrow in
 :::{figure} ./images/image26.tiff
 :name: fig19
 
-Figure 19: Schematic illustrating a grain boundary between two
+Schematic illustrating a grain boundary between two
 grains (G1 and G2) in a standard orientation (a) and with the boundary
 oriented edge on to the electron beam (b) shown in both cross-section
 and plan views.
@@ -2363,7 +2363,7 @@ normal to the interface.
 :::{figure} ./images/image27.tiff
 :name: fig20
 
-Figure 20: Plotting of a basic FCC crystal where the
+Plotting of a basic FCC crystal where the
 crystallographic solution is provided and the edge on condition is
 observed at α,β: 0,0 with the interface long axis 45° to the α tilt axis
 (a). The pole normal to the interface is demonstrated to be the \[001\]
@@ -2428,7 +2428,7 @@ dislocation microstructures in three dimensions (Liu and Robertson,
 :::{figure} ./images/image28.png
 :name: fig21
 
-Figure 21: Tilt series collected across a Ag-Au grain boundary
+Tilt series collected across a Ag-Au grain boundary
 exhibiting void evolution ahead of an stress corrosion cracking (SCC)
 tip in the binary alloy (Badwe et al., 2018).
 :::
@@ -2514,7 +2514,7 @@ trace of the plane.
 :::{figure} ./images/image29.tiff
 :name: fig22
 
-Figure 22: Plotting Kikuchi lines as scattering vectors (a) as
+Plotting Kikuchi lines as scattering vectors (a) as
 compared to plotting the Bragg angle at each point of the trace of the
 plane (b).
 :::
@@ -2522,7 +2522,7 @@ plane (b).
 :::{figure} ./images/image30.tiff
 :name: fig23
 
-Figure 23: Plots of a basic cubic crystal and the trace of the
+Plots of a basic cubic crystal and the trace of the
 (111) plane, and a Kikuchi bands at a Bragg angle of 5°.
 :::
 
@@ -2577,7 +2577,7 @@ at the given tilt conditions can also be plotted.
 :::{figure} ./images/image31.tiff
 :name: fig24
 
-Figure 24: Mapping crystallographic planes using (S)TEM images and
+Mapping crystallographic planes using (S)TEM images and
 tilt conditions in a double tilt stage using either a) atomic columns,
 b) diffraction patterns, c) Kikuchi lines.
 :::
@@ -2629,7 +2629,7 @@ mapping programs such as Crystal Maker (Palmer, 2015) or JEMS
 
 ![](./images/image33.png)
 
-Figure 25: Unknown calculator illustrating how to tilt along
+Unknown calculator illustrating how to tilt along
 g-vectors or Kikuchi lines to build unknown crystal maps using a) a
 single line, b) additional lines. c) The provided movie shows how this
 works in practice.
@@ -2681,7 +2681,7 @@ rotation from the calibration at 0,0 depending on location).
 :::{figure} ./images/image34.tiff
 :name: fig26
 
-Figure 26: TEM (BF) images showing carbon contamination (mounds)
+TEM (BF) images showing carbon contamination (mounds)
 deposited on a sample (a), followed by a pure α tilt to highlight
 orientation of the α tilt axis (b). For all other tilt calculations in
 TEM (BF) mode the angle to the α axis will be measured from this line.
@@ -2745,7 +2745,7 @@ represent the angles by which the planes rotate.
 :::{figure} ./images/image35.tiff
 :name: fig27
 
-Figure 27: Calibration of the orientation of the α tilt axis in TEM
+Calibration of the orientation of the α tilt axis in TEM
 diffraction and STEM (Ronchigram mode) using a single crystalline
 sample. CBED patterns (a-b) illustrate the crystal on zone (a) and
 tilted \~2° in the α tilt (b). Ronchigram mode showing the crystal on
@@ -2757,7 +2757,7 @@ with respect to the diffraction pattern.
 :::{figure} ./images/image36.tiff
 :name: fig28
 
-Figure 28: Calibration of the alpha tilt axis using a single,
+Calibration of the alpha tilt axis using a single,
 locally flat sample. SAD patterns (a,b) were collected at various tilt
 conditions and then plotted (c) to obtain an approximate measurement of
 the α tilt axis.
@@ -2804,7 +2804,7 @@ beneficial to understanding crystallographic data of an unknown sample.
 :::{figure} ./images/image37.tiff
 :name: fig29
 
-Figure 29: Double tilt stage limits as calculated through a
+Double tilt stage limits as calculated through a
 squircle (superellipse) estimation using various r values.
 :::
 
@@ -2912,7 +2912,7 @@ identification of specific poles through fingerprinting.
 :::{figure} ./images/image38.tiff
 :name: fig30
 
-Figure 30: Determination of orientation of a known cubic crystal by
+Determination of orientation of a known cubic crystal by
 measuring angles with relationship to the α tilt axis using a Kikuchi
 pattern (a) and plotting out the pattern with respect to the α tilt axis
 (b).
@@ -2989,7 +2989,7 @@ elucidate the boundary conditions.
 :::{figure} ./images/image39.tiff
 :name: fig31
 
-Figure 31: Schematics illustrating a protocol for determining the
+Schematics illustrating a protocol for determining the
 grain boundary physical orientation relationship to the adjacent
 crystalline grains. At α,β:0,0 the boundary is \~10° from an edge on
 condition with the boundary oriented 38° from the α tilt axis. The
@@ -3056,7 +3056,7 @@ would rotate commensurate with sample rotation in the cradle.
 
 ![](./images/image41.png)
 
-Figure 32: Collaborative sample analysis at multiple institutions
+Collaborative sample analysis at multiple institutions
 through predicative tilting and mapping and movie illustrating sample
 rotation.
 :::
