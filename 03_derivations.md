@@ -132,10 +132,8 @@ k-space.
 
 Precise off axis tilting of the electron probe using the condenser lens
 deflector coil system has long been utilized to examine the location of
-specific diffracted beams (center beam darkfield (Carter et al., 1996))
-and also to perform techniques such as hollow cone diffraction (Kondo et
-al., 1984) and precession electron diffraction (PED) ((Vincent and
-Midgley, 1994, Midgley and Eggeman, 2015)). Tilting the beam can be
+specific diffracted beams (center beam darkfield {cite:p}`carter1996transmission`)
+and also to perform techniques such as hollow cone diffraction {cite:p}`kondo1984new` and precession electron diffraction (PED) {cite:p}`vincent1994double, midgley2015precession`. Tilting the beam can be
 considered a conjugate of tilting the sample, and hence the use of
 digital capture can be utilized to dictate the tilt of the beam.
 
@@ -276,12 +274,11 @@ $$\label{eq52}\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alph
 Possessing the crystallographic solution for two adjacent crystals
 ([](#fig15)a and [](#fig15)b) of the same crystal system provides additional
 information, namely the grain boundary misorientation angle and axis of
-rotation (Chesser et al., 2020). This ability to calculate and report
+rotation {cite:p}`chesser2020learning`. This ability to calculate and report
 this additional sample descriptor can be a powerful tool where the only
 additional analysis that must be performed is the calculation (i.e.,
 only the two crystal orientations are necessary). There are a number of
-methods by which to derive the local misorientation (Jeong et al., 2010,
-Liu, 1994, Liu, 1995), but in all cases the crystal orientation of two
+methods by which to derive the local misorientation {cite:p}`jeong2010characterization, liu1994simple, liu1995simple`, but in all cases the crystal orientation of two
 adjacent crystals are utilized to determine the directions of the unit
 vectors ([](#fig15)c). The comparison of the unit vectors of each
 crystal are used to calculate the misorientation angle about a shared
@@ -613,8 +610,7 @@ $$\label{eq75}\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)$$
 
 Before the advent of atom probe tomography (APT), TEM had long been the
 most advanced technique for understanding materials properties at the
-highest chemical resolution (Blavette et al., 1993, Carter et al.,
-1996). Even with the ability to more precisely analyze interface
+highest chemical resolution {cite:p}`blavette1993tomographic, carter1996transmission`. Even with the ability to more precisely analyze interface
 chemistry by APT, S/TEM still provides a manner by which to analyze
 chemistry in addition to relating it to crystallography and other
 microstructural features such as dislocations and defects. More
@@ -631,7 +627,7 @@ microstructure/sample is predicated on the speed of analysis combined
 with the correct orientation. In terms of interfaces, it is absolutely
 necessary that a boundary be analyzed edge on in order to best assess
 chemical gradients. For example, the depletion in sensitized stainless
-steels due to irradiation can be measured (Simonen and Bruemmer, 1998)
+steels due to irradiation can be measured {cite:p}`simonen1998radiation`
 and subsequently used to model the behavior of a material as a result of
 various external stimuli (e.g., heating, irradiation, chemical
 diffusion). Therefore, rapid and accurate alignment of interfaces on
@@ -925,8 +921,7 @@ calculations provides a methodology to perform oblique tilt series.
 While each are simple consequences of the interface motion, a brief
 discussion of each is necessary to build upon more complex protocols.
 Electron tomography has matured into a powerful tool for a wide variety
-of fields, from biology to materials science (Hayashida et al., 2019,
-Hayashida and Malac, 2016, Lidke and Lidke, 2012). The high tilt
+of fields, from biology to materials science {cite:p}`hayashida2019parameters, hayashida2016practical, lidke2012advances`. The high tilt
 requirement often provides limiting factors for technique including
 special holders, larger pole pieces, and narrow sample geometries. When
 performed correctly, tomography can be a useful tool to circumvent the
@@ -943,20 +938,19 @@ to the stage axes, single axis tilt series may not provide a clear
 picture. For instance, when a grain boundary decorated with precipitates
 is tilted in a non-logical manner (i.e., not against its long axis) it
 is difficult to observe the full distribution of precipitates or voids
-on the boundary (Badwe et al., 2018) ([](#fig21)). Yet, when the
+on the boundary {cite:p}`badwe2018decoupling` ([](#fig21)). Yet, when the
 boundary is tilted against its long axis, the boundary moves in a
 logical fashion, and the distribution can be readily observed. Equally,
 if not more, important is the ability to create tilt series along
 specific planes of atoms that can be beneficial to demonstrate
-dislocation microstructures in three dimensions (Liu and Robertson,
-2011, Hata et al., 2020, Yamasaki et al., 2015).
+dislocation microstructures in three dimensions {cite:p}`liu2011three, hata2020electron, yamasaki2015visualization`.
 
 :::{figure} ./images/image28.png
 :name: fig21
 
 Tilt series collected across a Ag-Au grain boundary
 exhibiting void evolution ahead of an stress corrosion cracking (SCC)
-tip in the binary alloy (Badwe et al., 2018).
+tip in the binary alloy {cite:p}`badwe2018decoupling`.
 :::
 
 Using both the interface calculations combined with the crystallographic
@@ -1060,7 +1054,7 @@ at any given tilt position within tip/tilt map. The diffraction spots
 will be dependent upon both the directionality of the plane normal [](#eq34) and the structure factor [](#eq37) as to whether the plane of atoms
 is expressed. As demonstrated by Cautaerts et al., if the accuracy of a
 double tilt stage is sufficient, tilting samples to a two beam condition
-could be utilized in this manner (Cautaerts et al., 2018).
+could be utilized in this manner {cite:p}`cautaerts2018alphabeta`.
 
 ### Unknown Crystal Calculator
 
@@ -1069,9 +1063,7 @@ and pole figure tip/tilt maps for both general crystals (i.e., for basic
 low index poles/planes and not derived from the structure factor) in
 addition to specific crystals (e.g., where the structure factor has
 filtered specific poles/planes) has been demonstrated to be a powerful
-tool for studying crystalline materials using a double tilt stage (Duden
-et al., 2009, Klinger and Jäger, 2015, Li, 2016, Liu, 1994, Liu, 1995,
-Qing, 1989, Qing et al., 1989, Xie and Zhang, 2020). Yet, when the
+tool for studying crystalline materials using a double tilt stage {cite:p}`duden2009k, klinger2015crystallographic, li2016spica, liu1994simple, liu1995simple, qing1989equation, qing1989calculation, xie2020tauompas`. Yet, when the
 crystal structure is unknown, especially for nanocrystalline materials,
 these calculations are ineffective because the poles/planes discovered
 can represent any particular crystal and many systems share similar
@@ -1147,8 +1139,8 @@ plane is suspected, tilting to specific angles to either side of the
 plane can be performed to observe whether identical diffraction patterns
 are exhibited. The collection of this data can then be used to identify
 a large number of poles within a sample to compare to crystallographic
-mapping programs such as Crystal Maker (Palmer, 2015) or JEMS
-(Stadelmann, 1987).
+mapping programs such as Crystal Maker {cite:p}`palmer2015visualization` or JEMS
+{cite:p}`stadelmann1987ems`.
 
 :::{figure} ./images/image32.tiff
 :name: fig25

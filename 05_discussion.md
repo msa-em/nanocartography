@@ -11,13 +11,10 @@ accurately predict diffraction patterns and measure relative stage
 positions given a specific crystallographic information, others have
 done similar plotting programs for a variety of applications. ALPHABETA
 a was designed to accurately determine two beam locations for proper
-dislocation and microstructural analysis of stainless steels (Cautaerts
-et al., 2018). A number of papers have detailed the study of either the
+dislocation and microstructural analysis of stainless steels {cite:p}`cautaerts2018alphabeta`. A number of papers have detailed the study of either the
 double tilt stage and/or its relation to crystallographic analysis, but
 the overwhelming majority have approached it from an a priori standpoint
-of having specific crystallographic information (Liu, 1994, Liu, 1995,
-Qing et al., 1989, Qing, 1989, Cautaerts et al., 2018, Xie and Zhang,
-2020). These approaches are applicable for navigating known crystals,
+of having specific crystallographic information {cite:p}`liu1994simple, liu1995simple, qing1989calculation, qing1989equation, cautaerts2018alphabeta, xie2020tauompas`. These approaches are applicable for navigating known crystals,
 but the challenge for materials science is the unknown, especially at
 the nanoscale. This necessitates an approach by which to consider not
 only the stage motion for known crystals but unknown structures as well,
@@ -57,7 +54,7 @@ boundaries) and their motion using a double tilt stage. Much of the
 published research regarding the use of a double tilt stage for TEM
 analysis has focused solely on the motion of the stage, and very few
 have combined it with its relation to crystals. As noted prior,
-(Cautaerts et al., 2018), Cautaerts et al. approached the use of a
+{cite:p}`cautaerts2018alphabeta`, Cautaerts et al. approached the use of a
 double tilt stage to calculate the motion of a cubic crystal for use in
 determining the optimal tilt conditions for two beam analysis. While
 this provided more information than simple stage motion, it still did
@@ -99,15 +96,13 @@ chemical analysis becomes imperative for proper investigation. Equally
 important, although often overlooked, is the crystallographic
 relationship of crystals to these interfaces. This is often relegated to
 more automatic detection/analysis approached such as EBSD in SEM because
-of its ease of use (Wilkinson and Britton, 2012, Alam et al., 1954,
-Venables and Harland, 1973, Harland et al., 1981). Unfortunately, the
+of its ease of use {cite:p}`wilkinson2012strains, alam1954high, venables1973electron, harland1981accurate`. Unfortunately, the
 deeper understanding of these programs more so than the general meaning
 of inverse pole figures (IPFs) is taken for granted. Having a manner by
 which to orient interfaces and then quickly relate their orientation to
 adjacent crystallographic objects provides for more thorough analysis
 opportunities during a session. Newer technologies such as precession
-electron diffraction and 4-D STEM ((Ophus, 2019, Ghamarian et al.,
-2014)) will speed up these analyses, but similar to EBSD, they lack the
+electron diffraction and 4-D STEM {cite:p}`ophus2019four, ghamarian2014development` will speed up these analyses, but similar to EBSD, they lack the
 ability to take into account the physical description of surrounding
 non-crystalline objects such as grain boundaries.
 
@@ -134,7 +129,7 @@ then be compared to the tilt stage limit. Depending on the desired
 crystallographic orientation, it may not be possible to achieve said
 orientation within that tilt range. As has been previously demonstrated,
 with the location of a few zone axes, the coordinates of the principle
-axes can be accurately calculated (Liu, 1995). The comparison of the
+axes can be accurately calculated {cite:p}`liu1995simple`. The comparison of the
 principle axes of two neighboring grains can then be utilized) to
 calculate the location misorientation and the axis of misorientation
 that then leads to grain boundary type. Again, future development of
@@ -260,10 +255,9 @@ science analysis due their excess free energy that provides a wide array
 of phenomena to occur within a microstructure. Rapid diffusion of
 chromium in stainless steels provides the means for a thin protective
 layer of chromia to form both on free surfaces and at crack tips to
-arrest stress corrosion cracking (SCC) (Bruemmer et al., 2017, Olszta et
-al., 2014). Gallium can decimate the structure of an aluminum body as it
+arrest stress corrosion cracking (SCC) {cite:p}`bruemmer2017grain, olszta2014high`. Gallium can decimate the structure of an aluminum body as it
 quickly diffuses along grain boundaries, unzipping the entire structure
-and leaving behind individual grains (Rajagopalan et al., 2014).
+and leaving behind individual grains {cite:p}`rajagopalan2014atomic`.
 Therefore, the study of how elements diffuse and segregate along grain
 boundaries is extremely valuable, especially at the nanoscale. At this
 scale, phase analysis can be difficult because crystallographic
@@ -273,7 +267,7 @@ adjacent grain in combination with the motion of the boundary to an
 on-edge condition can assist in deduction of the unknown phase. With a
 boundary edge on, tilting the boundary along the plane can be directed
 to an adjacent ZA of either grain which might then provide for low index
-planes to be expressed (Carter et al., 1996). More importantly,
+planes to be expressed {cite:p}`carter1996transmission`. More importantly,
 understanding of parasitic reflections from adjacent grains can be used
 to discriminate the possible orientation of the unknown phase to either
 grain.
@@ -301,8 +295,7 @@ more informative data presentation. Since the step sizes between tilts
 are minimized for a more accurate description, non-eucentric tilting of
 non-orthogonally oriented interfaces is not as drastic, which in turn
 allows for quicker data collection. Lastly, while tilt series of
-dislocations have been demonstrated in the literature (Liu and
-Robertson, 2011, Hata et al., 2020, Yamasaki et al., 2015), if the tilt
+dislocations have been demonstrated in the literature {cite:p}`liu2011three, hata2020electron, yamasaki2015visualization`, if the tilt
 map for any given crystal has been solved, tilt series directions for
 any plane can quickly be calculated. Instead of following the trace of
 the plane systematically, if the directions for the trace of the plane
@@ -313,14 +306,14 @@ crystals to one another is an important topic in material science
 analysis and has been discussed in a variety of different manners. Qui
 et al. demonstrated how knowledge of crystallographic poles of two cubic
 crystals could assist in solving the local misorientation angle between
-them (Liu, 1994, Liu, 1995), and Jeong et al. (Jeong et al., 2010)
+them {cite:p}`liu1994simple, liu1995simple`, and Jeong et al. {cite:p}`jeong2010characterization`
 attempted the use of a triangulation method in solving the same problem.
 In section 2 it was demonstrated how one could the orientation of cubic
 crystals be solved, but all crystal systems as well. The research herein
 takes a similar approach to Qui to demonstrate how the calculation of
 the unit vectors for any crystal can be calculated from the solution of
 the crystal and then be compared to an adjacent crystal through a
-misorientation matrix to achieve similar results (Qing, 1989). In the
+misorientation matrix to achieve similar results {cite:p}`qing1989equation`. In the
 derivation of these formulae an important distinction must be considered
 in that the rotation about an arbitrary rotation axis to move a known
 pole to the \[001\] beam orientation must be performed instead of two
@@ -333,7 +326,7 @@ unique solution. Tilting in the α then subsequently in the β will yield
 a different result than first β then α (as shown the Supplemental
 **_Figure S4_**). Additionally, through these calculations it has been
 determined that the triangulation method is not sufficient in accurately
-describing the local misorientation (Jeong et al., 2010). Vectors chosen
+describing the local misorientation {cite:p}`jeong2010characterization`. Vectors chosen
 closest to the \[001\] beam direction will provide a differing result
 than vectors farther away from the \[001\]. This is because the
 triangulation method does not consider the dependency of the β tilt on

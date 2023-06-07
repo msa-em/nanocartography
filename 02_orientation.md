@@ -135,8 +135,7 @@ crystallographic properties become available through the understanding
 of the pure geometric conversion of each crystallographic system to the
 cubic system. As an alternative formulation of this problem, these types
 of crystallographic computations can be calculated through the use of
-the metric tensor, as detailed by De Graef and McHenry (De Graef and
-McHenry, 2012) . While both approaches are mathematically correct, this
+the metric tensor, as detailed by De Graef and McHenry {cite:p}`degraef2012structure` . While both approaches are mathematically correct, this
 work has chosen to preserve the intuitive sense of angles and distance
 in the cubic system, albeit with the requirement of a conversion matrix
 for non-cubic systems that will be described next.
@@ -152,7 +151,7 @@ chosen to align the c axis of the crystal that is to be converted with
 the z-axis for conceptual simplicity. This is certainly not the only
 choice, and the following derivations could be followed with a different
 convention, such as the one used by International Tables of
-Crystallography (Aroyo, 2016). However, the essence of the method is
+Crystallography {cite:p}`aroyo2016international`. However, the essence of the method is
 unchanged regardless of the specific convention used.
 
 :::{figure} ./images/image4.tiff
@@ -245,8 +244,7 @@ There are different conventions for stereographic projections, typically
 whether the center of the sphere or the bottom of the sphere should be
 located at the origin, but they all contain the same fundamental
 information. Returning to the map analogy, this is analogous to
-different map projections (e.g., Mercator vs. Robinson) (Lapon et al.,
-2020). In this formulation, the sphere has a radius of 1 and is centered
+different map projections (e.g., Mercator vs. Robinson) {cite:p}`lapon2020influence`. In this formulation, the sphere has a radius of 1 and is centered
 at the origin. To compute the location of these poles, consider a cubic
 crystal with one corner at the origin and \[100\] along the x-axis,
 \[010\] along the y-axis, and \[001\] along the z-axis. The intersection
@@ -308,8 +306,7 @@ of the degrees of freedom.
 As has been demonstrated by numerous other researchers, understanding
 the utilization of a double tilt stage in the analysis of solid
 materials and crystals is extremely important for accurate and reliable
-data collection (Cautaerts et al., 2018, Liu, 1994, Liu, 1995, Qing,
-1989, Qing et al., 1989). While this has been reported on numerous
+data collection {cite:p}`cautaerts2018alphabeta, liu1994simple, liu1995simple, qing1989equation, qing1989calculation`. While this has been reported on numerous
 occasions, the following derivation will be presented in a manner by
 which to convert three-dimensional rotations in simple geometric
 constructs to the double tilt stage and then demonstrate how this
@@ -548,11 +545,10 @@ rotation matrix, $R_{total} = R_{stage}R_{crystal}R_{loading}$ that
 contains all the orientation information about the crystal as it is
 situated in the microscope. Again, it is important to note that the only
 necessary functions are combinations of the rotations provided in Eqns.
-6-11.
+[%s](#eq6)-[%s](#eq11).
 
 One of the major advantages of these derivations with regards to
-previous calculations on stage motion ((Cautaerts et al., 2018, Klinger
-and Jäger, 2015, Liu, 1994, Liu, 1995, Qing, 1989, Qing et al., 1989))
+previous calculations on stage motion {cite:p}`cautaerts2018alphabeta, klinger2015crystallographic, liu1994simple, liu1995simple, qing1989equation, qing1989calculation`
 is in the power of creating a sample map which can be utilized in
 subsequent analyses whether on the same microscope or at other
 institutions. This allows for rapid re-analysis of samples without
@@ -995,7 +991,7 @@ crystal to reciprocal space and determine the normal of any plane.
 It should be noted that this is slightly different than how this topic
 is typically presented with the angle between planes being derived for
 each crystallographic system in addition to the d-spacing within a
-crystal (Carter et al., 1996). While this is important for the analysis
+crystal {cite:p}`carter1996transmission`. While this is important for the analysis
 of diffraction patterns, it does not account for calculating the normal
 for any plane within any crystal. It is well known (and is often the
 basis of materials science education) that the description of the normal
@@ -1185,8 +1181,7 @@ then only a cursory explanation will be provided to illustrate the power
 of understanding the connections between the real space and reciprocal
 space in regards to materials analysis. More detailed descriptions of
 the physics of these interactions can be found in any number of electron
-microscopy texts (Carter et al., 1996, De Graef and McHenry, 2012,
-Thomas, 1962).
+microscopy texts {cite:p}`carter1996transmission, degraef2012structure, thomas1962transmission`.
 
 The structure factor as it pertains to this discussion is a means to
 determine which planes of atoms within any given crystal will diffract.

@@ -200,7 +200,7 @@ eventually identification of each plane within the diffraction pattern
 becomes second nature. However, for inexperienced users identifying
 these crystallographic waypoints can be a challenging if not daunting
 experience. It should be noted that the work Xie et al. has automated
-this in an open source manner (Xie and Zhang, 2020), but for
+this in an open source manner {cite:p}`xie2020tauompas`, but for
 completeness the protocols will be provided here.
 
 In order to optimize crystallographic solutions with regard to the
@@ -263,8 +263,7 @@ or atomic column images. Depending on the crystal, one pole may have a
 unique projection of atomic planes that helps identify specific atomic
 positions. For instance, in dislocation contrast imaging (DCI) the
 \<110\> is a preferential pole in FCC materials to indicate a large
-basis set of {111} planes (Zhu et al., 2018, Phillips et al., 2011, Sun
-et al., 2019). Understanding the exact location of the \<110\> within a
+basis set of {111} planes {cite:p}`zhu2018towards, phillips2011diffraction, sun2019analysis`. Understanding the exact location of the \<110\> within a
 specific crystal could suggest that the sample is too thick (i.e., a
 large tilt condition) to achieve clear dislocation images. It would
 allow a microscopist to then either find an additional crystal or tilt
@@ -307,7 +306,7 @@ nanocrystalline phase identification is often related to the size
 limitation of selected area diffraction apertures. Once an aperture
 becomes too small, it can start to influence the scattering of the
 probe, thereby skewing the crystallographic information within the
-sample (Thomas, 1962, Carter et al., 1996). With advanced
+sample {cite:p}`thomas1962transmission, carter1996transmission`. With advanced
 instrumentation, nanobeam analysis techniques were developed to overcome
 this limitation, but they themselves suffer from being too site
 specific. That is to say, in nanobeam mode it becomes difficult to
@@ -324,7 +323,7 @@ Most often nanocrystalline phases on interfaces and boundaries are
 crystallographically oriented to one of the adjacent crystalline phases,
 and therefore knowing the orientation of the adjacent matrix will make
 phase identification of the nanocrystalline phases more accessible
-(Bhadeshia, 1987). Yet, if the interface is not oriented correctly
+{cite:p}`bhadeshia1987worked`. Yet, if the interface is not oriented correctly
 (i.e., not viewed edge on), parasitic reflections from an adjacent grain
 could skew identification. Therefore, a protocol could be utilized by
 which to first solve the crystal orientations of both crystals
@@ -370,7 +369,7 @@ against (red) the long axis of the boundary.
 While the impetus for developing nanocartography as a technique was to
 rapidly and accurately perform tiling along known planes and between
 known poles/ZA (similar to the impetus for the development of ALPHABETA
-(Cautaerts et al., 2018)), it soon became more evident as to the real
+{cite:p}`cautaerts2018alphabeta`), it soon became more evident as to the real
 power behind utilizing vector calculations. While any number of
 publications have outlined the geometry and mathematics to navigate a
 double tilt stage as well as various crystals, none have taken into

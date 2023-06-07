@@ -5,10 +5,9 @@ numbering:
 ---
 
 Prior to the invention of global positioning systems (GPS), humanity
-relied mainly on accurate cartography to optimize navigation (Council,
-1995). Navigation by cartography was not only confined to terrestrial
+relied mainly on accurate cartography to optimize navigation {cite:p}`council1995global`. Navigation by cartography was not only confined to terrestrial
 travel, but extraterrestrial travel as well through the knowledge of
-celestial orbits of the moon and planets (Gehrz et al., 2007). Yet, even
+celestial orbits of the moon and planets {cite:p}`gehrz2007nasa`. Yet, even
 the most detailed maps eventually became outdated and possibly misread
 or misinterpreted depending on the level of spatial awareness of the
 traveler. The advent of GPS in 1973 eventually brought about a
@@ -25,20 +24,18 @@ or reference position, so too should electron microscopists have the
 ability to flip and rotate positional data when moving a sample to a
 different microscope.
 
-Since the invention of electron microscopy (Mulvey, 1996, Knoll and
-Ruska, 1932), not only did the physical observation of microstructures
+Since the invention of electron microscopy {cite:p}`mulvey1996ernst, knoll1932elektronenmikroskop`, not only did the physical observation of microstructures
 become important (e.g., shape, size, and morphology), but so too did
 relating the crystallographic knowledge to those microstructures. The
 spatial resolution of transmission electron microscopes (TEM) opened an
 entirely new world as compared to X-ray and spectroscopic techniques. It
 lead to the discovery and confirmation of deoxyribonucleic acid (DNA) in
-the 1950s (Watson and Crick, 1953), and is currently providing materials
-researchers the ability to examine crystals atom-by-atom (Meyer et al.,
-2008) as well as to move atoms one by one to create larger structures at
-the atomic scale (Dyck et al., 2018). The push towards picometer
+the 1950s {cite:p}`watson1953molecular`, and is currently providing materials
+researchers the ability to examine crystals atom-by-atom {cite:p}`meyer2008imaging` as well as to move atoms one by one to create larger structures at
+the atomic scale {cite:p}`dyck2018building`. The push towards picometer
 resolution a short 80 years after its introduction has been rivaled by
 few technologies for volumetric analysis such as atom probe tomography
-(Blavette et al., 1993, Cerezo et al., 1988). Yet, the ever-expanding
+{cite:p}`blavette1993tomographic, cerezo1988application`. Yet, the ever-expanding
 spectral, structural, and crystallographic techniques available in the
 TEM still make it the most versatile and attractive analysis technique
 for a wide range of research fields.
@@ -48,20 +45,16 @@ orientations of any region of interest within a TEM sample in relation
 to the physical stage movements is crucial to extracting the most
 concise and relevant information possible in the shortest amount of
 time. The geometry and physics of extracting and understanding these
-data have long been understood and published (Duden et al., 2009,
-Klinger and Jäger, 2015, Liu, 1994, Liu, 1995, Qing, 1989, Qing et al.,
-1989, Zhang et al., 2018). Programs such as Desktop Microscopist[^1],
+data have long been understood and published {cite:p}`duden2009k, klinger2015crystallographic, liu1994simple, liu1995simple, qing1989equation, qing1989calculation, zhang2018atomic`. Programs such as Desktop Microscopist[^1],
 CrysTBox, ALPABETA, CrystalMaker, JEMS, τompas, SPICA, and K-space
 Navigator provided a variety of ways to understand crystallographic data
-(Cautaerts et al., 2018, Klinger and Jäger, 2015, Duden et al., 2009,
-Stadelmann, 1987, Palmer, 2015, De Graef and McHenry, 2012, Xie and
-Zhang, 2020, Li, 2016). In the conclusion of Liu's calculations on the
+{cite:p}`cautaerts2018alphabeta, klinger2015crystallographic, duden2009k, stadelmann1987ems, palmer2015visualization, degraef2012structure, xie2020tauompas, li2016spica`. In the conclusion of Liu's calculations on the
 prediction of cubic crystals a statement was made that, "If an interface
 between the microscope and the computer is developed, an automated
-on-line method can also be developed..." (Liu, 1994). Others have
+on-line method can also be developed..." {cite:p}`liu1994simple`. Others have
 utilized stage positions and knowledge of crystalline poles to address
 grain orientations, and more importantly grain boundary misorientations
-(Jeong et al., 2010, Liu, 1994, Liu, 1995). This research has been
+{cite:p}`jeong2010characterization, liu1994simple, liu1995simple`. This research has been
 widely available, but there is still not a concise, user-friendly manner
 in which to fully utilize this knowledge for mapping out an entire
 sample.
@@ -70,10 +63,10 @@ There is a need for increased speed and efficiency in electron
 microscopy due to a wider field of materials being analyzed, an
 increasing amount of analytical techniques being developed, higher
 capital costs associated with purchasing newer instrumentation, and
-decreased sources of funding (Maia Chagas, 2018). Current generation
+decreased sources of funding {cite:p}`maia2018haves`. Current generation
 spectrometers can be as costly as the base microscope itself. With the
 revolution of aberration correction advancing resolution to the
-picometer scale (Yankovich et al., 2014), the inclusion of a corrector,
+picometer scale {cite:p}`yankovich2014picometre`, the inclusion of a corrector,
 whether image or probe, has increasingly commonplace on all new
 purchases. This increased technology has added to the steep costs of
 doing innovative microscopy. These factors have made it such that each
@@ -82,19 +75,19 @@ collaboration and user facilities an attractive option for researchers
 who do not have the capability to perform higher end research at their
 home institutions. All of this taken into consideration, the future of
 electron microscopy will be geared towards doing smarter microscopy and
-automation (Spurgeon et al., 2020), similar to what has been
-accomplished in the field of X-ray crystallography (Abola et al., 2000).
+automation {cite:p}`spurgeon2020towards`, similar to what has been
+accomplished in the field of X-ray crystallography {cite:p}`abola2000automation`.
 The eventual progression into full automation presents the possibility
 of much of the underlying mathematics and physics being overlooked as
 microscopes will eventually perform much of the data collection.
 
 Automation and machine learning, while first pioneered and developed in
 biological microscopy, is steadily being developed for materials science
-applications (Carter and Williams, 2019, Jansen et al., 2013). The
+applications {cite:p}`carter2019transmission, jansen2013towards`. The
 genesis of automated detection and tomographic techniques within the
 framework of understanding biological materials was born out of a need
 for observing microstructural information over longer length scales,
-such as counting cells (Porter et al., 1945, Lidke and Lidke, 2012). The
+such as counting cells {cite:p}`porter1945study, lidke2012advances`. The
 complex nature of the electron interaction physics of material science
 research such as crystallinity, defects, and variable Z contrast, makes
 automation more difficult and most likely why it has slowed the adoption
@@ -109,11 +102,9 @@ decreased multiple scattering); yet, the thinner the sample becomes the
 less representative the information is of the entire bulk sample (e.g.,
 only a thin slice of a three dimensional object is being observed).
 Additionally, the thinner the sample the more questions of surface
-effects dominating the analysis arise (Carter and Williams, 2019,
-Findlay et al., 2010). Machine and smart learning algorithms require
+effects dominating the analysis arise {cite:p}`carter2019transmission, findlay2010dynamics`. Machine and smart learning algorithms require
 more demanding analytical image analysis techniques within the realm of
-materials science (Braidy et al., 2012, Jones et al., 2017, Jones et
-al., 2015, Jansen et al., 2013). To be able to position a sample to
+materials science {cite:p}`braidy2012correcting, jones2017optimising, jones2015smart, jansen2013towards`. To be able to position a sample to
 understand specific **g** vectors, contrast changes, and orientation
 effects requires more math than simple edge detection or shape
 recognition. Even when algorithms are developed to address this, the
@@ -131,7 +122,7 @@ a science, and although there are many programs to process and analyze
 data, there are few that serve as a digital notebook. While at first
 seemingly counter intuitive, current research into the human memory
 suggests that the brain is less likely to remember captured data than
-what is observed (Soares and Storm, 2018). This should seem familiar to
+what is observed {cite:p}`soares2018forget`. This should seem familiar to
 any microscopist in discussing microscopy sessions with collaborators in
 that they "saw" additional features not apparent in the recorded data.
 There is a need to develop programs that act as a prediction tool, but
@@ -141,8 +132,7 @@ Therefore, it is essential to have more accurate and directed electron
 microscopy to provide a pathway in alleviating the increased demand on
 current and future instrumentation. While there are inroads being made
 into automation and machine learning, there will be an unfortunate gap
-before the technology becomes available and even fiscally tenable (Maia
-Chagas, 2018). This paper provides a way to link together a long
+before the technology becomes available and even fiscally tenable {cite:p}`maia2018haves`. This paper provides a way to link together a long
 database of crystallographic data and double tilt stage mechanics that
 can be applied to any microscope, regardless of age or technological
 advancement. The framework of this research is based upon many papers
@@ -162,14 +152,13 @@ the tilt limits of each crystalline grain, and most importantly
 translate any microstructural or crystallographic information collected
 when reloading a sample or transferring the sample to a different
 microscope. This goes beyond the broader description of
-"nano-cartography" described in an editorial by Demming (Demming, 2015)
+"nano-cartography" described in an editorial by Demming {cite:p}`demming2015nano`
 describing instrument agnostic analysis at the nanoscale to understand
 materials systems.
 
 The advent of digital capture (first with charge-coupled devices (CCDs),
 and more recently with direct electron detection), has provided
-microscopists with a double-edged sword in terms of data (Oxley et al.,
-2020, Ophus, 2019). More data is always preferential, but it has
+microscopists with a double-edged sword in terms of data {cite:p}`oxley2020deep, ophus2019four`. More data is always preferential, but it has
 provided a false sense of information capture in the form of metadata.
 The latent information that users typically believe is embedded within
 each digital capture often means less meticulous note taking in the
@@ -185,11 +174,7 @@ of all crystal systems, in addition to the physical constructs within a
 sample (such as grain boundaries and interfaces) and their relationship
 to crystallographic orientations. The development of these formulations
 have long been understood, but rarely, if ever, discussed with
-relationship to one another (Cautaerts et al., 2018, De Graef and
-McHenry, 2012, Duden et al., 2009, Hayashida et al., 2019, Hayashida and
-Malac, 2016, Klinger and Jäger, 2015, Li, 2016, Liu, 1994, Liu, 1995,
-Qing, 1989, Qing et al., 1989, Xie and Zhang, 2020, Moeck and Fraundorf,
-2006). Unfortunately, the wide breadth of literature on this subject has
+relationship to one another {cite:p}`cautaerts2018alphabeta, degraef2012structure, duden2009k, hayashida2019parameters, hayashida2016practical, klinger2015crystallographic, li2016spica, liu1994simple, liu1995simple, qing1989equation, qing1989calculation, xie2020tauompas, moeck2006transmission`. Unfortunately, the wide breadth of literature on this subject has
 failed to yield a complete picture that provides clear methodologies for
 understanding and controlling the motion of samples using a double tilt
 stage in a transmission electron microscope (TEM). The need to connect
