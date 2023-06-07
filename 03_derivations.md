@@ -68,10 +68,10 @@ is normalized to produce a unit vector in the direction of α tilt. The
 direction of β tilt is perpendicular to this, and the unit vector
 $\widehat{y}$ is shown in [](#eq40).
 
-$$\label{eq39}\overset{⃑}{x} = \begin{bmatrix}
+$$\label{eq39}\overset{\rightharpoonup}{x} = \begin{bmatrix}
 x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
-\end{bmatrix}\ \ \overset{\ }{\Rightarrow}\widehat{x} = \frac{\overset{⃑}{x}}{\left| \overset{⃑}{x} \right|} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
+\end{bmatrix}\ \ \overset{\ }{\Rightarrow}\widehat{x} = \frac{\overset{\rightharpoonup}{x}}{\left| \overset{\rightharpoonup}{x} \right|} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
 x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
 \end{bmatrix}$$
@@ -859,13 +859,13 @@ will be returned (e.g., α,β:24.1,26.6 will be the \[112\]).
 
 $$\label{eq80}M_{\alpha,\beta} = R_{- \beta,y}R_{- \alpha,x}R_{A}$$
 
-$$\label{eq81}{\overset{⃑}{u}}_{\alpha\beta} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
+$$\label{eq81}{\overset{\rightharpoonup}{u}}_{\alpha\beta} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 0 \\
 0 \\
 1 \\
 \end{bmatrix}$$
 
-$$\label{eq82}{\overset{⃑}{u}}_{\alpha\beta,\theta\ normal} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
+$$\label{eq82}{\overset{\rightharpoonup}{u}}_{\alpha\beta,\theta\ normal} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 {- sin}\theta \\
 \cos\theta \\
 0 \\
@@ -909,7 +909,7 @@ $$\label{eq83}M_{reciprocal\ lattice} = \begin{bmatrix}
 0 & 0 & \frac{ab\sin\alpha\sin\beta\sin\delta}{V} \\
 \end{bmatrix}$$
 
-$$\label{eq84}{\overset{⃑}{u}}_{interface\ normal} = {\overset{⃑}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
+$$\label{eq84}{\overset{\rightharpoonup}{u}}_{interface\ normal} = {\overset{\rightharpoonup}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
 
 ### Tilt Series
 
