@@ -1,5 +1,6 @@
 ---
 title: Mathematics of Navigation and Orientation in Three Dimensions
+short_title: Navigation & Orientation
 numbering:
   enumerator: 2.%s
 ---

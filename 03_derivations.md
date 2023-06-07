@@ -1,5 +1,6 @@
 ---
 title: Practical Derivations of Nanocartography
+short_title: Practical Derivations
 numbering:
   enumerator: 3.%s
 ---
@@ -945,7 +946,9 @@ if not more, important is the ability to create tilt series along
 specific planes of atoms that can be beneficial to demonstrate
 dislocation microstructures in three dimensions {cite:p}`liu2011three, hata2020electron, yamasaki2015visualization`.
 
-:::{figure} ./images/image28.png
+% This is also in ./images/image28.png
+
+:::{figure} ./images/fig21.mp4
 :name: fig21
 
 Tilt series collected across a Ag-Au grain boundary

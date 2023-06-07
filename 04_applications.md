@@ -1,5 +1,6 @@
 ---
 title: Practical Applications of Nanocartography
+short_title: Practical Applications
 numbering:
   enumerator: 4.%s
 ---

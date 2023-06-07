@@ -2,6 +2,7 @@
 version: 1
 project:
   title: 'Nanocartography: Planning for success in analytical electron microscopy'
+  short_title: Nanocartography
   authors:
     - name: Olszta, M.J.
       affiliation: Pacific Northwest National Laboratory, Richland, WA 99354, USA
