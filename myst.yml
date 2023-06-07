@@ -18,8 +18,8 @@ project:
     heading_3: true
 site:
   template: book-theme
-  # title:
-  # logo:
+  title: Nanocartography
+  logo_text: Nanocartography
   projects:
     - slug: myst
       path: .
