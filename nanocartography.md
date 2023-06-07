@@ -375,7 +375,7 @@ for non-cubic systems that will be described next.
 
 The conversion of any non-cubic system (abc) to that of a cubic one
 (xyz) uses a conversion matrix (M) [](#eq1). A schematic of illustrating
-the two systems is shown in ***Figure 3*** along with the conversion
+the two systems is shown in [](#fig3) along with the conversion
 matrix with the full derivation of this conversion matrix is provided in
 the Supplemental (Conversion to cubic in ***Figures S1*** and ***S2***).
 Later, when discussing the microscope setup in more detail, the z-axis
@@ -399,7 +399,7 @@ The derivation of the conversion matrix [](#eq1), which includes the
 angle δ [](#eq2), can be calculated from the principal axis angles
 (α,β,γ). The conversion matrix operates by setting one axis in the
 system to be converted equal to one axis in the cubic system (e.g., the
-c axis is first set commensurate with the z-axis in ***Figure 3***).
+c axis is first set commensurate with the z-axis in [](#fig3)).
 This is then followed by setting a second axis in the system to be
 converted and binding it within two of the axes in the cubic system
 (e.g., the a axis is restricted to the xz plane). The a axis can then be
@@ -421,8 +421,7 @@ from the \[001\] in the tetragonal system (the \[001\] converted by [](#eq3) rem
 the seven crystal systems for which the angle between vectors (i.e.,
 poles) can be calculated with the understanding that the vectors are
 described in their native form but are calculated in the cubic form (an
-example of a hexagonal system conversion if presented in ***Figure
-S3***). As such, all the remaining operations will be performed on cubic
+example of a hexagonal system conversion if presented in ***Figure S3***). As such, all the remaining operations will be performed on cubic
 systems with the understanding that it can be generalized to any crystal
 system using the appropriate conversion matrix, or it's inverse.
 
@@ -466,11 +465,10 @@ expressed for any given crystal.
 ### Stereographic Projections – Rotation Maps
 
 The stereographic projection is most often utilized by microscopists to
-navigate and understand crystalline sample orientations (***Figure
-4***). As illustrated in ***Figure 4***a the stereographic projection is
+navigate and understand crystalline sample orientations ([](#fig4)). As illustrated in [](#fig4)a the stereographic projection is
 a calculation of the relative location of all vectors for a given
 crystal provided a specific normal orientation (e.g., the \[001\] in
-***Figure 4***a). In the keeping with the context of this paper, the
+[](#fig4)a). In the keeping with the context of this paper, the
 utilization of the stereographic projection keeps with the notion of
 first understanding the motion of the sample and crystal in real space
 and does not consider reciprocal space (i.e., Kikuchi bands).
@@ -485,11 +483,11 @@ at the origin. To compute the location of these poles, consider a cubic
 crystal with one corner at the origin and \[100\] along the x-axis,
 \[010\] along the y-axis, and \[001\] along the z-axis. The intersection
 of the vector normal to a plane of atoms with the sphere and the top of
-the sphere define a line, as seen in ***Figure 4***a. The intersection
+the sphere define a line, as seen in [](#fig4)a. The intersection
 of the line with the plane z = 0 defines the planar coordinates of the
 projection. Mathematically, if a pole is at \[uvw\], then it is
 normalized to have unit length [](#eq4) to find its intersection with
-the unit sphere. When observed in two dimensions (***Figure 4***b) the
+the unit sphere. When observed in two dimensions ([](#fig4)b) the
 relative position of each vector and the trace between the vectors can
 be derived [](#eq5).
 
@@ -567,16 +565,16 @@ of stereographic projections.
 
 The importance of the motion of the double tilt holder as compared to a
 stereographic projection is the freedom of rotation considered for both.
-***Figure 5*** provides the stereographic projection and tip/tilt map of
+[](#fig5) provides the stereographic projection and tip/tilt map of
 a cube in the \[001\] orientation. In a stereographic projection the
 crystal can be rotated freely, hence oblique plane traces are straight
 (when emanating from the origin), whereas in the double tilt holder
-oblique plane traces will be curved (***Figure 5***). This curvature, as
+oblique plane traces will be curved ([](#fig5)). This curvature, as
 will be illustrated in the subsequent derivations, is a result of the β
 tilt axis changing as a function of the α tilt, and hence S-type curves
 are generated in a tip/tilt map. A trace of a single plane in the
-tip/tilt map (red line, ***Figure 5***b) has been overlaid on the
-stereographic projection (***Figure 5***a) to illustrate the difference.
+tip/tilt map (red line, [](#fig5)b) has been overlaid on the
+stereographic projection ([](#fig5)a) to illustrate the difference.
 Additionally, when the position of three vector types (\<103\>, \<114\>,
 and \<112\>) in the tip/tilt map are transposed onto a stereographic
 projection, and it can be observed that the farther from the \[001\]
@@ -587,7 +585,7 @@ misoriented).
 This is also the exact reason why obliquely oriented g-vectors collected
 at high tilt angles in a double tilt stage (e.g., α,β:-25,-25) will
 rotate slightly in plane with relation to those collected at α,β:0,0.
-This is shown in the attached movie in ***Figure 5***c. Therefore, it is
+This is shown in the attached movie in [](#fig5)c. Therefore, it is
 necessary to be able to convert a stereographic projection to a tip/tilt
 map for any given crystal system. This can be achieved through rotation
 matrices.
@@ -700,7 +698,7 @@ interfaces. In the current context of deriving a tip/tilt map, the
 knowledge of a specific pole type is assumed for the purpose of ease of
 explanation. This assumption is made as an initial means to connect
 vector motion to crystallographic analysis. For instance, as shown in
-***Figure 6***a, the six fold symmetry of the \[111\] in an FCC steel is
+[](#fig6)a, the six fold symmetry of the \[111\] in an FCC steel is
 presented along with a tilt position (e.g., α,β : 5,10) in which this
 orientation was discovered in the microscope (note that the correct
 nomenclature should be \<111\> as it is a description of the family of
@@ -713,16 +711,14 @@ understanding a convergent beam electron diffraction pattern (CBED) is
 presented. The in plane orientation of the crystal is described by the
 angle ($\varphi_c$) that can be used to describe the rotation of the crystal
 about the known pole. As will be subsequently described, the angle $\varphi_c$
-can be used to freely rotate the crystal (***Figure 6***b-d), or it can
+can be used to freely rotate the crystal ([](#fig6)b-d), or it can
 be assigned as a specific fiducial marker (such as the (1-10) Kikuchi
 line) with known relation to the calibration of the α tilt axis. The
 tilt positions observed (e.g., α,β : 5,10) can then be used to mentally
-envision the relationship of the found ZA to the tilt stage (***Figure
-6***b, where the stage has been returned to α,β:0,0). This crystal
+envision the relationship of the found ZA to the tilt stage ([](#fig6)b, where the stage has been returned to α,β:0,0). This crystal
 rotation can best be considered by illustrating a vector in a cube
-(e.g., \[111\] in ***Figure 6***) in both the standard projection
-(***Figure 6***c) and a projection normal to the vector (***Figure
-6***d), and the $\varphi_c$ being the relative rotation by which the entire
+(e.g., \[111\] in [](#fig6)) in both the standard projection
+([](#fig6)c) and a projection normal to the vector ([](#fig6)d), and the $\varphi_c$ being the relative rotation by which the entire
 cube rotates. Again, while the CBED pattern of the \[111\] is presented
 it is only used to orient the practical aspect of the microscope to
 developing a tip/tilt map. From these initial data, the tip/tilt map can
@@ -733,8 +729,7 @@ the crystal with respect to the probe, and the stage with respect to the
 probe. The probe will be considered an objective frame of reference
 oriented at \[001\]. The orientation of the sample can be described for
 any crystallographic orientation within the sample, whether a single
-grain or the orientation of two crystals across a boundary. ***Figure
-6***b shows an observed pole (red and blue) for two grains, of which the
+grain or the orientation of two crystals across a boundary. [](#fig6)b shows an observed pole (red and blue) for two grains, of which the
 unit vectors for each crystal in black. The knowledge of the location of
 the observed poles and the unit vectors will be important for obtaining
 the most information from a sample (e.g., the local misorienation
@@ -745,7 +740,7 @@ through a sequence of rotations to align it with the \[001\] probe
 orientation, subsequently rotated with respect to the crystal
 orientation ($\varphi_c$) using [](#eq8), and finally the stage will be tilted
 from the probe position to the found conditions (observed tilts)
-(***Figure 6***e-g). The known pole will be utilized to derive the
+([](#fig6)e-g). The known pole will be utilized to derive the
 entire rotation matrix representing the crystal orientation, and
 subsequently any other possible vector can then be plotted accordingly
 through that matrix.
@@ -774,12 +769,12 @@ showing stage motion.
 The mathematical derivations of the full rotation matrix are divided
 into three steps. The first step, $R_{loading}$, represents the
 orientation of the sample with respect to the holder as it is inserted
-into the microscope (***Figure 6***e). The second step, $R_{crystal}$,
+into the microscope ([](#fig6)e). The second step, $R_{crystal}$,
 aligns the mathematical description of the crystal with the one found in
 the microscope (i.e., α,β of the known pole and rotation of the crystal
-$\varphi_c$), but as shown in ***Figure 6***f it does not consider the tilt
+$\varphi_c$), but as shown in [](#fig6)f it does not consider the tilt
 conditions. The last step, $R_{stage}$, puts the pole at the location
-corresponding to the known α,β coordinates observed (***Figure 6***g).
+corresponding to the known α,β coordinates observed ([](#fig6)g).
 Taken together, the multiplication of these matrices yields an overall
 rotation matrix, $R_{total} = R_{stage}R_{crystal}R_{loading}$ that
 contains all the orientation information about the crystal as it is
@@ -801,7 +796,7 @@ for the sample being flipped in the holder either horizontally
 ($R_{horz}$ , [](#eq12)) or vertically ($R_{vert}$ , [](#eq13)) to the long
 axis of the holder, and as well if the sample had been rotated in-plane
 by any angle $\varepsilon$ ($R_{{position}_{\varepsilon,z}}$ , [](#eq14))
-(***Figure 6***e).
+([](#fig6)e).
 
 The combination of these sample reloading matrices can be combined into
 one matrix $R_{loading}$ as shown in [](#eq15). Note, the angle
@@ -844,7 +839,7 @@ been identified, the mathematical model of the orientation of the
 crystal is matched to the orientation of the sample. The first step in
 developing this correspondence is rotating a known vector (e.g., the
 \[111\]) to the probe direction \[001\] through a rotation matrix
-($R_{\widehat{r},\theta}$ ***Figure 6***f). It is important to note that
+($R_{\widehat{r},\theta}$ [](#fig6)f). It is important to note that
 this is setting the orientation of the crystal to the probe, and thus
 the tilt conditions of the stage are not considered. For ease of
 explanation, the use of vector terminology instead of crystallographic
@@ -854,7 +849,7 @@ the motion of a crystal in a stage.
 The rotation of this vector to the probe direction can be achieved
 through a number of pathways (e.g., combination of rotation matrices),
 but the most direct is a rotation about an arbitrary axis by an angle
-(θ) (***Figure 6***f). As the vector will always be rotated to the
+(θ) ([](#fig6)f). As the vector will always be rotated to the
 \[001\] direction to be aligned with the probe, the axis of rotation
 will always lie in the xy plane and will take the form of \[uv0\]
 because it is calculated through the cross-product of the known vector
@@ -909,7 +904,7 @@ the order of rotation. This is discussed in further detail in the
 Supplemental section (***Figure S5***).
 
 As previously described, in order to orient the crystal with respect to
-the known pole (***Figure 6***a) an additional rotation is required.
+the known pole ([](#fig6)a) an additional rotation is required.
 Since the crystal has been rotated to the z-axis, the rotation of the
 crystal through the angle $\varphi_{c}$ about the z-axis ([](#eq8),
 $R_{\varphi_{c},z}$) will rotate the crystal about the known pole.
@@ -946,7 +941,7 @@ formulation would be logically equivalent, mixing the two would lead to
 incorrect results. The most striking example of the fact that the order
 of rotation matters is that the tip/tilt diagram is not symmetric in the
 location of poles as previously illustrated in the stereographic
-projection as compared to the tip/tilt map (***Figure 5***).
+projection as compared to the tip/tilt map ([](#fig5)).
 
 To summarize this set of operations, the action of all these rotations
 in concert can be summarized in the total rotation matrix:
@@ -1006,18 +1001,15 @@ range anywhere from --π to π. This removes the requirement to adjust the
 quadrant of $\alpha$/$\beta$ explicitly. Once $\alpha$/$\beta$ have been
 computed for every pole of interest, then the poles can be plotted as a
 function of $\alpha$/$\beta$ to create the tip/tilt diagram detailed
-above. A demonstration of stage movement is shown in ***Figure***
-***6*** h and i that shows simple sample tilt in beta (***Figure 6***h)
+above. A demonstration of stage movement is shown in [](#fig6) h and i that shows simple sample tilt in beta ([](#fig6)h)
 as well as with a representative BCC Si phase ball and stick model to
-illustrate how the crystal would rotate with the stage (***Figure
-6***i).
+illustrate how the crystal would rotate with the stage ([](#fig6)i).
 
 Examples of plotting of various poles and tilt conditions is shown in
 for both cubic and hexagonal systems. Cubic vectors \[001\] and \[111\]
 oriented at the (α,β:0,0) condition with a variety of other vectors are
-shown (**Figure 7**a and b, respectively). The asymmetry of the double
-tilt stage movement presented in ***Figure 5*** and again in ***Figure
-7***a becomes apparent, with the \[112\] not being located at equal α,β
+shown ([](#fig7)a and b, respectively). The asymmetry of the double
+tilt stage movement presented in [](#fig5) and again in [](#fig7)a becomes apparent, with the \[112\] not being located at equal α,β
 conditions when the (-110) is oriented 45° to the α tilt axis (it is
 observed at (α,β:24.1,26.6)). This is due to the β tilt dependency on
 the initial α tilt. Subsequent analysis of directions between poles will
@@ -1025,7 +1017,7 @@ elucidate this in greater detail.
 
 The vectors presented in these representations are arbitrarily based on
 what would represent lower index crystallographic poles, and as it were,
-any vector could be plotted. The plot of the \[110\] (***Figure 7***c)
+any vector could be plotted. The plot of the \[110\] ([](#fig7)c)
 at tilts (α,β:10,20) is shown to illustrate how a discovered pole at a
 non α,β:0,0 tilt condition would appear to provide a more representative
 scenario of what would be observed in the microscope. In this
@@ -1035,7 +1027,7 @@ overlaid upon these maps to further discriminate the allowable poles
 within a specific grain.
 
 In order to demonstrate how the conversion of non-cubic systems are
-handled, hexagonal plots are presented (***Figure 7***d-e). These
+handled, hexagonal plots are presented ([](#fig7)d-e). These
 figures illustrate a hexagonal system with a c/a ratio of 1.63 in both
 the basal \[001\] and primary prism \[210\] orientations at tilts
 (α,β:0,0). In the basal \[001\] orientation the \[111\] pyramidal poles
@@ -1043,7 +1035,7 @@ are plotted, and in the primary prism \[210\] the secondary prism
 \[100\] are observed at (30,0) and (-30,0). As a demonstration of how
 the vector projections change with a change in c/a ratio, the \[001\]
 projection at (α,β:0,0) for a hexagonal system with a c/a ratio of 2.72
-is presented in ***Figure 7***f. The elongation of the c axis draws the
+is presented in [](#fig7)f. The elongation of the c axis draws the
 \[111\] type vectors closer towards the (0,0) tilt position and as well
 the \[1-11\] type vectors are now within the applicable 40° tilt range.
 This change in c/a ratio can also be observed in [](#fig2).
@@ -1058,7 +1050,7 @@ Supplemental ***Figure S6*** for examples), but it should again be
 mentioned that a) that while the vectors are described in their native
 format, the math is done in a cubic form, and b) any vector possible may
 be plotted because these are vector representations. The plots in
-***Figure 7*** represent generic crystals/maps for the given crystal
+[](#fig7) represent generic crystals/maps for the given crystal
 system (i.e., cubic and hexagonal), and do not represent real crystals.
 The presentation of these maps are solely meant to illustrate the tilt
 parameters for solid objects in real space. This sets the basis for the
@@ -1132,7 +1124,7 @@ be discussed herein since the description of the normal to the plane is
 the same as the plane itself. The trace of the plane can be considered
 as the plot of all possible vectors within the plane, and therefore a
 rotation matrix with the plane normal substituting for the arbitrary
-axis of rotation is necessary (see **Figure 8**). As will be shown, this
+axis of rotation is necessary (see [](#fig8)). As will be shown, this
 rotation matrix is nearly identical to the rotation about an arbitrary
 axis ($R_{\widehat{r},\theta}$) derived in [](#eq18) with the caveat that
 a more generic derivation can be developed that is not required to tilt
@@ -1148,8 +1140,8 @@ vectors along the (111) plane rotating about the \[111\] vector.
 :::
 
 The rotation matrix can be calculated by first determining any normal
-vector (green arrows ***Figure 8***b) to the plane normal (red arrow
-***Figure 8***a,b), where this vector lies in the desired
+vector (green arrows [](#fig8)b) to the plane normal (red arrow
+[](#fig8)a,b), where this vector lies in the desired
 crystallographic plane. This truly arbitrary rotation matrix is found by
 evaluating [](#eq18) with the arbitrary axis of rotation being the plane
 normal and the angle of rotation becoming the desired step size of the
@@ -1162,13 +1154,13 @@ $R_{tot}$ [](#eq21). This will yield the Cartesian vector sequence which
 then is required to be converted to $\alpha$/$\beta$ coordinates using
 Eqns. [%s](#eq22)-[%s](#eq24). Computing these sequences for various low index planes of
 interest yields in each system the complete tip/tilt diagram that can be
-seen in ***Figure 9***. The attached python module allows the reader to
+seen in [](#fig9). The attached python module allows the reader to
 create tip/tilt diagrams for generic cubic and hexagonal constructs.
 Variation of crystal parameters, starting poles, tilt conditions, and
 stage limits are allowable. Whereas the normals can be described by the
 Miller indices in the cubic system, for the hexagonal planes the plane
 normal first needed to be calculated, subsequently converted to cubic,
-and then plotted. As has been previously mentioned (***Figure 5***), due
+and then plotted. As has been previously mentioned ([](#fig5)), due
 to the motion of the double tilt stage the traces of the planes can
 exhibit S-curves and are not always straight. This motion is exactly how
 the planes of atoms within the microscope behave across the entire tilt
@@ -1354,11 +1346,10 @@ normals can also be calculated for demonstration purposes (Eqns. 35 and
 the conversion matrix (M{sup}`-1`). The initial example provided in this
 article ([](#fig1)) utilized a tetragonal cell with a c/a ratio of
 2 to demonstrate the calculation of the angle between two vectors. A
-similar schematic illustrated in ***Figure 10*** for a similar
+similar schematic illustrated in [](#fig10) for a similar
 tetragonal crystal where the plane normals for (111) and (212) planes
-are shown both in their native and cubic forms. Whereas in (***Figure
-1***) the \[111\] native normal was listed, it does not describe the
-normal for the (111) plane. ***Figure 10*** illustrates that the native
+are shown both in their native and cubic forms. Whereas in ([](#fig1)) the \[111\] native normal was listed, it does not describe the
+normal for the (111) plane. [](#fig10) illustrates that the native
 normal for the (111) is actually the \[441\] (which converts to \[221\]
 in the cubic form).
 
@@ -1435,8 +1426,7 @@ In terms of diffraction and the TEM, tallying the combinations of
 allowable diffracted planes can then be used to create a list of
 allowable expressed poles. The use of these lists can then be utilized
 to create tip/tilt maps by which to travel throughout any crystal given
-provided recognition of specific planes and poles is possible (***Figure
-11***).
+provided recognition of specific planes and poles is possible ([](#fig11)).
 
 :::{figure} ./images/image18.tiff
 :name: fig11
@@ -1527,7 +1517,7 @@ expertise (for example in Gatan Microscopy Suite).
 Calibration of the digital capture of k-space is first necessary such
 that a subsequent point and click on the computer screen to tilt any
 desired pole/plane to the center position could be accomplished
-(***Figure 12***). At any point within the double tilt stage the
+([](#fig12)). At any point within the double tilt stage the
 immediate motion of the stage transverses in a linear fashion out to
 \~7-10°, at which point due to the motion of the β tilt in relation to
 the α any trace begins to rotate and nonlinear effects become
@@ -1539,13 +1529,13 @@ be deduced from this measurement.
 The calibration of the α tilt is required for the specific TEM approach
 and should be performed with a crystalline sample with a ZA fiduciary
 marker close to α,β: 0,0. The location of the probe (red dot/circle in
-***Figure 12***) or transmitted beam should first be identified
+[](#fig12)) or transmitted beam should first be identified
 digitally (i.e., the pixel location on the screen, x/y, should be
 correlated with the center of the beam) and noted as the origin
 (x{sub}`0`,y{sub}`0`). Next, the crystal can be tilted in the pure negative or
 positive α direction \~4-5° (or to the edge of the field of view) such
 that the digital position (x{sub}`ref`,y{sub}`ref`) can be calibrated to the tilt
-(green dot/circle in ***Figure 12***). This position will be denoted as
+(green dot/circle in [](#fig12)). This position will be denoted as
 the calibration, and a calibration vector can be produced by subtracting
 the reference position from the origin. This vector, shown in [](#eq39),
 is normalized to produce a unit vector in the direction of α tilt. The
@@ -1566,7 +1556,7 @@ x_{ref} - x_{0} \\
 \end{bmatrix}$$
 
 The tip/tilt coordinates for any position (x,y) in the field of view
-(blue dot/circle in ***Figure 12***) can be calculated to align the
+(blue dot/circle in [](#fig12)) can be calculated to align the
 feature of interest (e.g., zone axis) with the probe by decomposing this
 location into components along $\widehat{x}$ and $\widehat{y}$. The
 decomposition must be solved for the amount along $\widehat{x}$
@@ -1635,14 +1625,13 @@ darkfield tilting and is important for analysis of beam sensitive
 samples. Once a single diffraction pattern is collected, the beam can be
 blanked by appropriate methods, and the beam tilt conditions can be
 performed by pointing and clicking on the viewing screen to obtain the
-correct deflections (e.g., ***Figure 13***a where the (-1-31) spot is
+correct deflections (e.g., [](#fig13)a where the (-1-31) spot is
 deflected to the central beam). Similarly, when there is no visible
 diffraction spot but there is a crystalline phase suspected (or possibly
 a weak superlattice reflection), digital alignment can be performed
-blindly (white circle in ***Figure 13***a). Additionally, the beam could
+blindly (white circle in [](#fig13)a). Additionally, the beam could
 be deflected in a circular manner by which to explore all possible
-g-vectors in k-space during a long, darkfield exposure (***Figure
-13***b). This technique could then be utilized to program in all desired
+g-vectors in k-space during a long, darkfield exposure ([](#fig13)b). This technique could then be utilized to program in all desired
 g-vectors of a given crystal system at once and compare the resulting
 image to a second set of deflections corresponding to a different
 crystal (e.g., FCC versus BCC). It is beyond the scope of this paper to
@@ -1687,7 +1676,7 @@ montaged image is given in [](#eq45). The table of stage positions can
 then be calculated through [](#eq46) where the addition or subtraction of
 the (X-Xp) or (Y-Yp) terms are a function of the numbering logic of the
 stage and are added to the previous image coordinates (movie showing
-montaging in ***Figure 14***). This of course takes into account the
+montaging in [](#fig14)). This of course takes into account the
 fact that the sample is flat, and a Z term has not been introduced. This
 could be addressed for highly titled samples by observing the height at
 either end of the desired montage range and scaling each position
@@ -1759,7 +1748,7 @@ $$\label{eq52}\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alph
 ### Grain Boundary Misorientation
 
 Possessing the crystallographic solution for two adjacent crystals
-(***Figures 15***a and b) of the same crystal system provides additional
+([](#fig15)a and [](#fig15)b) of the same crystal system provides additional
 information, namely the grain boundary misorientation angle and axis of
 rotation (Chesser et al., 2020). This ability to calculate and report
 this additional sample descriptor can be a powerful tool where the only
@@ -1768,13 +1757,12 @@ only the two crystal orientations are necessary). There are a number of
 methods by which to derive the local misorientation (Jeong et al., 2010,
 Liu, 1994, Liu, 1995), but in all cases the crystal orientation of two
 adjacent crystals are utilized to determine the directions of the unit
-vectors (***Figure 15***c). The comparison of the unit vectors of each
+vectors ([](#fig15)c). The comparison of the unit vectors of each
 crystal are used to calculate the misorientation angle about a shared
-misorientation axis (\[uvw\]) through a misorientation matrix (***Figure
-15***c). The first step in developing this matrix is to solve for the
+misorientation axis (\[uvw\]) through a misorientation matrix ([](#fig15)c). The first step in developing this matrix is to solve for the
 location of each of the unit vectors in each crystal.
 
-In ***Figure 15***, Crystals A (a) and B (b) are observed in a given
+In [](#fig15), Crystals A (a) and B (b) are observed in a given
 orientation, and the given tip/tilt positions of any three vectors
 within each can be determined through the crystallographic solution
 (e.g., Crystal A \[110\], \[111\] and \[201\], and Crystal B \[110\],
@@ -1782,7 +1770,7 @@ within each can be determined through the crystallographic solution
 but that they must be linearly independent and contain three distinct
 directions (i.e., \[111\] and \[222\] would not be distinct directions).
 These three vectors can be used to determine the location of their
-respective unit vectors (***Figure 15***d).
+respective unit vectors ([](#fig15)d).
 
 :::{figure} ./images/image22.tiff
 :name: fig15
@@ -1795,7 +1783,7 @@ d) Conversion to primary axes coordinate system.
 
 The development of a misorientation matrix will describe the pure angle
 required to rotate the unit vectors of Crystal A to align with the unit
-vectors of Crystal B (***Figure 15***c) and the shared axis between the
+vectors of Crystal B ([](#fig15)c) and the shared axis between the
 two crystals about which this rotation can be accomplished. In Cartesian
 space the orientation of the vectors can be utilized in developing this
 matrix, but in the microscope the description of the vectors are defined
@@ -1803,7 +1791,7 @@ by the coordinates of the double tilt stage.
 
 The three observed or known vectors for one crystal (e.g.,
 \[u{sub}`A1`,v{sub}`A1`,w{sub}`A1`\]) are observed at a given tip/tilt position (e.g.,
-α{sub}`A1`,β{sub}`A1`) (***Figure 15***d). These tip/tilt positions need to be
+α{sub}`A1`,β{sub}`A1`) ([](#fig15)d). These tip/tilt positions need to be
 converted into Cartesian space similar to the operation performed in
 Eqns. [%s](#eq47)-[%s](#eq52) during the development of the angle between tilt positions
 (e.g., \[x{sub}`A1`,y{sub}`A1`,z{sub}`A1`\]). In order to derive the Cartesian vector
@@ -2005,16 +1993,15 @@ The approach for predicting interface motion is similar to that of
 calculating planes of atoms, except that for planes of atoms there is an
 explicit normal previously defined by the plane of atoms in question.
 For an interface, the starting tip/tilt conditions are the only
-information available (e.g., α,β:-5,10 in ***Figure 16***) as well as
-the measure of the long axis to the α tilt axis (e.g., θ in ***Figure
-16*** of which the grain boundary is measured at \~75°). Note that the
+information available (e.g., α,β:-5,10 in [](#fig16)) as well as
+the measure of the long axis to the α tilt axis (e.g., θ in [](#fig16) of which the grain boundary is measured at \~75°). Note that the
 sign of rotation of the boundary to the α tilt axis is reversed between
-***Figure 16***a and b because of the sign convention of how the α tilt
+[](#fig16)a and b because of the sign convention of how the α tilt
 axis is calibrated. The relationship of the current tilt conditions to
 the fiduciary angle to the α axis is important because, as was
 demonstrated in the section 2 for planes of atoms, in the double tilt
 stage linear features will rotate when tilted to higher angles. That is
-to say, θ in ***Figure 16***a will vary slightly based on the given α,β
+to say, θ in [](#fig16)a will vary slightly based on the given α,β
 tilt conditions.
 
 :::{figure} ./images/image23.tiff
@@ -2028,7 +2015,7 @@ conditions shown in (a).
 :::
 
 As there is no crystallographic information utilized, the current tilt
-position (e.g., α,β: -5,10 in ***Figure 16***a and b) is required to be
+position (e.g., α,β: -5,10 in [](#fig16)a and b) is required to be
 converted into a Cartesian vector similar to what was performed in the
 calculation of the misorientation matrix. In order to calculate the
 vectors parallel and perpendicular to the direction of the interface
@@ -2065,7 +2052,7 @@ the tilt series is perpendicular to the interface. Conversely, in the
 case where ${\widehat{b}}_{perpendicular}$is the axis of rotation, the
 tilt series is parallel to the interface. In either case, the angle of
 rotation ($\varphi$) determines how many steps will be in the tilt
-series (***Figure 16***b). Typically for a full rotation
+series ([](#fig16)b). Typically for a full rotation
 $\varphi = 1{^\circ}$, hence there will be 360 steps in the series
 before returning to the original orientation. The simplified rotation
 matrices are:
@@ -2156,16 +2143,16 @@ in {u}`any orientation can be tilted on edge by collecting two tilt conditions` 
 tilt condition (provided reasonable assumptions of sample thickness and
 tilt range of a given holder). When the boundary is tilted against its
 long axis in a purely orthogonal manner in a known quantity (φ in
-***Figure 16***b) the geometry of an inclined sample can be measured to
+[](#fig16)b) the geometry of an inclined sample can be measured to
 determine not only the necessary tilt conditions to be aligned on edge,
 but as well provide a reasonable measure of the sample thickness
-(***Figure 17***).
+([](#fig17)).
 
-For any given interface, the projected width (***Figure 17***a, w{sub}`1`)
+For any given interface, the projected width ([](#fig17)a, w{sub}`1`)
 can be measured at the current tip/tilt conditions through the
 difference in contrast where the interface intersects the top and bottom
 of the foil. While initially unknown, the interface has an inclination
-angle to the foil normal (***Figure 17***, θ{sub}`1`). The projected width
+angle to the foil normal ([](#fig17), θ{sub}`1`). The projected width
 (w{sub}`1`) can be related to the interface length (IL) by the cosine of the
 inclination angle (θ{sub}`1`, [](#eq76)), and the foil width (FW) can be
 calculated by the sine of the inclination angle [](#eq77). Additionally,
@@ -2176,17 +2163,17 @@ calculations are performed make this orientation irrelevant.
 $$\label{eq76}{\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}}$$
 
 The angle of the interface's long axis to the α axis can be measured
-(i.e., θ in ***Figure 16***a) and using Eqns. [%s](#eq30)-[%s](#eq35), the tilt conditions
+(i.e., θ in [](#fig16)a) and using Eqns. [%s](#eq30)-[%s](#eq35), the tilt conditions
 for a pure orthogonal tilt normal to the boundary can be calculated
-(***Figure 17***b and c, θ{sub}`2`). This angle is commensurate with φ in
-***Figure 16***b, and these tilt conditions can be either positive or
-negative (***Figure 17***b and c) based on the stage reference. For
+([](#fig17)b and c, θ{sub}`2`). This angle is commensurate with φ in
+[](#fig16)b, and these tilt conditions can be either positive or
+negative ([](#fig17)b and c) based on the stage reference. For
 example, at a starting condition of α,β:0,0 with the boundary at 45° to
 the α axis and a tilt of 10° (θ{sub}`2` or φ) puts the tilt stage at
 (α,β:-7.1, -7.1) or (α,β:7.1, 7.1).
 
 At this tip/tilt condition, a second apparent grain boundary width
-(w{sub}`2`) can be measured (***Figure 17***b). Depending on magnitude of
+(w{sub}`2`) can be measured ([](#fig17)b). Depending on magnitude of
 w{sub}`2` as compared to w{sub}`1`, and knowing the foil width (FW), Eqns. [%s](#eq77)-[%s](#eq79)
 can be used to calculate the angle necessary to tilt the boundary edge
 on, θ{sub}`3`, of which can be derived in the following manner.
@@ -2212,8 +2199,8 @@ instance) physically rotates due to the S-curve, and therefore there are
 two manners in which to calculate the final tilt conditions where the
 interface will be oriented edge on. These calculations consider the
 measure of the long axis of the boundary to the α tilt axis (θ in
-***Figure 16***), and this angle will change depending on the current
-tip/tilt conditions (i.e., in ***Figure 16*** θ at α,β:0,0 is 75°, but
+[](#fig16)), and this angle will change depending on the current
+tip/tilt conditions (i.e., in [](#fig16) θ at α,β:0,0 is 75°, but
 at α,β:-10,30 it would be change by \~2° due to the S-curve). Therefore,
 when performing the final tip/tilt calculations the choice of the
 appropriate measure of θ is imperative. One can either re-measure the
@@ -2225,23 +2212,23 @@ axis. The pure tilt (whether θ{sub}`3` or the difference between θ{sub}`2` and
 be performed by using Eqns. [%s](#eq76)-[%s](#eq79) to tilt the sample in a positive or
 negative fashion by θ{sub}`3`.
 
-This can be visually demonstrated in ***Figure 18***a where a
+This can be visually demonstrated in [](#fig18)a where a
 theoretical grain boundary measured at 45° to the α tilt axis at
 starting tilts α,β:0,0 is measured at 40 nm wide. A positive tilt of 25°
 moves the stage to α,β:17.4,18.3 (along the black dotted line in
-***Figure 18***a) where the boundary is measured to be 60 nm wide (an
+[](#fig18)a) where the boundary is measured to be 60 nm wide (an
 increase of 20 nm), meaning the boundary needs to be tilted -35.4° from
 the starting tilt conditions (α,β:0,0) to a final tilt condition of
 α,β:-24.2,-26.7. Under these conditions, the sample thickness would be
 \~56 nm thick. If the final, edge on, tilt calculations were performed
 from the second tilt condition (α,β:17.4,18.3, red dotted line in
-***Figure 18***a) without re-measuring the grain boundary angle to the α
+[](#fig18)a) without re-measuring the grain boundary angle to the α
 tilt axis (which has rotated by \~2.5°) the final tilt conditions would
 be (α,β:-26.1,25.0) which is \~2.4° from the correct position. While
 still within the precision of most double tilt stages, it would not be
 correct.
 
-The initial input tilt (***Figure 17***, θ{sub}`2`) will be dictated by the
+The initial input tilt ([](#fig17), θ{sub}`2`) will be dictated by the
 initial interface width due to the possibility of the tilting the sample
 through the edge on condition, thereby invalidating the calculations.
 The wider the initial boundary width, the more the initial tilt can be
@@ -2251,17 +2238,16 @@ necessary, but by assessing the approximate width of the sample (e.g.,
 \~100 nm) and the initial interface projected width (w{sub}`1`) a protocol
 can be developed by which to determine the initial normal tilt (θ{sub}`2`).
 
-***Figure 18***b provides a calculated guide for applicable tilt angles
+[](#fig18)b provides a calculated guide for applicable tilt angles
 provided a starting apparent boundary width (w{sub}`1`) for a number of
 approximate sample thicknesses as to not invalidate the calculations put
-forward in Eqns. [%s](#eq76)-[%s](#eq79). In the theoretical example shown in ***Figure
-18***a where the sample was on the order of \~56 nm thick and the
-starting grain boundary width of 40 nm, from ***Figure 18***b the
+forward in Eqns. [%s](#eq76)-[%s](#eq79). In the theoretical example shown in [](#fig18)a where the sample was on the order of \~56 nm thick and the
+starting grain boundary width of 40 nm, from [](#fig18)b the
 starting tilt of 25° was appropriate. If the assumed starting thickness
 of the sample was \~100 nm, 25° would not have guaranteed that this tilt
 would not tilt past the edge on condition.
 
-As illustrated in ***Figure 18***b, if the starting apparent interface
+As illustrated in [](#fig18)b, if the starting apparent interface
 width is on the order of 10 nm, the boundary is nearly edge on already,
 and a small angle calculation can be utilized (Eqns. [%s](#eq76)-[%s](#eq79)). Instead of
 developing a tilt series, these equations can be utilized for small
@@ -2300,14 +2286,13 @@ misorientation angle and axis (Eqns. [%s](#eq67) and [%s](#eq68)). This data is
 commensurate with what is collected in electron backscatter diffraction
 (EBSD) in SEM, but TEM provides the advantage of further being able to
 describe the grain boundary orientation *(Figure 19*). The inclination
-of the grain boundary with respect to the stage, as shown in **Figure
-19**a for grain 1 (G1), is a known variable and can be solved to orient
-the grain boundary edge on (Eqns. [%s](#eq76)-[%s](#eq79)), as shown in **Figure 19**b.
+of the grain boundary with respect to the stage, as shown in [](#fig19)a for grain 1 (G1), is a known variable and can be solved to orient
+the grain boundary edge on (Eqns. [%s](#eq76)-[%s](#eq79)), as shown in [](#fig19)b.
 Given these tilt conditions, the angle of the grain boundary to the α
-axis (θ in **Figures 16**a and **19**b) and the crystallographic
+axis (θ in [](#fig16)a and [](#fig19)b) and the crystallographic
 solution of the two adjacent crystal(s), the crystallographic normals
 and planes to the interface can be calculated (solid red arrow in
-**Figure 19**b).
+[](#fig19)b).
 
 :::{figure} ./images/image26.tiff
 :name: fig19
@@ -2322,7 +2307,7 @@ As has been demonstrated through Eqns. [%s](#eq53)-[%s](#eq62), provided three k
 vectors with specific α,β coordinates the unit vectors for the crystal
 (i.e., \[001\]) can be derived, and therefore the vector describing any
 tip/tilt position (α,β coordinates) within that crystal can be described
-(e.g., the blue arrow/dot in ***Figure 19***b for G1 in the edge on
+(e.g., the blue arrow/dot in [](#fig19)b for G1 in the edge on
 condition). This vector can be calculated by multiplying the rotation
 matrix of the given α,β conditions (Eqns. [%s](#eq47) and [%s](#eq48)) by the unit vector
 matrix [](#eq62) to form a rotation matrix at that specific α,β tilt
@@ -2334,19 +2319,19 @@ will provide the vector at the given tilt conditions [](#eq81).
 The unit vector matrix, which describes the location of the unit cell
 axes, can be subsequently utilized to calculate the vector normal
 orientation of either crystal (red solid arrow in the cross-section view
-of ***Figure 24***b) since the grain boundary plane edge on is
+of [](#fig24)b) since the grain boundary plane edge on is
 commensurate with the crystallographic plane. That is to say, along the
 interface the grain boundary can be envisioned to have a corresponding
 plane of atoms in a specific orientation with relationship to the
 adjacent grain. The vector normal [](#eq70) to the long axis can be
-calculated (dashed line in the plan view of ***Figure 24***b) and
+calculated (dashed line in the plan view of [](#fig24)b) and
 multiplied by the inverse of the tilt condition matrix, $M_{\alpha\beta}^{-1}$. This
 vector describes the current tilt conditions where the grain boundary is
 observed edge on [](#eq82). Instead of calculating the vector parallel
 with the beam direction (\[001\]) the vector normal is substituted
 (\[-sinθ,cosθ,0\], [](#eq82)). This can be corroborated using a generic
 cubic crystal with the \[001\] positioned at α,β:0,0 and with the
-\[100\] oriented along the α tilt axis (such as in ***Figure 7***a) and
+\[100\] oriented along the α tilt axis (such as in [](#fig7)a) and
 by subsequently inputting any α,β coordinates the listed vector/pole/ZA
 will be returned (e.g., α,β:24.1,26.6 will be the \[112\]).
 
@@ -2366,7 +2351,7 @@ $$\label{eq82}{\overset{⃑}{u}}_{\alpha\beta,\theta\ normal} = M_{\alpha\beta}^
 
 These calculations can be visually corroborated through a tip/tilt map
 of a basic FCC crystal with the \[110\] pole plotted at α,β:5,10
-(***Figure 20***) with an representative interface observed edge on at
+([](#fig20)) with an representative interface observed edge on at
 α,β:5,10 with the long axis measured 45° to the α tilt axis (blue line).
 Expansion of the crystallographic tip/tilt plot to ±90° indicates that
 90° from the edge on condition (α,β:5,10), the \[001\] is observed (red
@@ -2432,7 +2417,7 @@ to the stage axes, single axis tilt series may not provide a clear
 picture. For instance, when a grain boundary decorated with precipitates
 is tilted in a non-logical manner (i.e., not against its long axis) it
 is difficult to observe the full distribution of precipitates or voids
-on the boundary (Badwe et al., 2018) (***Figure 21***). Yet, when the
+on the boundary (Badwe et al., 2018) ([](#fig21)). Yet, when the
 boundary is tilted against its long axis, the boundary moves in a
 logical fashion, and the distribution can be readily observed. Equally,
 if not more, important is the ability to create tilt series along
@@ -2451,7 +2436,7 @@ tip in the binary alloy (Badwe et al., 2018).
 Using both the interface calculations combined with the crystallographic
 solution of any grain within the sample allows for rapid collection of
 tilt series. The tilt series calculations are performed by adjusting the
-tilt steps in the interface calculation (φ in ***Figure 16***b), and
+tilt steps in the interface calculation (φ in [](#fig16)b), and
 most importantly since only small steps are being performed the lack of
 eucentricity on the β is minimized.
 
@@ -2485,24 +2470,24 @@ can be considered mirror images of the plane) it is not appropriate to
 calculate the scattering vector in order to map the Kikuchi band. The
 reason being is that the traces of ± g-vectors will eventually converge
 to a point, whereas the traces need be mirror images and not converge
-(***Figure 22***a). Within the first \~40° the two maps appear similar,
+([](#fig22)a). Within the first \~40° the two maps appear similar,
 but out past this point plotting the g-vectors will converge. This is
 because the trace of the plane normal to the g-vector will inevitably
 intersect the trace of the original point (since the g-vectors will be
 multiples of the trace of the plane). In order to plot Kikuchi lines
-correctly in a tip/tilt map (***Figure 22***b), g-vector calculations at
+correctly in a tip/tilt map ([](#fig22)b), g-vector calculations at
 each point along the trace of the plane must be performed in the
 following manner.
 
 To be able to mirror the Kikuchi band, the specific orientation at the
 given α,β needs to be rotated by the desired ± Bragg angle about an axis
-[](#eq18) in the direction of the plane normal. In ***Figure 23*** the
+[](#eq18) in the direction of the plane normal. In [](#fig23) the
 trace of a (111) plane in a cubic system is illustrated. While the
 remaining planes and poles are not shown, the crystal orientation is
-commensurate with ***Figure 7***a where the \[001\] is plotted at
+commensurate with [](#fig7)a where the \[001\] is plotted at
 α,β:0,0, with the \[100\] aligned along the α tilt axis. At any given
 point along this line a vector can be drawn that points directly to the
-\[111\] pole (inset of ***Figure 23***a). Due to nature of the S-curve,
+\[111\] pole (inset of [](#fig23)a). Due to nature of the S-curve,
 the directionality of the vector will change depending on the position
 along the trace. As demonstrated in Eqns.80-82, the crystallographic
 vector can be derived at every α,β condition along the trace (e.g., at
@@ -2511,16 +2496,16 @@ Given that a single Kikuchi line scatters at the Bragg angle and
 **g**-vectors (diffraction spots) scatter at twice the Bragg angle, in
 order to plot either, a rotation about an arbitrary axis normal to the
 vector ([](#eq81), i.e., a vector along the trace of the plane as shown in
-***Figure 23***b) and the plane normal at the desired angle (θ or 2θ)
+[](#fig23)b) and the plane normal at the desired angle (θ or 2θ)
 must be performed.
 
 The arbitrary vector can be calculated by taking the cross of the normal
 to the trace of the plane (e.g., the \[111\]) and the vector describing
 the trace of the plane (e.g., \[-0.52,-0.28, 0.80\]). Using [](#eq18) with
 this vector as the rotation axis (e.g., \[0.62,-0.77,0.14\]) the vector
-describing the trace of the plane (red circle in ***Figure 23***) can be
+describing the trace of the plane (red circle in [](#fig23)) can be
 rotated about the desired multiple of plus or minus the Bragg angle
-(green circles in ***Figure 23***c) to derive the position of the
+(green circles in [](#fig23)c) to derive the position of the
 Kikuchi band or diffraction spot (note the Bragg angle of 5º is
 exaggerated for demonstration purposes). The trace of the Kikuchi line
 will then be a line plotted through each point, hence mirroring the
@@ -2579,14 +2564,14 @@ unknowns. At first, the concept may seem trivial, but when extended to
 tracing the motion of a single diffraction spot or Kikuchi band in
 combination with the knowledge that planes of atoms intersect at
 crystallographic poles, the complexity of the protocol becomes more
-relevant (***Figure 24***). Regardless of whether the g-vector of a
+relevant ([](#fig24)). Regardless of whether the g-vector of a
 plane is deduced from an atomic column image/fast Fourier transform
-(***Figure 24***a) or a diffraction pattern (***Figure 24***b), the
+([](#fig24)a) or a diffraction pattern ([](#fig24)b), the
 trace of the plane of atoms can be calculated with relation to the
 calibrated α tilt axis (given that the plane of atoms is normal to the
 g-vector) and the tilt conditions at which the g-vector was observed.
 Similarly, using CBED or Ronchigram mode where a Kikuchi pattern can be
-collected (***Figure 24***c), the orientation of the trace of the plane
+collected ([](#fig24)c), the orientation of the trace of the plane
 at the given tilt conditions can also be plotted.
 
 :::{figure} ./images/image31.tiff
@@ -2603,8 +2588,8 @@ crystals within a polycrystalline matrix. As a theoretical example,
 given one g-vector at specific tip/tilt coordinates (red dot, α,β:5,10,
 with the plane measured at 135° to the α tilt axis), the trace of that
 plane of atoms within the tilt range of the stage can be calculated
-(***Figure 25***). This would be similar to tracing a plane of atoms by
-any of the three means in ***Figure 24***. By tilting along that
+([](#fig25)). This would be similar to tracing a plane of atoms by
+any of the three means in [](#fig24). By tilting along that
 g-vector, additional g-vectors associated with that crystal will
 eventually come into a diffracting condition (e.g., blue dot,
 α,β:-19.7,-25.2). Note that as this is a theoretical example, a random
@@ -2612,7 +2597,7 @@ point along the line was chosen.
 
 At these new tip/tilt coordinates the directions for any additional
 planes can be traced, thereby creating a map of that specific crystal
-(blue dot, ***Figure 25***b, 90° at α,β:-19.7,-25.2). Once two poles
+(blue dot, [](#fig25)b, 90° at α,β:-19.7,-25.2). Once two poles
 have been identified and mapped (second pole, green dot, at
 α,β:-13.3,-23.5), the specific directions for at least one additional
 pole will be provided through the intersection of the trace of the
@@ -2620,13 +2605,13 @@ planes of the individual poles. Without ever having tilted to that
 position with the stage (third pole, pink spot, α,β:22.9,15.7), the
 knowledge that there is a pole present provides assurance to the
 microscopist that additional poles can be quickly determined. As
-illustrated in ***Figure 25***b, the weight of each trace can be scaled
+illustrated in [](#fig25)b, the weight of each trace can be scaled
 according to the apparent indexing of the planes (i.e., low index planes
 will appear darker due to multiple planes expressed due to the structure
 factor). This can further be used as a fingerprinting technique for
 analyzing unknowns. To illustrate how this would work in practice, a
 movie highlighting the identification of an austenitic stainless steel
-grain is shown in ***Figure 25***c.
+grain is shown in [](#fig25)c.
 
 Lastly, once a number of poles have been identified and planes traced,
 additional crystallographic information can be garnered from the map.
@@ -2676,10 +2661,10 @@ through the use of a carbon contaminated sample. Once loaded, a region
 of interest that appears to be relatively uniform and flat should be
 selected. Carbon mounds on both the top and the bottom of the sample can
 be produced by condensing the beam to a fine point over the region
-(***Figure 26***). After a set amount of time, the probe can be
+([](#fig26)). After a set amount of time, the probe can be
 defocused to detect whether carbon mounds were produced. Once a
 sufficient amount of cracked carbon has been deposited, an image at
-α,β:0,0 can be collected for reference (***Figure 26***a). The sample
+α,β:0,0 can be collected for reference ([](#fig26)a). The sample
 should then be tilted approximately both positive and negative 10˚ in
 the α, at which tilt point images should be collected. From the three
 images collected, the circular projection of the carbon mound at α,β:0,0
@@ -2706,8 +2691,7 @@ As previously demonstrated in section 3.1, the calibration of TEM
 diffraction and STEM (Ronchigram) modes can be performed with any
 crystalline sample, preferably one with larger, single crystals as the
 calibration will be performed utilizing the position of diffraction
-discs and Kikuchi lines emanating from a single source (***Figure
-27***). In either TEM diffraction mode or Ronchigram mode, a grain
+discs and Kikuchi lines emanating from a single source ([](#fig27)). In either TEM diffraction mode or Ronchigram mode, a grain
 should be selected that is relatively close to a zone axis (ZA) when the
 stage is at α,β:0,0. The grain should be uniformly flat and set at the
 eucentric height. This procedure works best if a grain oriented close to
@@ -2717,9 +2701,9 @@ index could skew the visibility of the center of the ZA). Using a large
 condenser aperture (preferably in CBED mode if the microscope allows
 it), the probe should be condensed to a point followed by subsequent
 analysis in diffraction mode. A center fiduciary image can then be taken
-with the oriented ZA as the nominal zero position (***Figure 27***a and
+with the oriented ZA as the nominal zero position ([](#fig27)a and
 c). The sample should then be tilted approximately ±5˚ in the α at which
-time an image should be taken (***Figure 27***b and d). From each image
+time an image should be taken ([](#fig27)b and d). From each image
 collected a trace of the center of the ZA can be drawn, hence providing
 a measure of the α tilt axis. As with the calibration of the TEM bright
 field and STEM imaging conditions, the β tilt can be ascertained as
@@ -2734,20 +2718,20 @@ the Ewald sphere and determining the center of the circle to pinpoint
 the ZA. This approach can be more difficult and is less favorable than
 using Kikuchi lines. In diffraction mode the orientation of the α tilt
 axis can corroborated by defocusing the diffraction pattern either over
-or under focus (***Figure 27***e and f, respectively) to observe the
+or under focus ([](#fig27)e and f, respectively) to observe the
 physical relation of the diffraction pattern to the sample.
 
 Lastly, a large, relatively flat single crystal can be used to calibrate
 the α tilt axis using two ZA and the methodology formulated to solve
-unknown crystals. ***Figure 28*** illustrates selected area diffraction
+unknown crystals. [](#fig28) illustrates selected area diffraction
 (SAD) patterns of two ZA ((a)\<110\> and (b)\<112\>) of a CuNi alloy, of
 which the details of the alloy are provided in subsequent sections and
 in the Supplemental. The tilt coordinates of each of the found ZA is
-shown in ***Figure 28***c. The angle necessary to connect these two ZA
+shown in [](#fig28)c. The angle necessary to connect these two ZA
 will correspond to a specific g-vector in the diffraction pattern, in
 this case the {111} vector connects the \<110\> and \<112\> and the
 angle from the α tilt axis is 6°. Therefore, in the SAD patterns an
-angle orthogonal to the measured angle in ***Figure 28***c (i.e., angle
+angle orthogonal to the measured angle in [](#fig28)c (i.e., angle
 +/- 90° due to the Kikuchi band being orthogonal to the g-vector) will
 illustrate where a fiduciary marker for the α tilt axis can be measured
 for all diffraction patterns. As the projection of the lattice planes
@@ -2808,7 +2792,7 @@ $$\label{eq85}\alpha = a\cos\theta^{\frac{2}{r}}$$
 $$\label{eq86}\beta = b\sin{\theta^{\frac{2}{r}}}$$
 
 Where α and β are the tilt stage readouts, a and b are the α and β tilt
-limits, respectively, and r is a shape factor. ***Figure 29*** is a plot
+limits, respectively, and r is a shape factor. [](#fig29) is a plot
 illustrating stage limits of a =36 and b = 32 for a number of shape
 factors with an r value of \~3.3 used a good description of the JEOL
 double tilt holder for the ARM200CF. While these tilt limits can be
@@ -2831,7 +2815,7 @@ crystallographic orientation using a double tilt stage have already been
 presented, but a more practical discussion of how to apply these
 techniques can be discussed. First, it is necessary to have a general
 understanding the movement of the double tilt stage in comparison to a
-pole figure or stereographic projection (see ***Figure 4***). Whereas
+pole figure or stereographic projection (see [](#fig4)). Whereas
 the planes of traces of atoms in a stereographic projection appear to
 move in a straight or arced path, in the tilt map the planes move in an
 S-curve fashion due to the α,β relationship. For instance, with a cubic
@@ -2856,7 +2840,7 @@ In order to optimize crystallographic solutions with regard to the
 sample and stage, at least one known or identified pole must be
 determined as a proposed starting point. The stereotypical, six-fold
 symmetry of a \<111\> cubic crystal is presented at stage positions
-α,β:10.9,5.0 (***Figure 30***). Depending on the level of confidence
+α,β:10.9,5.0 ([](#fig30)). Depending on the level of confidence
 with the found pole, the next step is to either tilt to a second known
 pole somewhere within the tilt stage to set a second waypoint or to
 follow orient to a known g-vector.
@@ -2880,7 +2864,7 @@ directionality of each adjacent grain be considered.
 
 For more experienced microscopists, measuring the angle of a known plane
 to the α tilt axis angle can be utilized in combination with the first
-known pole. In ***Figure 30*** the {110} is measured \~20º to the α tilt
+known pole. In [](#fig30) the {110} is measured \~20º to the α tilt
 axis and can then be adjusted accordingly in the tilt map to get the
 projection of the {110} correct. Again, depending upon the symmetry of
 the crystal system, other poles can be located and tilted to in order to
@@ -2897,7 +2881,7 @@ blindly trust the output. Automation can be a powerful, but without a
 proper understanding of the underlying principles, it can be improperly
 used.
 
-As shown in ***Figure 30***, the collection of a CBED or Kikuchi map
+As shown in [](#fig30), the collection of a CBED or Kikuchi map
 makes this exercise trivial because the measured angle to the α tilt
 axis can be quickly, efficiently, and accurately measured. This does not
 preclude microscopists without the ability to collect such pattern from
@@ -2977,8 +2961,8 @@ phase identification of the nanocrystalline phases more accessible
 (i.e., not viewed edge on), parasitic reflections from an adjacent grain
 could skew identification. Therefore, a protocol could be utilized by
 which to first solve the crystal orientations of both crystals
-(***Figure 31***), and then subsequently find the interface on edge
-condition. In ***Figure 31*** (with the sample at α,β:0,0) the grain
+([](#fig31)), and then subsequently find the interface on edge
+condition. In [](#fig31) (with the sample at α,β:0,0) the grain
 boundary is observed \~10° from an edge on condition and 38° to the α
 tilt axis. By overlaying the directions of the interface lines over top
 of the crystalline solutions, a map of the optimum orientation for
@@ -3033,7 +3017,7 @@ smaller and smaller analysis windows in an era where crowd sourcing of
 the instrument places microscope time at a premium.
 
 More importantly, with the ability to map out samples it makes
-collaborations between institutions more attractive. ***Figure 32***
+collaborations between institutions more attractive. [](#fig32)
 illustrates how this might work between an institution such as Colorado
 School of Mines (CSM) and Pacific Northwest National Laboratory (PNNL).
 Regardless of what peripherals, detectors, or systems are on a single
@@ -3064,7 +3048,7 @@ be taken into account and the original crystallographic data can be
 translated. The identical fiduciary marker initially recorded is
 measured along with the horizontal flip of the sample, and the
 conversion of the previously noted poles/ZA are quickly achieved. The
-movie included in ***Figure 32*** demonstrates how diffraction patterns
+movie included in [](#fig32) demonstrates how diffraction patterns
 would rotate commensurate with sample rotation in the cradle.
 
 :::{figure} ./images/image40.tiff
