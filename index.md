@@ -42,5 +42,3 @@ under contract DEAC05-76RL01830.
 The authors declare that they have no known competing personal
 relationships or financial interests that could have appeared to
 influence the work in this paper.
-
-[^1]: Desktop Microscopist is a trademark of Desktop Microscopist

@@ -59,6 +59,8 @@ widely available, but there is still not a concise, user-friendly manner
 in which to fully utilize this knowledge for mapping out an entire
 sample.
 
+[^1]: Desktop Microscopist is a trademark of Desktop Microscopist
+
 There is a need for increased speed and efficiency in electron
 microscopy due to a wider field of materials being analyzed, an
 increasing amount of analytical techniques being developed, higher
