@@ -524,10 +524,10 @@ relationship to the rotation matrices detailed in the text. a) Kikuchi
 pattern of a \[111\] pole at 𝜶,:5,10. b) Crystallographic orientations
 of given grains (G1, G2) and angle of rotation $\varphi_c$ about each pole. c
 and d) Rotation about an arbitrary vector through a given angle $\varphi_c$ in
-two different projections. e) Matrix rotation R~loading~ that describes
+two different projections. e) Matrix rotation R{sub}`loading` that describes
 sample rotation (𝝴)about the beam normal \[001\], and vertical and
 horizontal flips about the 𝜶 and 𝜷 axes, respectively. f)Matrix rotation
-R~crystal~ about a given angle ($\varphi_c$). g) Matrix rotation R{sub}`stage`
+R{sub}`crystal` about a given angle ($\varphi_c$). g) Matrix rotation R{sub}`stage`
 describing the found pole back to the stage tilts. h and i) Movies
 showing stage motion.
 :::
