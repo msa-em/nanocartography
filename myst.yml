@@ -17,6 +17,32 @@ project:
   numbering:
     heading_2: true
     heading_3: true
+  abbreviations:
+    GPS: Global Positioning System
+    S/TEM: Transmission and Scanning Transmission Electron Microscope
+    STEM: Scanning Transmission Electron Microscope
+    TEM: Transmission Electron Microscope
+    DNA: Deoxyribonucleic Acid
+    CCD: Charge-coupled Device
+    ZA: Zone Axis
+    FCC: Face-Centered Cubic
+    BCC: Body-Centered Cubic
+    CBED: Convergent Beam Electron Diffraction
+    HAADF: High Angle Annular Darkfield
+    BF: Bright Field
+    PED: Precession Electron Diffraction
+    SEM: Scanning Electron Microscopy
+    APT: Atom Probe Tomography
+    FW: Foil Width
+    IL: Interface Length
+    EBSD: Electron Backscatter Diffraction
+    SCC: Stress Corrosion Cracking
+    SAD: Selected Area Diffraction
+    CSM: Colorado School of Mines
+    PNNL: Pacific Northwest National Laboratory
+    EDS: Energy-dispersive Spectroscopy
+    IPF: Inverse Pole Figure
+    DOE: Department of Energy
 site:
   template: book-theme
   title: Nanocartography
