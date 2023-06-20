@@ -4,12 +4,12 @@ project:
   title: 'Nanocartography: Planning for success in analytical electron microscopy'
   short_title: Nanocartography
   authors:
-    - name: Olszta, M.J.
+    - name: Matthew K Olszta
       affiliation: Pacific Northwest National Laboratory, Richland, WA 99354, USA
       phone: (509) 371-7217
       fax: (509) 375-3033
       email: matthew.olszta@pnnl.gov
-    - name: Fiedler, K.R.
+    - name: Kevin R Fiedler
       affiliation: Washington State University, Tri-Cities, Richland, WA, 99354, USA
   keywords: []
   # github:
@@ -18,30 +18,31 @@ project:
     heading_2: true
     heading_3: true
   abbreviations:
-    GPS: Global Positioning System
-    S/TEM: Transmission and Scanning Transmission Electron Microscope
-    STEM: Scanning Transmission Electron Microscope
-    TEM: Transmission Electron Microscope
-    DNA: Deoxyribonucleic Acid
-    CCD: Charge-coupled Device
-    ZA: Zone Axis
-    FCC: Face-Centered Cubic
-    BCC: Body-Centered Cubic
-    CBED: Convergent Beam Electron Diffraction
-    HAADF: High Angle Annular Darkfield
-    BF: Bright Field
-    PED: Precession Electron Diffraction
-    SEM: Scanning Electron Microscopy
-    APT: Atom Probe Tomography
-    FW: Foil Width
-    IL: Interface Length
-    EBSD: Electron Backscatter Diffraction
-    SCC: Stress Corrosion Cracking
-    SAD: Selected Area Diffraction
+    GPS: global positioning system
+    S/TEM: transmission and scanning transmission electron microscopy
+    STEM: scanning transmission electron microscopy
+    TEM: transmission electron microscopy
+    DNA: deoxyribonucleic acid
+    CCD: charge-coupled device
+    ZA: zone axis
+    FCC: face-centered cubic
+    BCC: body-centered cubic
+    CBED: vonvergent beam electron diffraction
+    HAADF: high angle annular dark field
+    BF: bright field
+    PED: precession electron diffraction
+    SEM: scanning electron microscopy
+    APT: atom probe tomography
+    FW: foil width
+    IL: interface length
+    EBSD: electron backscatter diffraction
+    SCC: stress corrosion cracking
+    SAD: selected area diffraction
     CSM: Colorado School of Mines
     PNNL: Pacific Northwest National Laboratory
-    EDS: Energy-dispersive Spectroscopy
-    IPF: Inverse Pole Figure
+    EDS: energy-dispersive Spectroscopy
+    XEDS: x-ray energy-dispersive Spectroscopy
+    IPF: inverse pole figure
     DOE: Department of Energy
 site:
   template: book-theme

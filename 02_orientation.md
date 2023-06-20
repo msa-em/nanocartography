@@ -882,7 +882,7 @@ conversion of a crystalline stereographic projection.
 
 To plot the trace of any given crystallographic plane, especially for
 non-cubic systems, the normal to the plane must first be calculated and
-the subsequently converted to the cubic form. This formulation is
+then subsequently converted to the cubic form. This formulation is
 modulated by the crystal structure and structure factor that is
 discussed in detail in the subsequent section. Only the cubic form will
 be discussed herein since the description of the normal to the plane is
