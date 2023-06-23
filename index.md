@@ -28,7 +28,7 @@ collaboration throughout the field.
 
 ## Acknowledgements
 
-The authors acknowledge financial support the U.S. Department of Energy
+The authors acknowledge financial support of the U.S. Department of Energy
 (DOE) Office of Science, Basic Energy Sciences, Materials Sciences and
 Engineering Division. The authors also thank Drs. Larry Thomas, Steven
 Spurgeon, and Libor Kovarik for their fruitful discussions on electron
