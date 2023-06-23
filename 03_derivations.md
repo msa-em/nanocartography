@@ -109,7 +109,7 @@ $$\label{eq42}c_{1} = \frac{\left( x - x_{0} \right)\left( x_{ref} - x_{0} \righ
 
 $$\label{eq43}c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \right) - \left( x - x_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
-:::{figure} ./images/image19.tiff
+:::{figure} ./images/Figure 12.jpg
 :name: fig12
 
 Calibration of digital capture for precise, small angle sample tilting.
@@ -164,7 +164,7 @@ go into more detail, but precise digital control of the beam deflectors
 in TEM mode could be highly beneficial for a wide range of materials
 analyses.
 
-:::{figure} ./images/image20.tiff
+:::{figure} ./images/Figure 13.jpg
 :name: fig13
 
 Example of digital capture darkfield tilting using a
@@ -296,7 +296,7 @@ directions (i.e., \[111\] and \[222\] would not be distinct directions).
 These three vectors can be used to determine the location of their
 respective unit vectors ([](#fig15)d).
 
-:::{figure} ./images/image22.tiff
+:::{figure} ./images/Figure 15.jpg
 :name: fig15
 
 Schematic illustrating how the local misorientation
@@ -528,7 +528,7 @@ stage linear features will rotate when tilted to higher angles. That is
 to say, θ in [](#fig16)a will vary slightly based on the given α,β
 tilt conditions.
 
-:::{figure} ./images/image23.tiff
+:::{figure} ./images/Figure 16.jpg
 :name: fig16
 
 Plotting tip/tilt coordinates for interface analysis. A
@@ -781,7 +781,7 @@ rapid analysis of any number of grain boundaries regardless of
 orientation to one another. After one boundary has been tilted edge on,
 an adjacent boundary width can be measured and then tilted edge on.
 
-:::{figure} ./images/image24.tiff
+:::{figure} ./images/Figure 17.jpg
 :name: fig17
 
 Schematics illustrating calculation of interface on edge
@@ -789,7 +789,7 @@ conditions and sample thickness. a) Sample in original tilt, b) sample
 tilted negatively, and c) sample tilted positively.
 :::
 
-:::{figure} ./images/image25.tiff
+:::{figure} ./images/Figure 18.jpg
 :name: fig18
 
 Tip/tilt map of a theoretical grain boundary tilted edge
@@ -817,7 +817,7 @@ solution of the two adjacent crystal(s), the crystallographic normals
 and planes to the interface can be calculated (solid red arrow in
 [](#fig19)b).
 
-:::{figure} ./images/image26.tiff
+:::{figure} ./images/Figure 19.jpg
 :name: fig19
 
 Schematic illustrating a grain boundary between two
@@ -883,7 +883,7 @@ circle) at α,β:44.8,-85. Using [](#eq52), the angle between (α,β:5,10) and
 axis, the \[-110\] at (α,β:-44.8,-75) would be the vector describing the
 normal to the interface.
 
-:::{figure} ./images/image27.tiff
+:::{figure} ./images/Figure 20.jpg
 :name: fig20
 
 Plotting of a basic FCC crystal where the
@@ -1042,7 +1042,7 @@ compared to plotting the Bragg angle at each point of the trace of the
 plane (b).
 :::
 
-:::{figure} ./images/image30.tiff
+:::{figure} ./images/Figure 23.jpg
 :name: fig23
 
 Plots of a basic cubic crystal and the trace of the
@@ -1095,7 +1095,7 @@ Similarly, using CBED or Ronchigram mode where a Kikuchi pattern can be
 collected ([](#fig24)c), the orientation of the trace of the plane
 at the given tilt conditions can also be plotted.
 
-:::{figure} ./images/image31.tiff
+:::{figure} ./images/Figure 24.jpg
 :name: fig24
 
 Mapping crystallographic planes using (S)TEM images and
@@ -1145,7 +1145,7 @@ a large number of poles within a sample to compare to crystallographic
 mapping programs such as Crystal Maker {cite:p}`palmer2015visualization` or JEMS
 {cite:p}`stadelmann1987ems`.
 
-:::{figure} ./images/image32.tiff
+:::{figure} ./images/Figure 25.jpg
 :name: fig25
 
 ![](./images/image33.png)
