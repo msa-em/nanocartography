@@ -46,7 +46,7 @@ subsequent calibration across tilt space can be applied (e.g., at tilt
 conditions farther from 0,0 the actual α will be some mathematical
 rotation from the calibration at 0,0 depending on location).
 
-:::{figure} ./images/image34.tiff
+:::{figure} ./images/Figure 26.jpg
 :name: fig26
 
 TEM (BF) images showing carbon contamination (mounds)
@@ -110,7 +110,7 @@ collected across the entire tilt stage require slight rotations by which
 to keep the g-vectors aligned. The S-curves illustrated in section 2
 represent the angles by which the planes rotate.
 
-:::{figure} ./images/image35.tiff
+:::{figure} ./images/Figure 27.jpg
 :name: fig27
 
 Calibration of the orientation of the α tilt axis in TEM
@@ -122,7 +122,7 @@ of the central diffracted beam showing the orientation of the sample
 with respect to the diffraction pattern.
 :::
 
-:::{figure} ./images/image36.tiff
+:::{figure} ./images/Figure 28.jpg
 :name: fig28
 
 Calibration of the alpha tilt axis using a single,
@@ -169,7 +169,7 @@ specific crystals or for calculating tilt series calculations) the
 ability to trace Kikuchi bands outside of the tilt limit can be
 beneficial to understanding crystallographic data of an unknown sample.
 
-:::{figure} ./images/image37.tiff
+:::{figure} ./images/Figure 29.jpg
 :name: fig29
 
 Double tilt stage limits as calculated through a
@@ -276,7 +276,7 @@ be beneficial for assuaging scientific reviewers, but would again be
 most beneficial to inexperienced users who are not accustomed to rapid
 identification of specific poles through fingerprinting.
 
-:::{figure} ./images/image38.tiff
+:::{figure} ./images/Figure 30.jpg
 :name: fig30
 
 Determination of orientation of a known cubic crystal by
@@ -353,7 +353,7 @@ exists where both grains are preferentially oriented (e.g., α,β:-28.8,
 the grain boundary is edge on, HAADF atomic column imaging can clearly
 elucidate the boundary conditions.
 
-:::{figure} ./images/image39.tiff
+:::{figure} ./images/Figure 31.jpg
 :name: fig31
 
 Schematics illustrating a protocol for determining the
@@ -409,7 +409,7 @@ At PNNL, regardless of reason, the sample could be loaded in a
 horizontally flipped orientation. The reason for a change in orientation
 could vary from a simple mistake to a geometric necessity (e.g., a
 double tilt holder which can only load the sample with the crescent
-normal to the long axis of the stage to account for the position of EDS
+normal to the long axis of the stage to account for the position of XEDS
 detectors), but because the mathematics derived in this work, this can
 be taken into account and the original crystallographic data can be
 translated. The identical fiduciary marker initially recorded is
