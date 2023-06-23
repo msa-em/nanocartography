@@ -72,7 +72,8 @@ considered, either the biased cell or the cubic cell, and hence biased
 vectors in the tetragonal reference (or native format) are listed as
 \[0,0,1\] and \[1,1,1\], whereas in in the cubic reference they would be
 \[0,0,1\] and \[1,1,2\]. Calculating the angle between these vectors in
-both the biased and the cubic coordinates (through the dot product), it
+both the biased 
+and the cubic coordinates (through the dot product), it
 can be shown that the answers differ by 19.4°, with the calculations for
 the biased system being incorrect (as it will be shown later on in the
 paper, 54.7° is a common angle in the cubic system because it is the
@@ -81,7 +82,7 @@ vectors are converted to the cubic form is the correct answer, 35.3º,
 obtained. A demonstration of this conversion in a more complex,
 hexagonal system is provide in ***Figure S1***.
 
-:::{figure} ./images/image2.tiff
+:::{figure} ./images/Figure 1.jpg
 :name: fig1
 Schematic illustrating how a bias on one of the
 axes (e.g., a tetragonal system) does not provide the correct angle
@@ -110,7 +111,7 @@ notation is used for the hexagonal system). The ability to derive a
 conversion matrix for any given crystal system is necessary to perform
 these operations.
 
-:::{figure} ./images/image3.tiff
+:::{figure} ./images/Figure 2.jpg
 :name: fig2
 Comparison of vector nomenclature in the native hexagonal
 system as compared to the cubic formulation.
@@ -155,7 +156,7 @@ convention, such as the one used by International Tables of
 Crystallography {cite:p}`aroyo2016international`. However, the essence of the method is
 unchanged regardless of the specific convention used.
 
-:::{figure} ./images/image4.tiff
+:::{figure} ./images/Figure 3.jpg
 :name: fig3
 
 Schematic illustrating how to convert any non-cubic
@@ -277,7 +278,7 @@ $$\label{eq5}\begin{matrix}
 \end{matrix}$$
 
 
-:::{figure} ./images/image5.tiff
+:::{figure} ./images/Figure 4.jpg
 :name: fig4
 Geometric stereographic projection (in the \[001\]
 direction) in three dimensions (a) and the corresponding two-dimensional
@@ -356,7 +357,7 @@ necessary to be able to convert a stereographic projection to a tip/tilt
 map for any given crystal system. This can be achieved through rotation
 matrices.
 
-:::{figure} ./images/image6.tiff
+:::{figure} ./images/Figure 5.jpg
 :name: fig5
 
 ![](./images/image7.png)
@@ -516,7 +517,7 @@ through that matrix.
 
 ![](./images/image9.png)
 
-![](./images/image10.tiff)
+![](./images/Figure6.jpg)
 
 Schematic and movies illustrating crystal rotation around
 a single vector/pole in relation to the stage tilt axes and their
@@ -822,7 +823,7 @@ parameters for solid objects in real space. This sets the basis for the
 derivation of crystals in reciprocal space to explain the travel of
 planes of atoms within a crystal.
 
-:::{figure} ./images/image14.tiff
+:::{figure} ./images/Figure 7.jpg
 :name: fig7
 
 Tip/Tilt plots of the cubic system with \[001\],\[111\] at
@@ -895,7 +896,7 @@ axis ($R_{\widehat{r},\theta}$) derived in [](#eq18) with the caveat that
 a more generic derivation can be developed that is not required to tilt
 to the beam direction.
 
-:::{figure} ./images/image15.tiff
+:::{figure} ./images/Figure 8.jpg
 :name: fig8
 
 Schematic illustrating the derivation of traces of
@@ -933,7 +934,7 @@ space, and the *{u}`reason why g-vectors in diffraction patterns collected at di
 g-vector, to these hexagonal planes will be discussed in the next
 section.
 
-:::{figure} ./images/image16.tiff
+:::{figure} ./images/Figure 9.jpg
 :name: fig9
 
 Tip/tilt maps of cubic and hexagonal crystals oriented at
@@ -1146,7 +1147,7 @@ M^{- 1} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-:::{figure} ./images/image17.tiff
+:::{figure} ./images/Figure 10.jpg
 :name: fig10
 
 Schematic of two planes in a tetragonal crystal showing
@@ -1192,7 +1193,7 @@ allowable expressed poles. The use of these lists can then be utilized
 to create tip/tilt maps by which to travel throughout any crystal given
 provided recognition of specific planes and poles is possible ([](#fig11)).
 
-:::{figure} ./images/image18.tiff
+:::{figure} ./images/Figure 11.jpg
 :name: fig11
 
 Schematic showing the use of the structure factor as a
