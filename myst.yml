@@ -44,8 +44,8 @@ project:
     XEDS: x-ray energy-dispersive Spectroscopy
     IPF: inverse pole figure
     DOE: Department of Energy
-thebe:
-    server: true
+  thebe:
+      server: true
 site:
   template: book-theme
   title: Nanocartography
