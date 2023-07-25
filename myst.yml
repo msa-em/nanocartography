@@ -44,12 +44,18 @@ project:
     XEDS: x-ray energy-dispersive Spectroscopy
     IPF: inverse pole figure
     DOE: Department of Energy
+thebe:
+    server: true
 site:
   template: book-theme
   title: Nanocartography
   logo_text: Nanocartography
   nav: []
+  projects:
+      - slug: myst
+        path: .
   actions:
     - title: Learn More
       url: https://myst-tools.org/docs/mystjs
   domains: []
+
