@@ -4,8 +4,7 @@ numbering:
   enumerator: 1.%s
 ---
 
-Prior to the invention of global positioning systems (GPS), humanity
-relied mainly on accurate cartography to optimize navigation {cite:p}`council1995global`. Navigation by cartography was not only confined to terrestrial
+Prior to the invention of global positioning systems (GPS), humanity relied mainly on accurate cartography to optimize navigation {cite:p}`council1995global`. Navigation by cartography was not only confined to terrestrial
 travel, but extraterrestrial travel as well through the knowledge of
 celestial orbits of the moon and planets {cite:p}`gehrz2007nasa`. Yet, even the most detailed maps eventually became outdated and possibly misread or misinterpreted depending on the level of spatial awareness of the
 traveler. The advent of GPS in 1973 eventually brought about a
