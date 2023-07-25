@@ -169,7 +169,7 @@ specific crystals or for calculating tilt series calculations) the
 ability to trace Kikuchi bands outside of the tilt limit can be
 beneficial to understanding crystallographic data of an unknown sample.
 
-:::{figure} ./images/Figure 29.jpg
+:::{figure} #app:superellipse
 :name: fig29
 
 Double tilt stage limits as calculated through a
