@@ -2,10 +2,17 @@ name: guide-tem-simulation
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python>=3.8
+  - numpy
   - scipy
-  - h5py
   - matplotlib
+  - plotly
+  - pyvista
+  - nglview
+  - h5py
+  - imageio
+  - imageio-ffmpeg
   - ipywidgets
+  - ipympl
   - jupyterlab>=4.0.0
   - jupyterlab-myst>=2.0.0
