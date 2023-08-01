@@ -1,4 +1,4 @@
-name: guide-tem-simulation
+name: nanocartography
 channels:
   - conda-forge
 dependencies:
