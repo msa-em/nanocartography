@@ -155,9 +155,9 @@ the corresponding limit of the β tilt. When mapped on the JEOL ARM200CF
 the standard double tilt holder has the shape of a "squircle" or
 superellipse. The superellipse is defined by:
 
-$$\label{eq85}\alpha = a\cos\theta^{\frac{2}{r}}$$
+$$\label{alpha_tilt_limit}\alpha = a\cos\theta^{\frac{2}{r}}$$
 
-$$\label{eq86}\beta = b\sin{\theta^{\frac{2}{r}}}$$
+$$\label{beta_tilt_limit}\beta = b\sin{\theta^{\frac{2}{r}}}$$
 
 Where α and β are the tilt stage readouts, a and b are the α and β tilt
 limits, respectively, and r is a shape factor. [](#fig29) is a plot

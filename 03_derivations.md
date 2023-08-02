@@ -64,12 +64,12 @@ positive α direction \~4-5° (or to the edge of the field of view) such
 that the digital position (x{sub}`ref`,y{sub}`ref`) can be calibrated to the tilt
 (green dot/circle in [](#fig12)). This position will be denoted as
 the calibration, and a calibration vector can be produced by subtracting
-the reference position from the origin. This vector, shown in [](#eq39),
+the reference position from the origin. This vector, shown in Eq. [](#calibration_x),
 is normalized to produce a unit vector in the direction of α tilt. The
 direction of β tilt is perpendicular to this, and the unit vector
-$\widehat{y}$ is shown in [](#eq40).
+$\widehat{y}$ is shown in Eq. [](#calibration_y).
 
-$$\label{eq39}\overset{\rightharpoonup}{x} = \begin{bmatrix}
+$$\label{calibration_x}\overset{\rightharpoonup}{x} = \begin{bmatrix}
 x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
 \end{bmatrix}\ \ \overset{\ }{\Rightarrow}\widehat{x} = \frac{\overset{\rightharpoonup}{x}}{\left| \overset{\rightharpoonup}{x} \right|} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
@@ -77,7 +77,7 @@ x_{ref} - x_{0} \\
 y_{ref} - y_{0} \\
 \end{bmatrix}$$
 
-$$\label{eq40}\widehat{y} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
+$$\label{calibration_y}\widehat{y} = \frac{1}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
 {- (y}_{ref} - y_{0}) \\
 x_{ref} - x_{0} \\
 \end{bmatrix}$$
@@ -87,9 +87,9 @@ The tip/tilt coordinates for any position (x,y) in the field of view
 feature of interest (e.g., zone axis) with the probe by decomposing this
 location into components along $\widehat{x}$ and $\widehat{y}$. The
 decomposition must be solved for the amount along $\widehat{x}$
-($c_{1}$) and the amount along $\widehat{y}$ ($c_{2}$) in [](#eq41).
+($c_{1}$) and the amount along $\widehat{y}$ ($c_{2}$) in Eq. [](#decomposition).
 
-$$\label{eq41}c_{1}\widehat{x} + c_{2}\widehat{y} = \ \begin{bmatrix}
+$$\label{decomposition}c_{1}\widehat{x} + c_{2}\widehat{y} = \ \begin{bmatrix}
 x - x_{0} \\
 y - y_{0} \\
 \end{bmatrix}\overset{\ }{\Rightarrow}\frac{c_{1}}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}\begin{bmatrix}
@@ -105,9 +105,9 @@ y - y_{0} \\
 
 Solving this system of equations for the weights yields:
 
-$$\label{eq42}c_{1} = \frac{\left( x - x_{0} \right)\left( x_{ref} - x_{0} \right) + \left( y - y_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
+$$\label{weight_c1}c_{1} = \frac{\left( x - x_{0} \right)\left( x_{ref} - x_{0} \right) + \left( y - y_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
-$$\label{eq43}c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \right) - \left( x - x_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
+$$\label{weight_c2}c_{2} = \frac{\left( y - y_{0} \right)\left( x_{ref} - x_{0} \right) - \left( x - x_{0} \right)\left( y_{ref} - y_{0} \right)}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
 :::{figure} ./images/Figure 12.jpg
 :name: fig12
@@ -120,7 +120,7 @@ using a scaling factor that was derived from the initial α calibration
 tilt divided by the length of the vector. The equation for scaling
 factor is:
 
-$$\label{eq44}Scaling\ Factor = \frac{\alpha}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
+$$\label{scaling_factor}Scaling\ Factor = \frac{\alpha}{\sqrt{\left( x_{ref} - x_{0} \right)^{2} + \left( y_{ref} - y_{0} \right)^{2}}}$$
 
 Utilization of these formulae allows for precise small angle tilting
 using CBED or a Ronchigram where there could be a high density of
@@ -197,8 +197,8 @@ gauging where the previous region of interest overlaps with the current
 image, a table of stage tilts would be more beneficial to the user.
 Given a desired distance, X, image dimension, Y, and necessary image
 overlap (p, as a fraction) the number of maps necessary to create a
-montaged image is given in [](#eq45). The table of stage positions can
-then be calculated through [](#eq46) where the addition or subtraction of
+montaged image is given in Eq. [](#number_maps). The table of stage positions can
+then be calculated through Eq. [](#stage_position) where the addition or subtraction of
 the (X-Xp) or (Y-Yp) terms are a function of the numbering logic of the
 stage and are added to the previous image coordinates (movie showing
 montaging in [](#fig14)). This of course takes into account the
@@ -209,9 +209,9 @@ accordingly. This also does not consider the movement of backlash within
 the stage, and is only meant as a starting point for creating montaged
 images.
 
-$$\label{eq45}N_{maps} = \ \frac{(X - pY)}{(1 - p)Y}$$
+$$\label{number_maps}N_{maps} = \ \frac{(X - pY)}{(1 - p)Y}$$
 
-$$\label{eq46}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
+$$\label{stage_position}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 
 :::{figure} ./images/image21.png
 :name: fig14
@@ -226,30 +226,30 @@ It is often necessary to calculate the angle between specific tip/tilt
 conditions, as will be demonstrated later when solving unknown crystal
 structures. The derivation for computing the angle between stage tilt
 coordinates (α,β) is based off of the tip/tilt convention, where the
-stage tilt is first rotated about the α tilt axis [](#eq47) and then
-subsequently about the β tilt axis [](#eq48) to the to the beam normal
-\[001\] [](#eq49). That is, given a normalized vector at any tip/tilt
-position (α,β) can be rotated to the \[001\] position [](#eq50).
+stage tilt is first rotated about the α tilt axis Eq. [](#rotation_about_alpha) and then
+subsequently about the β tilt axis Eq. [](#rotation_about_beta) to the to the beam normal
+\[001\] Eq. [](#rotation_alphabeta). That is, given a normalized vector at any tip/tilt
+position (α,β) can be rotated to the \[001\] position Eq. [](#rotate_to_pole).
 
-$$\label{eq47}R_{- \alpha,x} = \begin{bmatrix}
+$$\label{rotation_about_alpha}R_{- \alpha,x} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & \cos\alpha & \sin\alpha \\
 0 & {- sin}\alpha & \cos\alpha \\
 \end{bmatrix}$$
 
-$$\label{eq48}R_{- \beta,y} = \begin{bmatrix}
+$$\label{rotation_about_beta}R_{- \beta,y} = \begin{bmatrix}
 \cos\beta & 0 & {- sin}\beta \\
 0 & 1 & 0 \\
 \sin\beta & 0 & \cos\beta \\
 \end{bmatrix}$$
 
-$$\label{eq49}R_{\theta,total} = R_{- \beta,y}R_{- \alpha,x} = \begin{bmatrix}
+$$\label{rotation_alphabeta}R_{\theta,total} = R_{- \beta,y}R_{- \alpha,x} = \begin{bmatrix}
 \cos\beta & 0 & {- sin}\beta \\
 {\sin\alpha\sin}\beta & \cos\alpha & \sin{\alpha\cos\beta} \\
 \cos\alpha\sin\beta & {- sin}\beta & \cos{\alpha\cos\beta} \\
 \end{bmatrix}$$
 
-$$\label{eq50}R_{\theta,total}\begin{bmatrix}
+$$\label{rotate_to_pole}R_{\theta,total}\begin{bmatrix}
 0 \\
 0 \\
 1 \\
@@ -261,14 +261,14 @@ $$\label{eq50}R_{\theta,total}\begin{bmatrix}
 
 This rotation can be performed for any two sets of tilt conditions,
 $(\alpha_{1},\ \beta_{1})$ and $(\alpha_{2},\ \beta_{2})$, and therefore
-the dot product between two vectors [](#eq51) will provide the angle
-between the two tip/tilt conditions [](#eq52). It should be again be
+the dot product between two vectors Eq. [](#dot_product) will provide the angle
+between the two tip/tilt conditions Eq. [](#angle_between_vectors). It should be again be
 noted that the order of rotation, α then β, is important, and reversal
 of the order will provide erroneous results.
 
-$$\label{eq51}\cos\theta = {{\sin{\beta_{1}\sin\beta_{2}}\cos}\alpha_{1}\cos\alpha_{2} + sin}\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\beta_{1}\cos\beta_{2}$$
+$$\label{dot_product}\cos\theta = {{\sin{\beta_{1}\sin\beta_{2}}\cos}\alpha_{1}\cos\alpha_{2} + sin}\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\beta_{1}\cos\beta_{2}$$
 
-$$\label{eq52}\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\left( \beta_{1} - \beta_{2} \right) \right)$$
+$$\label{angle_between_vectors}\theta = \cos^{- 1}\left( \sin\alpha_{1}\sin\alpha_{2} + \cos\alpha_{1}\cos\alpha_{2}\cos\left( \beta_{1} - \beta_{2} \right) \right)$$
 
 ### Grain Boundary Misorientation
 
@@ -323,9 +323,9 @@ form of the unit vectors (\[100\], \[010\], \[001\]) for the crystal,
 the tilt position vector in Cartesian form (\[x{sub}`A1`,y{sub}`A1`,z{sub}`A1`\]) is
 first required to have the same magnitude as the crystallographic
 vectors (\[u{sub}`A1`,v{sub}`A1`,w{sub}`A1`\]). This can be accomplished by multiplying
-the tilt vector by the length of the crystallographic vector [](#eq53).
+the tilt vector by the length of the crystallographic vector Eq. [](#tiltvector_by_length).
 
-$$\label{eq53}{\overrightarrow{x}}_{A1} = \begin{bmatrix}
+$$\label{tiltvector_by_length}{\overrightarrow{x}}_{A1} = \begin{bmatrix}
 x_{A1} \\
 y_{A1} \\
 z_{A1} \\
@@ -341,19 +341,19 @@ find three Cartesian vectors which add up to the three known vectors
 given the linear combination weights determined by the crystallographic
 poles.
 
-$$\label{eq54}\overrightarrow{p}\  = \begin{bmatrix}
+$$\label{cartesian_p}\overrightarrow{p}\  = \begin{bmatrix}
 p_{Ax} \\
 p_{Ay} \\
 p_{Az} \\
 \end{bmatrix}\sim\lbrack 100\rbrack$$
 
-$$\label{eq55}\overrightarrow{q}\  = \begin{bmatrix}
+$$\label{cartesian_q}\overrightarrow{q}\  = \begin{bmatrix}
 q_{Ax} \\
 q_{Ay} \\
 q_{Az} \\
 \end{bmatrix}\sim\lbrack 010\rbrack$$
 
-$$\label{eq56}\overrightarrow{t}\  = \begin{bmatrix}
+$$\label{cartesian_t}\overrightarrow{t}\  = \begin{bmatrix}
 t_{Ax} \\
 t_{Ay} \\
 t_{Az} \\
@@ -368,11 +368,11 @@ crystal orientation to another (e.g., \[100\] of Crystal A to \[100\] of
 Crystal B). The linear combinations that connect these sets of vectors
 are:
 
-$$\label{eq57}u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}$$
+$$\label{linear_A1}u_{A1}\overrightarrow{p} + v_{A1}\overrightarrow{q} + w_{A1}\overrightarrow{t} = {\overrightarrow{x}}_{A1}$$
 
-$$\label{eq58}u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}$$
+$$\label{linear_A2}u_{A2}\overrightarrow{p} + v_{A2}\overrightarrow{q} + w_{A2}\overrightarrow{t} = {\overrightarrow{x}}_{A2}$$
 
-$$\label{eq59}u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}$$
+$$\label{linear_A3}u_{A3}\overrightarrow{p} + v_{A3}\overrightarrow{q} + w_{A3}\overrightarrow{t} = {\overrightarrow{x}}_{A3}$$
 
 These equations can be solved for the components of the vectors
 $\overrightarrow{p}$, $\overrightarrow{q},$ and $\overrightarrow{t}$
@@ -380,7 +380,7 @@ since there nine equations and nine unknowns. The details of how these
 equations are rearranged are in the Supplemental, but after gathering
 like terms, it is equivalent to the augmented matrix:
 
-$$\label{eq60}\left\lbrack \begin{matrix}
+$$\label{augmented_matrix}\left\lbrack \begin{matrix}
 u_{A1} & v_{A1} & w_{A1} \\
 u_{A2} & v_{A2} & w_{A2} \\
 u_{A3} & v_{A3} & w_{A3} \\
@@ -392,7 +392,7 @@ x_{A3} & y_{A3} & z_{A3} \\
 
 After row reducing this augmented matrix to reduced row echelon form:
 
-$$\label{eq61}\left\lbrack \begin{matrix}
+$$\label{rowechelon}\left\lbrack \begin{matrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1 \\
@@ -416,7 +416,7 @@ right-hand side of the row reduced augmented matrix. This can also be
 described as the unit vector matrix in that it can be used to describe
 the location of the unit vectors for a specific crystal.
 
-$$\label{eq62}R_{A} = \begin{bmatrix}
+$$\label{R_A}R_{A} = \begin{bmatrix}
 p_{Ax} & q_{Ax} & t_{Ax} \\
 p_{Ay} & q_{Ay} & t_{Ay} \\
 p_{Az} & q_{Az} & t_{Az} \\
@@ -426,7 +426,7 @@ The previous rotation matrix was derived for Crystal A [](#eq62), but
 the exact procedure applies to Crystal B without any modifications
 beyond the subscript, and is denoted by:
 
-$$\label{eq63}R_{B} = \begin{bmatrix}
+$$\label{R_B}R_{B} = \begin{bmatrix}
 p_{Bx} & q_{Bx} & t_{Bx} \\
 p_{By} & q_{By} & t_{By} \\
 p_{Bz} & q_{Bz} & t_{Bz} \\
@@ -439,9 +439,9 @@ back to the standard orientation and then to other crystal orientation.
 Mathematically, this is done by using the inverse of the rotation matrix
 to get back to the standard orientation.
 
-$$\label{eq64}M_{A \rightarrow B} = R_{B}R_{A}^{- 1}$$
+$$\label{inverseA_B}M_{A \rightarrow B} = R_{B}R_{A}^{- 1}$$
 
-$$\label{eq65}M_{B \rightarrow A} = R_{A}R_{B}^{- 1}$$
+$$\label{inverseB_A}M_{B \rightarrow A} = R_{A}R_{B}^{- 1}$$
 
 These two overall rotation matrices are the misorientation matrices that
 describe the relative orientation of one crystal to another. Most
@@ -450,7 +450,7 @@ misaligned and about which axis they must be rotated so that they would
 become aligned. This is called the axis-angle representation of the
 rotation matrix. If the general form a misorientation matrix is:
 
-$$\label{eq66}M = \begin{bmatrix}
+$$\label{misorientation_matrix}M = \begin{bmatrix}
 M_{11} & M_{12} & M_{13} \\
 M_{21} & M_{22} & M_{23} \\
 M_{31} & M_{32} & M_{33} \\
@@ -459,9 +459,9 @@ M_{31} & M_{32} & M_{33} \\
 Then the axis-angle representation is, where θ{sub}`M` is the misorientation
 angle and ${\overrightarrow{r}}_{M}$ is the misorientation axis:
 
-$$\label{eq67}\theta_{M} = \cos^{- 1}\left( \frac{M_{11} + M_{22} + M_{33} - 1}{2} \right)$$
+$$\label{misorientation_angle}\theta_{M} = \cos^{- 1}\left( \frac{M_{11} + M_{22} + M_{33} - 1}{2} \right)$$
 
-$$\label{eq68}{\overrightarrow{r}}_{M} = \begin{bmatrix}
+$$\label{misorientation_axis}{\overrightarrow{r}}_{M} = \begin{bmatrix}
 \frac{M_{32} - M_{23}}{2\sin\theta_{M}} \\
 \frac{M_{13} - M_{31}}{2\sin\theta_{M}} \\
 \frac{M_{21} - M_{12}}{2\sin\theta_{M}} \\
@@ -543,16 +543,16 @@ position (e.g., α,β: -5,10 in [](#fig16)a and b) is required to be
 converted into a Cartesian vector similar to what was performed in the
 calculation of the misorientation matrix. In order to calculate the
 vectors parallel and perpendicular to the direction of the interface
-Eqns. [%s](#eq69) and [%s](#eq70) need be derived, respectively. These two vectors lie in
+Eqs. [](#vector_parallel) and [](#vector_perpendicular) need be derived, respectively. These two vectors lie in
 the xy plane and are determined solely by the angle θ.
 
-$$\label{eq69}{\widehat{a}}_{parallel} = \begin{bmatrix}
+$$\label{vector_parallel}{\widehat{a}}_{parallel} = \begin{bmatrix}
 {\ cos}\theta \\
 {\ sin}\theta \\
 0 \\
 \end{bmatrix}$$
 
-$$\label{eq70}{\widehat{b}}_{perpendicular} = \begin{bmatrix}
+$$\label{vector_perpendicular}{\widehat{b}}_{perpendicular} = \begin{bmatrix}
 {- sin}\theta \\
 \cos\theta \\
 0 \\
@@ -560,10 +560,10 @@ $$\label{eq70}{\widehat{b}}_{perpendicular} = \begin{bmatrix}
 
 Section 2 details a rotation about an arbitrary axis (see Supplemental),
 and this will be used to rotate about both the vectors
-${\widehat{a}}_{parallel}$ and ${\widehat{b}}_{perpendicular}$ [](#eq18). The general formula for rotation of angle $\varphi$ about an axis
+${\widehat{a}}_{parallel}$ and ${\widehat{b}}_{perpendicular}$ Eq. [](#rotation_matrix_theta). The general formula for rotation of angle $\varphi$ about an axis
 of rotation $\widehat{u}$ (with length equal to one) is:
 
-$$\label{eq71}\begin{matrix}
+$$\label{rotation_phi_about_u}\begin{matrix}
 R_{\widehat{u},\varphi} = \begin{bmatrix}
 u_{x}^{2} + \left( u_{y}^{2} + u_{z}^{2} \right)\cos\varphi & u_{x}u_{y}\left( 1 - \cos\varphi \right) - u_{z}\sin\varphi & u_{x}u_{z}\left( 1 - \cos\varphi \right) + u_{y}\sin\varphi \\
 u_{x}u_{y}\left( 1 - \cos\varphi \right) + u_{z}\sin\varphi & u_{y}^{2} + \left( u_{x}^{2} + u_{z}^{2} \right)\cos\varphi & u_{y}u_{z}\left( 1 - \cos\varphi \right) - u_{x}\sin\varphi \\
@@ -581,7 +581,7 @@ $\varphi = 1{^\circ}$, hence there will be 360 steps in the series
 before returning to the original orientation. The simplified rotation
 matrices are:
 
-$$\label{eq72}\begin{matrix}
+$$\label{simplified_phi_about_u}\begin{matrix}
 R_{\widehat{a},\varphi} = \begin{bmatrix}
 \cos^{2}\theta + \sin^{2}\theta\cos\varphi & \cos\theta\sin\theta\left( 1 - \cos\varphi \right) & \sin\theta\sin\varphi \\
 \cos\theta\sin\theta\left( 1 - \cos\varphi \right) & \sin^{2}\theta + \cos^{2}\theta\cos\varphi & - \cos\theta\sin\varphi \\
@@ -589,7 +589,7 @@ R_{\widehat{a},\varphi} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq73}\begin{matrix}
+$$\label{simplified_phi_about_b}\begin{matrix}
 R_{\widehat{b},\varphi} = \begin{bmatrix}
 \sin^{2}\theta + \cos^{2}\theta\cos\varphi & - \sin\theta\cos\theta\left( 1 - \cos\varphi \right) & \cos\theta\sin\varphi \\
  - \sin\theta\cos\theta\left( 1 - \cos\varphi \right) & \cos^{2}\theta + \sin^{2}\theta\cos\varphi & \sin\theta\sin\varphi \\
@@ -598,14 +598,14 @@ R_{\widehat{b},\varphi} = \begin{bmatrix}
 \end{matrix}$$
 
 As with all other tip/tilt conversions, the Cartesian vectors calculated
-in Eqns. [%s](#eq72) and [%s](#eq73) need to be converted to tilts through Eqns. [%s](#eq74) and [%s](#eq75)
+in Eqs. [](#simplified_phi_about_u) and [](#simplified_phi_about_b) need to be converted to tilts through Eqs. [](#alpha_final) and [](#beta_final)
 (note these are the same as Eqns. [%s](#eq23) and [%s](#eq24)). These derivations will
 subsequently be utilized to create oblique tilt series and perform
 precise interface orientation calculations.
 
-$$\label{eq74}\alpha_{final} = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)$$
+$$\label{alpha_final}\alpha_{final} = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)$$
 
-$$\label{eq75}\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)$$
+$$\label{beta_final}\beta_{final} = \tan^{- 1}\left( \frac{X}{Z} \right)$$
 
 ### Calculating Interface Orientations/Rapid Grain Boundary Analysis
 
@@ -677,13 +677,13 @@ difference in contrast where the interface intersects the top and bottom
 of the foil. While initially unknown, the interface has an inclination
 angle to the foil normal ([](#fig17), θ{sub}`1`). The projected width
 (w{sub}`1`) can be related to the interface length (IL) by the cosine of the
-inclination angle (θ{sub}`1`, [](#eq76)), and the foil width (FW) can be
-calculated by the sine of the inclination angle [](#eq77). Additionally,
+inclination angle (θ{sub}`1`, Eq. [](#cos_inclination)), and the foil width (FW) can be
+calculated by the sine of the inclination angle Eq. [](#sin_inclination). Additionally,
 while the directionality of the boundary (top left to bottom right, or
 top right to bottom left) is inherently unknown, the manner in which the
 calculations are performed make this orientation irrelevant.
 
-$$\label{eq76}{\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}}$$
+$$\label{cos_inclination}{\cos\left( \theta_{1} \right)}{= \ \frac{w_{1}}{IL}}$$
 
 The angle of the interface's long axis to the α axis can be measured
 (i.e., θ in [](#fig16)a) and using Eqns. [%s](#eq30)-[%s](#eq35), the tilt conditions
@@ -697,7 +697,7 @@ the α axis and a tilt of 10° (θ{sub}`2` or φ) puts the tilt stage at
 
 At this tip/tilt condition, a second apparent grain boundary width
 (w{sub}`2`) can be measured ([](#fig17)b). Depending on magnitude of
-w{sub}`2` as compared to w{sub}`1`, and knowing the foil width (FW), Eqns. [%s](#eq77)-[%s](#eq79)
+w{sub}`2` as compared to w{sub}`1`, and knowing the foil width (FW), Eqs. [](#sin_inclination)-[](#theta_three)
 can be used to calculate the angle necessary to tilt the boundary edge
 on, θ{sub}`3`, of which can be derived in the following manner.
 
@@ -705,7 +705,7 @@ Once tilted, the projected width of the boundary (w{sub}`2`) can be related
 to the angle necessary to tilt the interface on edge (θ{sub}`3`) using
 trigonometry.
 
-$$\label{eq77}{\sin\left( \theta_{3} \right)}{= \ \frac{w_{2}}{IL}}$$
+$$\label{sin_inclination}{\sin\left( \theta_{3} \right)}{= \ \frac{w_{2}}{IL}}$$
 
 The interface length (*IL*) is initially unknown, but is constant
 between tilts and can be found using the Pythagorean Theorem once the
@@ -715,7 +715,7 @@ $$\label{eq78}{IL = \ }{\sqrt{FW^{2} + w_{1}^{2}}}$$
 
 Substituting this above yields the final equation for $\theta_{3}$:
 
-$$\label{eq79}\theta_{3}{= \arcsin\left( \frac{w_{2}}{\sqrt{FW^{2} + w_{1}^{2}}} \right)}$$
+$$\label{theta_three}\theta_{3}{= \arcsin\left( \frac{w_{2}}{\sqrt{FW^{2} + w_{1}^{2}}} \right)}$$
 
 In a double tilt stage the trace of a plane (or boundary in this
 instance) physically rotates due to the S-curve, and therefore there are
@@ -732,7 +732,7 @@ conditions, or utilize the starting tilt conditions (where w{sub}`1` was
 measured) and the measure of the initial interface angle to the α tilt
 axis. The pure tilt (whether θ{sub}`3` or the difference between θ{sub}`2` and
 θ{sub}`3`) will depend on which conditions is chosen. Regardless, either can
-be performed by using Eqns. [%s](#eq76)-[%s](#eq79) to tilt the sample in a positive or
+be performed by using Eqs. [](#cos_inclination)-[](#theta_three) to tilt the sample in a positive or
 negative fashion by θ{sub}`3`.
 
 This can be visually demonstrated in [](#fig18)a where a
@@ -772,7 +772,7 @@ would not tilt past the edge on condition.
 
 As illustrated in [](#fig18)b, if the starting apparent interface
 width is on the order of 10 nm, the boundary is nearly edge on already,
-and a small angle calculation can be utilized (Eqns. [%s](#eq76)-[%s](#eq79)). Instead of
+and a small angle calculation can be utilized (Eqs. [%s](#cos_inclination)-[](#theta_three)). Instead of
 developing a tilt series, these equations can be utilized for small
 angles (1-5°) to tilt a boundary or interface normal to its long
 direction to close the apparent width of the boundary. The utilization
@@ -805,12 +805,12 @@ Predicting and controlling the motion of crystals and interfaces is
 important for grain boundary descriptions, determining growth directions
 of oxides from surfaces, and orientations of facets. In describing the
 relationship between two crystals, the first step is to determine the
-misorientation angle and axis (Eqns. [%s](#eq67) and [%s](#eq68)). This data is
+misorientation angle and axis (Eqs. [](#misorientation_angle) and [](#misorientation_axis)). This data is
 commensurate with what is collected in electron backscatter diffraction
 (EBSD) in SEM, but TEM provides the advantage of further being able to
 describe the grain boundary orientation *(Figure 19*). The inclination
 of the grain boundary with respect to the stage, as shown in [](#fig19)a for grain 1 (G1), is a known variable and can be solved to orient
-the grain boundary edge on (Eqns. [%s](#eq76)-[%s](#eq79)), as shown in [](#fig19)b.
+the grain boundary edge on (Eqs. [](#cos_inclination)-[](#theta_three)), as shown in [](#fig19)b.
 Given these tilt conditions, the angle of the grain boundary to the α
 axis (θ in [](#fig16)a and [](#fig19)b) and the crystallographic
 solution of the two adjacent crystal(s), the crystallographic normals
@@ -826,18 +826,18 @@ oriented edge on to the electron beam (b) shown in both cross-section
 and plan views.
 :::
 
-As has been demonstrated through Eqns. [%s](#eq53)-[%s](#eq62), provided three known
+As has been demonstrated through Eqs. [](#tiltvector_by_length)-[](#R_A), provided three known
 vectors with specific α,β coordinates the unit vectors for the crystal
 (i.e., \[001\]) can be derived, and therefore the vector describing any
 tip/tilt position (α,β coordinates) within that crystal can be described
 (e.g., the blue arrow/dot in [](#fig19)b for G1 in the edge on
 condition). This vector can be calculated by multiplying the rotation
-matrix of the given α,β conditions (Eqns. [%s](#eq47) and [%s](#eq48)) by the unit vector
-matrix [](#eq62) to form a rotation matrix at that specific α,β tilt
-condition [](#eq80). This in effect rotates the unit vector at that
+matrix of the given α,β conditions (Eqs. [](#rotation_about_alpha) and [](#rotation_about_beta)) by the unit vector
+matrix Eq. [](#R_A) to form a rotation matrix at that specific α,β tilt
+condition Eq. [](M_alpha_beta). This in effect rotates the unit vector at that
 specific tilt condition to the beam direction \[001\], and as such
 multiplying the inverse of this matrix $M_{\alpha\beta}^{-1}$ by the beam direction
-will provide the vector at the given tilt conditions [](#eq81).
+will provide the vector at the given tilt conditions Eq. [](u_alpha_beta).
 
 The unit vector matrix, which describes the location of the unit cell
 axes, can be subsequently utilized to calculate the vector normal
@@ -846,27 +846,27 @@ of [](#fig24)b) since the grain boundary plane edge on is
 commensurate with the crystallographic plane. That is to say, along the
 interface the grain boundary can be envisioned to have a corresponding
 plane of atoms in a specific orientation with relationship to the
-adjacent grain. The vector normal [](#eq70) to the long axis can be
+adjacent grain. The vector normal Eq. [](#vector_perpendicular) to the long axis can be
 calculated (dashed line in the plan view of [](#fig24)b) and
 multiplied by the inverse of the tilt condition matrix, $M_{\alpha\beta}^{-1}$. This
 vector describes the current tilt conditions where the grain boundary is
-observed edge on [](#eq82). Instead of calculating the vector parallel
+observed edge on Eq. [](#u_alpha_beta_normal). Instead of calculating the vector parallel
 with the beam direction (\[001\]) the vector normal is substituted
-(\[-sinθ,cosθ,0\], [](#eq82)). This can be corroborated using a generic
+(\[-sinθ,cosθ,0\], Eq. [](#u_alpha_beta_normal)). This can be corroborated using a generic
 cubic crystal with the \[001\] positioned at α,β:0,0 and with the
 \[100\] oriented along the α tilt axis (such as in [](#fig7)a) and
 by subsequently inputting any α,β coordinates the listed vector/pole/ZA
 will be returned (e.g., α,β:24.1,26.6 will be the \[112\]).
 
-$$\label{eq80}M_{\alpha,\beta} = R_{- \beta,y}R_{- \alpha,x}R_{A}$$
+$$\label{m_alpha_beta}M_{\alpha,\beta} = R_{- \beta,y}R_{- \alpha,x}R_{A}$$
 
-$$\label{eq81}{\overset{\rightharpoonup}{u}}_{\alpha\beta} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
+$$\label{u_alpha_beta}{\overset{\rightharpoonup}{u}}_{\alpha\beta} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 0 \\
 0 \\
 1 \\
 \end{bmatrix}$$
 
-$$\label{eq82}{\overset{\rightharpoonup}{u}}_{\alpha\beta,\theta\ normal} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
+$$\label{u_alpha_beta_normal}{\overset{\rightharpoonup}{u}}_{\alpha\beta,\theta\ normal} = M_{\alpha\beta}^{- 1}\ \begin{bmatrix}
 {- sin}\theta \\
 \cos\theta \\
 0 \\
@@ -878,7 +878,7 @@ of a basic FCC crystal with the \[110\] pole plotted at α,β:5,10
 α,β:5,10 with the long axis measured 45° to the α tilt axis (blue line).
 Expansion of the crystallographic tip/tilt plot to ±90° indicates that
 90° from the edge on condition (α,β:5,10), the \[001\] is observed (red
-circle) at α,β:44.8,-85. Using [](#eq52), the angle between (α,β:5,10) and
+circle) at α,β:44.8,-85. Using Eq. [](#angle_between_vectors), the angle between (α,β:5,10) and
 (α,β:44.8,-85) is 90°. If the interface were oriented 135° to the α tilt
 axis, the \[-110\] at (α,β:-44.8,-75) would be the vector describing the
 normal to the interface.
@@ -896,21 +896,20 @@ at α,β: 44.8, -85 (b).
 The mathematics utilized in these derivations are in the cubic or
 Cartesian form, and therefore these vectors need to be converted to the
 native form (for non-cubic systems) through multiplication with the
-inverse conversion matrix that was derived in the Eqns. [%s](#eq1)-[%s](#eq3). In order to
+inverse conversion matrix that was derived in the Eqs. [](#conversion_matrix)-[](#converted_vector). In order to
 calculate the plane of atoms in the native form, the reciprocal lattice
-matrix [](#eq83) must be utilized. Note that this is derived from Eqns.
-28-31, where Eqns. [%s](#eq29)-[%s](#eq31) provide the reciprocal unit vectors and [](#eq28)
+matrix Eq. [](#reciprocal_lattice) must be utilized. Note that this is derived from Eqs.[](#volume_cell)-[](#vector_length_c), where Eqs. [](#vector_length_a)-[](#vector_length_c) provide the reciprocal unit vectors and Eq. [](#volume_cell)
 is the volume of the cell. The calculation of the native plane of atoms
-can be derived by multiplying the vector normal [](#eq84) by the inverse
-of the reciprocal lattice matrix [](#eq83).
+can be derived by multiplying the vector normal Eq. [](#vector_normal) by the inverse
+of the reciprocal lattice matrix Eq. [](#reciprocal_lattice).
 
-$$\label{eq83}M_{reciprocal\ lattice} = \begin{bmatrix}
+$$\label{reciprocal_lattice}M_{reciprocal\ lattice} = \begin{bmatrix}
 \frac{bc\sin\alpha\sin\delta}{V} & 0 & \frac{- ab\cos\beta\sin\delta}{V} \\
 \frac{- bc\sin\alpha\cos\delta}{V} & \frac{ac\sin\beta}{V} & \frac{ab(\sin\alpha\cos{\beta\cos{\delta - \sin\beta\cos{\alpha)}}}}{V} \\
 0 & 0 & \frac{ab\sin\alpha\sin\beta\sin\delta}{V} \\
 \end{bmatrix}$$
 
-$$\label{eq84}{\overset{\rightharpoonup}{u}}_{interface\ normal} = {\overset{\rightharpoonup}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
+$$\label{vector_normal}{\overset{\rightharpoonup}{u}}_{interface\ normal} = {\overset{\rightharpoonup}{u}}_{\alpha\beta,\theta\ normal}M_{reciprocal\ lattice}^{- 1}$$
 
 ### Tilt Series
 
@@ -963,7 +962,7 @@ tilt steps in the interface calculation (φ in [](#fig16)b), and
 most importantly since only small steps are being performed the lack of
 eucentricity on the β is minimized.
 
-The mathematical derivations (Eqns. [%s](#eq69)-[%s](#eq75)) for tilting along or against
+The mathematical derivations (Eqs. [](#vector_parallel)-[](#beta_final)) for tilting along or against
 the long axis of an interface at discrete angular steps regardless of
 orientation (i.e., orthogonal or oblique to the major tilt axes)
 provides the ability to correctly orient interfaces for spectral
@@ -1004,7 +1003,7 @@ following manner.
 
 To be able to mirror the Kikuchi band, the specific orientation at the
 given α,β needs to be rotated by the desired ± Bragg angle about an axis
-[](#eq18) in the direction of the plane normal. In [](#fig23) the
+Eq. [](#rotation_matrix_theta) in the direction of the plane normal. In [](#fig23) the
 trace of a (111) plane in a cubic system is illustrated. While the
 remaining planes and poles are not shown, the crystal orientation is
 commensurate with [](#fig7)a where the \[001\] is plotted at
@@ -1018,13 +1017,13 @@ vector can be derived at every α,β condition along the trace (e.g., at
 Given that a single Kikuchi line scatters at the Bragg angle and
 **g**-vectors (diffraction spots) scatter at twice the Bragg angle, in
 order to plot either, a rotation about an arbitrary axis normal to the
-vector ([](#eq81), i.e., a vector along the trace of the plane as shown in
+vector (Eq. [](#u_alpha_beta), i.e., a vector along the trace of the plane as shown in
 [](#fig23)b) and the plane normal at the desired angle (θ or 2θ)
 must be performed.
 
 The arbitrary vector can be calculated by taking the cross of the normal
 to the trace of the plane (e.g., the \[111\]) and the vector describing
-the trace of the plane (e.g., \[-0.52,-0.28, 0.80\]). Using [](#eq18) with
+the trace of the plane (e.g., \[-0.52,-0.28, 0.80\]). Using Eq. [](#rotation_matrix_theta) with
 this vector as the rotation axis (e.g., \[0.62,-0.77,0.14\]) the vector
 describing the trace of the plane (red circle in [](#fig23)) can be
 rotated about the desired multiple of plus or minus the Bragg angle
@@ -1054,7 +1053,7 @@ planes, so too can kinematical diffraction spots also be plotted in a
 similar fashion, except that instead of plotting lines at the Bragg
 angle, diffraction spots (±) could be plotted at twice the Bragg angle
 at any given tilt position within tip/tilt map. The diffraction spots
-will be dependent upon both the directionality of the plane normal [](#eq34) and the structure factor [](#eq37) as to whether the plane of atoms
+will be dependent upon both the directionality of the plane normal Eq. [](#d-spacing) and the structure factor Eq. [](#structure_factor) as to whether the plane of atoms
 is expressed. As demonstrated by Cautaerts et al., if the accuracy of a
 double tilt stage is sufficient, tilting samples to a two beam condition
 could be utilized in this manner {cite:p}`cautaerts2018alphabeta`.
@@ -1136,7 +1135,7 @@ grain is shown in [](#fig25)c.
 
 Lastly, once a number of poles have been identified and planes traced,
 additional crystallographic information can be garnered from the map.
-For example, the pure tilt angles between poles can be calculated [](#eq52), poles not attainable in the tilt stage will be apparent, and
+For example, the pure tilt angles between poles can be calculated Eq. [](#angle_between_vectors), poles not attainable in the tilt stage will be apparent, and
 finally symmetry of the system can be observed and tested. If a mirror
 plane is suspected, tilting to specific angles to either side of the
 plane can be performed to observe whether identical diffraction patterns
