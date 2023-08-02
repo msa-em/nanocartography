@@ -143,7 +143,7 @@ in the cubic system, albeit with the requirement of a conversion matrix
 for non-cubic systems that will be described next.
 
 The conversion of any non-cubic system (abc) to that of a cubic one
-(xyz) uses a conversion matrix (M) [](#eq1). A schematic of illustrating
+(xyz) uses a conversion matrix (M) Eq. [](#conversion_matrix). A schematic of illustrating
 the two systems is shown in [](#fig3) along with the conversion
 matrix with the full derivation of this conversion matrix is provided in
 the Supplemental (Conversion to cubic in ***Figures S1*** and ***S2***).
@@ -164,8 +164,8 @@ vector coordinate system into a cubic system and the conversion matrix
 (M).
 :::
 
-The derivation of the conversion matrix [](#eq1), which includes the
-angle δ [](#eq2), can be calculated from the principal axis angles
+The derivation of the conversion matrix Eq. [](#conversion_matrix), which includes the
+angle δ Eq. [](#delta), can be calculated from the principal axis angles
 (α,β,γ). The conversion matrix operates by setting one axis in the
 system to be converted equal to one axis in the cubic system (e.g., the
 c axis is first set commensurate with the z-axis in [](#fig3)).
@@ -177,25 +177,25 @@ through sine and cosine functions of the angle β, respectively. Lastly,
 the final axis of the system to be converted to the cubic system (in
 this case b to y) must be decomposed into all three axes of the cubic
 system (a full explanation is provided Supplemental). The introduction
-of a third angle, delta (δ) [](#eq2) must be employed to account for the
+of a third angle, delta (δ) Eq. [](#delta) must be employed to account for the
 less symmetric crystals such as the monoclinic and triclinic where the
 angle γ is not 90°. The conversion of any crystallographic vector in any
 crystal system can then be calculated by multiplying the vector by the
-conversion matrix [](#eq3).
+conversion matrix Eq. [](#converted_vector).
 
 Taking into consideration the \[111\] vector in the tetragonal unit cell
 as exhibited in [](#fig1), when converted to the cubic system it
 can be described as a \[0.5 0.5 1\] (or \[112\]) vector, which is 35.3°
-from the \[001\] in the tetragonal system (the \[001\] converted by [](#eq3) remains the \[001\]). These equations can then be utilized for any of
+from the \[001\] in the tetragonal system (the \[001\] converted by Eq. [](#converted_vector) remains the \[001\]). These equations can then be utilized for any of
 the seven crystal systems for which the angle between vectors (i.e.,
 poles) can be calculated with the understanding that the vectors are
 described in their native form but are calculated in the cubic form (an
 example of a hexagonal system conversion if presented in ***Figure S3***). As such, all the remaining operations will be performed on cubic
 systems with the understanding that it can be generalized to any crystal
-system using the appropriate conversion matrix, or it's inverse.
+system using the appropriate conversion matrix, or its inverse.
 
 $$
-\label{eq1}
+\label{conversion_matrix}
 \begin{matrix}
 M = \ \begin{bmatrix}
 a\sin\beta & b\sin\alpha\cos\delta & 0 \\
@@ -204,11 +204,11 @@ a\cos\beta & b\cos\alpha & c \\
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq2}\begin{matrix}
+$$\label{delta}\begin{matrix}
 \delta = \cos^{- 1}\left( \frac{\cos\gamma - \cos\alpha\cos\beta}{\sin\alpha\sin\beta} \right) \\
 \end{matrix}$$
 
-$$\label{eq3}\begin{matrix}
+$$\label{converted_vector}\begin{matrix}
 Converted\ Vector = M*\begin{bmatrix}
 u \\
 v \\
@@ -254,12 +254,12 @@ of the vector normal to a plane of atoms with the sphere and the top of
 the sphere define a line, as seen in [](#fig4)a. The intersection
 of the line with the plane z = 0 defines the planar coordinates of the
 projection. Mathematically, if a pole is at \[uvw\], then it is
-normalized to have unit length [](#eq4) to find its intersection with
+normalized to have unit length Eq. [](#unit_length) to find its intersection with
 the unit sphere. When observed in two dimensions ([](#fig4)b) the
 relative position of each vector and the trace between the vectors can
-be derived [](#eq5).
+be derived Eq. [](#vector_trace).
 
-$$\label{eq4}\begin{matrix}
+$$\label{unit_length}\begin{matrix}
 \begin{bmatrix}
 \frac{u}{\sqrt{u^{2} + v^{2} + w^{2}}} \\
 \frac{v}{\sqrt{u^{2} + v^{2} + w^{2}}} \\
@@ -270,7 +270,7 @@ $$\label{eq4}\begin{matrix}
 The line connecting the top of the sphere \[0, 0, 1\] and this point
 will intersect the z = 0 plane at
 
-$$\label{eq5}\begin{matrix}
+$$\label{vector_trace}\begin{matrix}
 \begin{bmatrix}
 \frac{u}{\sqrt{u^{2} + v^{2} + w^{2}} - w} \\
 \frac{v}{\sqrt{u^{2} + v^{2} + w^{2}} - w} \\
@@ -298,7 +298,7 @@ orientations of crystals. Most programs will allow for the input of
 specific vectors, and it is worth pointing out that when a non-cubic
 system is visualized the poles/vectors are listed in a native coordinate
 system, but the mathematics are calculated by converting to a cubic
-system as shown above in Eqns. [%s](#eq1)-[%s](#eq3). In the electron microscope, the use
+system as shown above in Eqs. [](#conversion_matrix)-[](#converted_vector). In the electron microscope, the use
 of a double tilt stage adds an additional conversion that must be
 applied in order to travel throughout any crystal due to the limitation
 of the degrees of freedom.
@@ -377,11 +377,11 @@ motion the fundamental mathematical operation being utilized is the
 rotation about a single axis. This rotation is typically described as a
 rotation about any of the primary axes (x,y,z), but more generally, any
 orientation can be described through successive rotations about these
-three axes (Eqns. [%s](#eq6)-[%s](#eq8)). The rotation about any primary axis will be
+three axes (Eqs. [](#rotation_x)-[](#rotation_z)). The rotation about any primary axis will be
 defined by the right-hand rule so that rotation matrices about the x-,
 y-, or z-axis through an angle θ are given by, respectively:
 
-$$\label{eq6}\begin{matrix}
+$$\label{rotation_x}\begin{matrix}
 R_{\theta,x} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & \cos\theta & - \sin\theta \\
@@ -389,7 +389,7 @@ R_{\theta,x} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq7}\begin{matrix}
+$$\label{rotation_y}\begin{matrix}
 R_{\theta,y} = \begin{bmatrix}
 \cos\theta & 0 & \sin\theta \\
 0 & 1 & 0 \\
@@ -397,7 +397,7 @@ R_{\theta,y} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq8}\begin{matrix}
+$$\label{rotation_z}\begin{matrix}
 R_{\theta,z} = \begin{bmatrix}
 \cos\theta & - \sin\theta & 0 \\
 \sin\theta & \cos\theta & 0 \\
@@ -409,10 +409,10 @@ Note that for these rotation matrices they are defined by the angle of
 rotation and the axis about which the rotation occurs. In addition to
 rotations about a single axis (i.e., proper rotations), there are also
 improper rotations (i.e., reflections about an axis) that describe
-mirroring about a single axis (Eqns. [%s](#eq9)-[%s](#eq11)). These can be illustrated in
+mirroring about a single axis (Eqns. [](#mirror_x)-[](#mirror_z)). These can be illustrated in
 matrix form:
 
-$$\label{eq9}\begin{matrix}
+$$\label{mirror_x}\begin{matrix}
 R_{- x} = \begin{bmatrix}
  - 1 & 0 & 0 \\
 0 & 1 & 0 \\
@@ -420,7 +420,7 @@ R_{- x} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq10}\begin{matrix}
+$$\label{mirror_y}\begin{matrix}
 R_{- y} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & - 1 & 0 \\
@@ -428,7 +428,7 @@ R_{- y} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq11}\begin{matrix}
+$$\label{mirror_z}\begin{matrix}
 R_{- z} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
@@ -559,20 +559,20 @@ required that will allow the sample to be reloaded into any microscope
 in any orientation and convert any previously recorded tilt coordinates
 to the current sample loading. The application of these matrices account
 for the sample being flipped in the holder either horizontally
-($R_{horz}$ , [](#eq12)) or vertically ($R_{vert}$ , [](#eq13)) to the long
+($R_{horz}$ , Eq. [](#r_horizontal)) or vertically ($R_{vert}$ , Eq. [](#r_vertical)) to the long
 axis of the holder, and as well if the sample had been rotated in-plane
-by any angle $\varepsilon$ ($R_{{position}_{\varepsilon,z}}$ , [](#eq14))
+by any angle $\varepsilon$ ($R_{{position}_{\varepsilon,z}}$ , Eq. [](#r_position))
 ([](#fig6)e).
 
 The combination of these sample reloading matrices can be combined into
-one matrix $R_{loading}$ as shown in [](#eq15). Note, the angle
+one matrix $R_{loading}$ as shown in Eq. [](#r_loading). Note, the angle
 $\varepsilon$ is measured and recorded through a global fiduciary marker
 (e.g., the surface of a FIB lamella) during each analysis. In the
 instance where there is no horizontal or vertical flip (i.e., the
 initial analysis of the sample), then these matrices are be replaced
 with the identity matrix (i.e., no rotation is applied).
 
-$$\label{eq12}\begin{matrix}
+$$\label{r_horizontal}\begin{matrix}
 R_{horz} = R_{- x}R_{- z} = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & - 1 & 0 \\
@@ -580,7 +580,7 @@ R_{horz} = R_{- x}R_{- z} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq13}\begin{matrix}
+$$\label{r_vertical}\begin{matrix}
 R_{vert} = R_{- y}R_{- z} = \begin{bmatrix}
  - 1 & 0 & 0 \\
 0 & 1 & 0 \\
@@ -588,7 +588,7 @@ R_{vert} = R_{- y}R_{- z} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq14}\begin{matrix}
+$$\label{r_position}\begin{matrix}
 R_{{position}_{\varepsilon,Z}} = \begin{bmatrix}
 \cos\varepsilon & - \sin\varepsilon & 0 \\
 \sin\varepsilon & \cos\varepsilon & 0 \\
@@ -596,7 +596,7 @@ R_{{position}_{\varepsilon,Z}} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq15}\begin{matrix}
+$$\label{r_loading}\begin{matrix}
 R_{loading} = \ R_{position}R_{horz}R_{vert} \\
 \end{matrix}$$
 
@@ -630,14 +630,14 @@ in the direction of the pole from its standard orientation (i.e., at
 $\frac{1}{\sqrt{u^{2} + v^{2} + w^{2}}}(u,\ v,\ w)$ in Cartesian
 coordinates):
 
-$$\label{eq16}\begin{matrix}
+$$\label{theta}\begin{matrix}
 \theta = \cos^{- 1}\left( \frac{w}{\sqrt{u^{2} + v^{2} + w^{2}}} \right) \\
 \end{matrix}$$
 
 The axis of rotation is determined from the cross product of the
 normalized known pole and the beam direction:
 
-$$\label{eq17}\begin{matrix}
+$$\label{axis_r}\begin{matrix}
 \widehat{\mathbf{r}} = \left| \begin{matrix}
 \widehat{\mathbf{x}} & \widehat{\mathbf{y}} & \widehat{\mathbf{z}} \\
 0 & 0 & 1 \\
@@ -647,9 +647,9 @@ $$\label{eq17}\begin{matrix}
 
 For these specific axes of rotation that have no z-component (i.e., in
 the derivation of tip/tilt maps), and the general result simplifies to
-(where *r{sub}`x`* and *r{sub}`y`* are derived from [](#eq17), and θ from [](#eq16)):
+(where *r{sub}`x`* and *r{sub}`y`* are derived from Eq. [](#axis_r), and θ from Eq. [](#theta)):
 
-$$\label{eq18}\begin{matrix}
+$$\label{rotation_matrix_theta}\begin{matrix}
 R_{\widehat{\mathbf{r}},\theta} = \begin{bmatrix}
 r_{x}^{2} + r_{y}^{2}\cos\theta & r_{x}r_{y}\left( 1 - \cos\theta \right) & r_{y}\sin\theta \\
 r_{x}r_{y}\left( 1 - \cos\theta \right) & r_{y}^{2} + r_{x}^{2}\cos\theta & - r_{x}\sin\theta \\
@@ -672,12 +672,12 @@ Supplemental section (***Figure S5***).
 As previously described, in order to orient the crystal with respect to
 the known pole ([](#fig6)a) an additional rotation is required.
 Since the crystal has been rotated to the z-axis, the rotation of the
-crystal through the angle $\varphi_{c}$ about the z-axis ([](#eq8),
+crystal through the angle $\varphi_{c}$ about the z-axis (Eq. [](#rotation_z),
 $R_{\varphi_{c},z}$) will rotate the crystal about the known pole.
 Combining the rotation of the known pole to, and about, the z-axis
 provides the full definition of $R_{crystal}$.
 
-$$\label{eq19}\begin{matrix}
+$$\label{rotation_crystal}\begin{matrix}
 R_{crystal} = R_{\varphi_{c,z}}R_{\widehat{\mathbf{r}},\theta} \\
 \end{matrix}$$
 
@@ -690,10 +690,10 @@ in a two-step process can affect the outcome of the final position, and
 hence order of tilt is a necessary consideration. The rotation of any
 vector to the final tip/tilt location $\alpha$/$\beta$ is accomplished
 by multiplication by $R_{\alpha,x}$ followed by $R_{\beta,y}$. This
-combination is called the rotation matrix of the stage $R_{stage}$ [](#eq20) where the tilt conditions for the known vector α,β are substituted
-in to Eqns. [%s](#eq6) and [%s](#eq7), respectively.
+combination is called the rotation matrix of the stage $R_{stage}$ Eq. [](#rotation_stage) where the tilt conditions for the known vector α,β are substituted
+in to Eqs. [](#rotation_x) and [](#rotation_y), respectively.
 
-$$\label{eq20}\begin{matrix}
+$$\label{rotation_stage}\begin{matrix}
 R_{stage} = \ R_{\beta,y}R_{\alpha,x} \\
 \end{matrix}$$
 
@@ -712,7 +712,7 @@ projection as compared to the tip/tilt map ([](#fig5)).
 To summarize this set of operations, the action of all these rotations
 in concert can be summarized in the total rotation matrix:
 
-$$\label{eq21}\begin{matrix}
+$$\label{rotation_total}\begin{matrix}
 R_{total} = \ R_{stage}R_{crystal}R_{loading} \\
 \end{matrix}$$
 
@@ -725,7 +725,7 @@ Cartesian coordinates, where $X^{2} + Y^{2} + Z^{2} = 1$. This
 conversion amounts to solving for the angles $\alpha$/$\beta$ that
 satisfy:
 
-$$\label{eq22}\begin{matrix}
+$$\label{alpha_beta_coordinates}\begin{matrix}
 \begin{bmatrix}
 \cos\beta & 0 & \sin\beta \\
 0 & 1 & 0 \\
@@ -748,11 +748,11 @@ Z \\
 After multiplying and solving the individual equations, the final tilt
 angles are:
 
-$$\label{eq23}\begin{matrix}
+$$\label{alpha_tilt}\begin{matrix}
 \alpha = \tan^{- 1}\left( - \frac{Y}{\sqrt{X^{2} + Z^{2}}} \right)\  \\
 \end{matrix}$$
 
-$$\label{eq24}\begin{matrix}
+$$\label{beta_tilt}\begin{matrix}
 \beta = \tan^{- 1}\left( \frac{X}{Z} \right)\  \\
 \end{matrix}$$
 
@@ -1004,13 +1004,13 @@ discussion of non-cubic systems is broached the introduction of the
 angle between planes is introduced without further explanation (e.g.,
 hexagonal systems).
 
-The conversion of any pole within any crystal was demonstrated in Eqns.
-[%s](#eq1)-[%s](#eq3), but this was considered in the realm of real space.
+The conversion of any pole within any crystal was demonstrated in Eqs.
+[](#conversion_matrix)-[](#converted_vector), but this was considered in the realm of real space.
 Crystallographic analysis with regards to diffraction is always
 considered in reciprocal space, and hence the derivation of the normal
 to any crystallographic plane is necessary. The unit vectors in
 reciprocal space must be derived by first considering the unit vectors
-in real space (i.e., the \[100\], \[010\] and \[001\]) (Eqns. [%s](#eq25)-[%s](#eq27)).
+in real space (i.e., the \[100\], \[010\] and \[001\]) (Eqs. [](#unit_vector_x)-[](#unit_vector_z)).
 For a cubic system this simply becomes \[a00\], \[0b0\], and \[00c\]
 because the orthogonal nature of the crystal precludes any of the
 trigonometric operators in the conversion matrix from being anything
@@ -1021,9 +1021,9 @@ because of the orthogonality of α, β, and γ, save for the magnitude of
 c. When these three angles are not mutually orthogonal, the length of
 the unit vectors is a combination of the lengths of the unit cell and
 angles describing the cell as calculated by the conversion matrix
-[](#eq1) multiplied by the unit axes vectors:
+Eq. [](#conversion_matrix) multiplied by the unit axes vectors:
 
-$$\label{eq25}\begin{matrix}
+$$\label{unit_vector_x}\begin{matrix}
 M\begin{bmatrix}
 1 \\
 0 \\
@@ -1035,7 +1035,7 @@ a\cos\beta \\
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq26}\begin{matrix}
+$$\label{unit_vector_y}\begin{matrix}
 \ M\begin{bmatrix}
 0 \\
 1 \\
@@ -1047,7 +1047,7 @@ b\cos\alpha \\
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq27}\begin{matrix}
+$$\label{unit_vector_z}\begin{matrix}
 M\begin{bmatrix}
 0 \\
 0 \\
@@ -1061,16 +1061,16 @@ c \\
 
 Once the unit vectors in real space have been derived, the unit vectors
 in reciprocal space are then formulated by crossing the opposite unit
-vectors in real space and then dividing by the volume of the cell [](#eq28) to gain the lengths of the unit vectors in reciprocal space (Eqns.
-[%s](#eq29)-[%s](#eq31)). The volume of any parallelepiped can be calculated by taking the
+vectors in real space and then dividing by the volume of the cell Eq.[](#volume_cell) to gain the lengths of the unit vectors in reciprocal space (Eqs.
+[](#vector_length_a)-[](#vector_length_c)). The volume of any parallelepiped can be calculated by taking the
 cross product of two of the unit vectors dotted by the third. In
-condensed form it appears in [](#eq28).
+condensed form it appears in Eq. [](#volume_cell).
 
-$$\label{eq28}\begin{matrix}
+$$\label{volume_cell}\begin{matrix}
 V = (axb) \bullet c = abc\sqrt{1 - {\cos\alpha}^{2} - {\cos\beta}^{2} - {\cos\gamma}^{2} + 2\cos\alpha\cos\beta\cos\gamma} \\
 \end{matrix}$$
 
-$$\label{eq29}\begin{matrix}
+$$\label{vector_length_a}\begin{matrix}
 \underline{a} = \frac{\widehat{b}\  \times \ \widehat{c}}{V} = \begin{bmatrix}
 \frac{bc\sin\alpha\sin\delta}{V} \\
 \frac{- bc\sin\alpha\cos\delta}{V} \\
@@ -1078,7 +1078,7 @@ $$\label{eq29}\begin{matrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq30}\begin{matrix}
+$$\label{vector_length_b}\begin{matrix}
 \underline{b} = \frac{\ \widehat{c}\  \times \widehat{a}}{V} = \begin{bmatrix}
 0 \\
 \frac{ac\sin\beta}{V} \\
@@ -1086,7 +1086,7 @@ $$\label{eq30}\begin{matrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq31}\begin{matrix}
+$$\label{vector_length_c}\begin{matrix}
 \underline{c} = \frac{\widehat{a}\  \times \ \widehat{b}}{V} = \begin{bmatrix}
 \frac{- ab\cos\beta\sin\delta}{V} \\
 \frac{ab(\sin\alpha\cos{\beta\cos{\delta - \sin\beta\cos{\alpha)}}}}{V} \\
@@ -1095,20 +1095,20 @@ $$\label{eq31}\begin{matrix}
 \end{matrix}$$
 
 The cubic unit cell can then be calculated by combining the reciprocal
-unit vectors (Eqns. [%s](#eq29)-[%s](#eq31)) into a 3x3 matrix which can then be used to
-calculate the g-vector [](#eq32) in the cubic form for any plane.
+unit vectors (Eqs. [](#vector_length_a)-[](#vector_length_c)) into a 3x3 matrix which can then be used to
+calculate the g-vector Eq. [](#g_vector) in the cubic form for any plane.
 Derivation of the inverse of this matrix multiplied by a given native
 normal will provide the plane associated with that pole. It should be
 noted that while the native description of the plane of atoms (hkl)
 (e.g., (111) tetragonal c/a =2) is utilized for this calculation, the
 resultant g-vector is in cubic form. As previously noted, the cubic form
 is necessary to plot planes of atoms in a tip/tilt map, as well
-calculate the angle between planes [](#eq33) and determine the d-spacing
-of plane ([](#eq34), the distance between any plane is then is the length
+calculate the angle between planes Eq. [](#angle_planes) and determine the d-spacing
+of plane (Eq. [](#d_spacing), the distance between any plane is then is the length
 of the normal vector in cubic form). It should be stressed that when
 plotting or representing the planes, the nomenclature for the {u}`native planes` are still used. The description of the native
-normals can also be calculated for demonstration purposes (Eqns. 35 and
-36) by multiplying the cubic description of the normal by the inverse of
+normals can also be calculated for demonstration purposes (Eqs. [](#g_native) and
+[](#inversion_matrix) by multiplying the cubic description of the normal by the inverse of
 the conversion matrix (M{sup}`-1`). The initial example provided in this
 article ([](#fig1)) utilized a tetragonal cell with a c/a ratio of
 2 to demonstrate the calculation of the angle between two vectors. A
@@ -1119,7 +1119,7 @@ normal for the (111) plane. [](#fig10) illustrates that the native
 normal for the (111) is actually the \[441\] (which converts to \[221\]
 in the cubic form).
 
-$$\label{eq32}\begin{matrix}
+$$\label{g_vector}\begin{matrix}
 g_{(hkl)} = \begin{bmatrix}
 \frac{hbc\sin\alpha\sin\delta - lab\cos\beta\sin\delta}{V} \\
 \frac{- hbc\sin\alpha\cos{\delta + kac\sin{\beta + l(\sin\alpha\cos{\beta\cos{\delta - \sin\beta\cos{\alpha)}}}}}}{V} \\
@@ -1127,19 +1127,19 @@ g_{(hkl)} = \begin{bmatrix}
 \end{bmatrix} \\
 \end{matrix}$$
 
-$$\label{eq33}\begin{matrix}
+$$\label{angle_planes}\begin{matrix}
 \cos{\theta = \frac{g_{(hkl),1}*g_{(hkl),2}}{\left| g_{(hkl),1} \right|*\left| g_{(hkl),2} \right|}} \\
 \end{matrix}$$
 
-$$\label{eq34}\begin{matrix}
+$$\label{d_spacing}\begin{matrix}
 d_{hkl} = \frac{1}{\sqrt{{g_{(hkl)}}^{2}}} \\
 \end{matrix}$$
 
-$$\label{eq35}\begin{matrix}
+$$\label{g_native}\begin{matrix}
 g_{native(hkl)} = M^{- 1}*g_{(hkl)} \\
 \end{matrix}$$
 
-$$\label{eq36}\begin{matrix}
+$$\label{inversion_matrix}\begin{matrix}
 M^{- 1} = \begin{bmatrix}
 \frac{1}{a\sin\beta} & \frac{- \cos\delta}{a\sin\beta\sin\delta} & 0 \\
 0 & \frac{1}{b\sin\alpha\sin\delta} & 0 \\
@@ -1210,7 +1210,7 @@ the 230 possible space groups within these systems, not to mention the
 increased complexity of quasi-crystals and quasi-crystal approximants.
 In order to distinguish which planes within each crystal will diffract,
 the position and scattering power of each atom is considered. The
-equation for the structure factor [](#eq37) is provided below for any
+equation for the structure factor Eq. [](#structure_factor) is provided below for any
 given plane of atoms described by (hkl), and depending on whether the
 solution is 1 or 0 dictates whether or not the plane will diffract,
 respectively. This can be further expanded to account for more complex
@@ -1218,7 +1218,7 @@ crystals with any number of atoms each at any position within the unit
 cell. Note that since the atomic positions of each atom are used, there
 need not be any conversion from non-cubic systems.
 
-$$\label{eq37}\begin{matrix}
+$$\label{structure_factor}\begin{matrix}
 F_{hkl} = \sum_{j = 1}^{N}{\sum f_{j}}e^{\left\lbrack - 2\pi i\left( hx_{j} + ky_{j} + lz_{j} \right) \right\rbrack} \\
 \end{matrix}$$
 
@@ -1230,11 +1230,11 @@ planes could be plotted in either a stereographic projection or tip/tilt
 map, of which they would automatically intersect at the possible poles
 expressed for each crystal. Moreover, a combination of allowable poles
 could be derived by determining only those planes that satisfy the Weiss
-Zone law [](#eq38). Depending on the definition of applicable poles
+Zone law Eq. [](#zone_law). Depending on the definition of applicable poles
 (i.e., which poles exhibited appreciable Bragg diffraction spots), the
-positions of those poles could be calculated using [](#eq38) and plotted.
+positions of those poles could be calculated using Eq. [](#zone_law) and plotted.
 
-$$\label{eq38}\begin{matrix}
+$$\label{zone_law}\begin{matrix}
 hu*kv*lw = 0\ given\ \lbrack uvw\rbrack\ and\ (hkl) \\
 \end{matrix}$$
 
