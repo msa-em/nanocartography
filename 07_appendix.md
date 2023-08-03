@@ -10,12 +10,12 @@ In order to perform math on any crystal system it is first necessary to transfor
 
 To understand how δ is related to the known quantities, a set of geometric objects is shown in [](#figA2) to break down the calculation into smaller steps.  Using the law of cosines on the triangle in the xy plane gives a relationship between the lengths of the three sides and the angle δ.
 
-$$\label{law_cosines} D^2=\ \left(asin{\beta}\right)^2+\left(b\ sin{\alpha}\right)^2-2\left(asin{\beta}\right)\left(bsin{\alpha}\right)cos{\delta}
+$$\label{law_cosines} D^2=\ \left(a \sin{\beta}\right)^2+\left(b\sin{\alpha}\right)^2-2\left(a\sin{\beta}\right)\left(b\sin{\alpha}\right)\cos{\delta}
 $$
 
 This has introduced another quantity, D, which is the length of the side of the triangle opposite the angle δ.   Solving for δ yields:
 
-$$\label{delta} \delta={cos}^{-1}{\left(\frac{\left(asin{\beta}\right)^2+\left(b\ sin{\alpha}\right)^2-D^2}{2absin{\alpha}sin{\beta}}\right)}$$
+$$\label{delta} \delta={\cos}^{-1}{\left(\frac{\left(a\sin{\beta}\right)^2+\left(b\sin{\alpha}\right)^2-D^2}{2ab\sin{\alpha}\sin{\beta}}\right)}$$
 
 :::{figure} ./images/Figure A1.jpg
 :name: figA1
@@ -24,15 +24,15 @@ Schematics illustrating step-by-step derivation of the non-cubic to cubic conver
 
 To find the value of D, the Pythagorean Theorem is used on the right triangle with D as the base.
 
-$$\label{d_squared}\ D^2+\left(acos{\beta}-bcos{\alpha}\right)^2=G^2 $$
+$$\label{d_squared}\ D^2+\left(a\cos{\beta}-b\cos{\alpha}\right)^2=G^2 $$
 
 In this equation, G, is the side opposite the angle γ in the triangle which has legs a and b.  The law of cosines is also applied here to find:
 
-$$\label{g_squared}\ G^2=a^2+b^2-2abcos{\gamma} $$
+$$\label{g_squared}\ G^2=a^2+b^2-2ab\cos{\gamma} $$
 
 Eliminating G^2 to find D^2 and then substituting back into the equation for δ and simplifying the trigonometric functions yields a simplified expression:
 
-$$\label{appendix_delta} \delta={cos}^{-1}{\left(\frac{cos{\gamma}+cos{\alpha}cos{\beta}}{sin{\alpha}sin{\beta}}\right)}$$
+$$\label{appendix_delta} \delta={\cos}^{-1}{\left(\frac{\cos{\gamma}+\cos{\alpha}\cos{\beta}}{\sin{\alpha}\sin{\beta}}\right)}$$
 
 :::{figure} ./images/Figure A2.jpg
 :name: figA2
@@ -41,11 +41,11 @@ $$\label{appendix_delta} \delta={cos}^{-1}{\left(\frac{cos{\gamma}+cos{\alpha}co
 
 With the angle $\delta$ known, the full expression for the conversion matrix is what was presented above in the text as Eq. [](#conversion_matrix_appendix):
 
-$$\label{conversion_matrix_appendix} M=\ \left[\begin{matrix}asin{\beta}&bsin{\alpha}cos{\delta}&0\\0&bsin{\alpha}sin{\delta}&0\\acos{\beta}&bcos{\alpha}&c\\\end{matrix}\right]$$
+$$\label{conversion_matrix_appendix} M=\ \left[\begin{matrix}a\sin{\beta}&b\sin{\alpha}\cos{\delta}&0\\0&b\sin{\alpha}\sin{\delta}&0\\a\cos{\beta}&b\cos{\alpha}&c\\\end{matrix}\right]$$
 
 This matrix will convert a vector from a non-cubic system to a cubic system after matrix multiplication. The reverse process (going from cubic to a non-cubic system) is accomplished by multiplying by the inverse matrix.  The inverse matrix for M is:
 
-$$\label{inversion_matrix_appendix} M^{-1}=\left[\begin{matrix}\frac{1}{asin{\beta}}&\frac{-cos{\delta}}{asin{\beta}sin{\delta}}&0\\0&\frac{1}{bsin{\alpha}sin{\delta}}&0\\\frac{-cos{\beta}}{csin{\beta}}&\frac{cos{\beta}sin{\alpha}cos{\delta}-sin{\beta}cos{\alpha}}{csin{\alpha}sin{\beta}sin{\delta}}&\frac{1}{c}\\\end{matrix}\right]$$
+$$\label{inversion_matrix_appendix} M^{-1}=\left[\begin{matrix}\frac{1}{a\sin{\beta}}&\frac{-\cos{\delta}}{a\sin{\beta}\sin{\delta}}&0\\0&\frac{1}{b\sin{\alpha}\sin{\delta}}&0\\\frac{-\cos{\beta}}{c\sin{\beta}}&\frac{\cos{\beta}\sin{\alpha}\cos{\delta}-\sin{\beta}\cos{\alpha}}{c\sin{\alpha}\sin{\beta}\sin{\delta}}&\frac{1}{c}\\\end{matrix}\right]$$
 
 ### Hexagonal to Cubic
 
@@ -69,7 +69,7 @@ To describe this general rotation, a sequence of steps can be used to decompose 
 The axis of rotation is a unit vector, $\hat{\mathbf{u}}=(u_x,\ u_y,\ u_z)$ and the desired angle of rotation about this axis is θ.  Without loss of generality, the arbitrary axis will be rotated to the x-axis where the rotation by θ occurs.  First, $\hat{\mathbf{u}}$ rotates into the x-y plane by rotating about the y-axis by an angle $φ_{1}$.  This angle is computed by the requirement that the resulting vector, $\widehat{\mathbf{u}_\mathbf{1}}=(u_{1,x},\ u_{1,y},0)$ has no y-component.  The angle $φ_{1}$ which accomplishes this rotation is $\varphi_1=\tan^{-1}{\left(\frac{u_z}{u_x}\right)}$ and can be found from the z-component (Figure S5). 
 
 
-$$\label{math_matrix} \left[\begin{matrix}cos{\varphi_1}&0&sin{\varphi_1}\\0&1&0\\-sin{\varphi_1}&0&cos{\varphi_1}\\\end{matrix}\right]\left[\begin{matrix}u_x\\u_y\\u_z\\\end{matrix}\right]=\ \left[\begin{matrix}u_xcos{\varphi_1}+u_zsin{\varphi_1}\\u_y\\{-u}_xsin{\varphi_1}+u_zcos{\varphi_1}\\\end{matrix}\right]=\ \left[\begin{matrix}u_{1,x}\\u_{1,y}\\0\\\end{matrix}\right]$$
+$$\label{math_matrix} \left[\begin{matrix}\cos{\varphi_1}&0&\sin{\varphi_1}\\0&1&0\\-\sin{\varphi_1}&0&\cos{\varphi_1}\\\end{matrix}\right]\left[\begin{matrix}u_x\\u_y\\u_z\\\end{matrix}\right]=\ \left[\begin{matrix}u_x\cos{\varphi_1}+u_z\sin{\varphi_1}\\u_y\\{-u}_x\sin{\varphi_1}+u_z\cos{\varphi_1}\\\end{matrix}\right]=\ \left[\begin{matrix}u_{1,x}\\u_{1,y}\\0\\\end{matrix}\right]$$
 
 In particular, since the y-component is unchanged $(u_y=u_{1,y})$ and the magnitude of the vector is still 1, this intermediate vector can be written as $\widehat{\mathbf{u}_\mathbf{1}}=\left(\sqrt{1-u_y^2},u_y,\ 0\right)$.  Next, the vector $\widehat{\mathbf{u}_\mathbf{1}}$ is rotated to point along the x-axis.  This rotation is by an angle $φ_{2}$ about the z-axis and the angle is determined by the requirement that the resulting vector should have no x-component.  This angle is $\varphi_2=\tan^{-1}{\left(\frac{-u_y}{\sqrt{1-u_y^2}}\right)}$ as can be seen by equating the y-component of the vector to 0.  
 
@@ -81,12 +81,11 @@ $$\label{rotation_matrix_appendix} R_{\hat{u},\theta}=R_{-φ1,y} R_{-φ2,z} R_{�
 
 In this equation, each rotation matrix is defined by the angle and the axis about which the rotation occurs.  Note that the negative angle rotations are undoing the initial rotations to bring the vector to the x-axis and are the inverses of the first two rotations which can be found by taking the transpose of the $R_{φ_{1},x}$ and $R_{φ_{2},y}$ since for any rotation matrix, $R^{-1}=R^{T}$.  If we express these matrices in terms of the matrices and simplify the trigonometric expressions in terms of the components of $\hat{\mathbf{u}}$, then the matrix product is:
 
-$$\label{matrix_product} R_{\hat{u},\theta}=\left[\begin{matrix}\frac{u_x}{\sqrt{u_x^2+u_z^2}}&0&\frac{{-u}_z}{\sqrt{u_x^2+u_z^2}}\\0&1&0\\\frac{u_z}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_x}{\sqrt{u_x^2+u_z^2}}\\\end{matrix}\right]\left[\begin{matrix}\sqrt{1-u_y^2}&{-u}_y&0\\u_y&\sqrt{1-u_y^2}&0\\0&0&1\\\end{matrix}\right]\left[\begin{matrix}1&0&0\\0&cos{\theta}&-sin{\theta}\\0&sin{\theta}&cos{\theta}\\\end{matrix}\right]\left[\begin{matrix}\sqrt{1-u_y^2}&u_y&0\\-u_y&\sqrt{1-u_y^2}&0\\0&0&1\\\end{matrix}\right]\left[\begin{matrix}\frac{u_x}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_z}{\sqrt{u_x^2+u_z^2}}\\0&1&0\\\frac{{-u}_z}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_x}{\sqrt{u_x^2+u_z^2}}\\\end{matrix}\right]$$
+$$\label{matrix_product} R_{\hat{u},\theta}=\left[\begin{matrix}\frac{u_x}{\sqrt{u_x^2+u_z^2}}&0&\frac{{-u}_z}{\sqrt{u_x^2+u_z^2}}\\0&1&0\\\frac{u_z}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_x}{\sqrt{u_x^2+u_z^2}}\\\end{matrix}\right]\left[\begin{matrix}\sqrt{1-u_y^2}&{-u}_y&0\\u_y&\sqrt{1-u_y^2}&0\\0&0&1\\\end{matrix}\right]\left[\begin{matrix}1&0&0\\0&\cos{\theta}&-\sin{\theta}\\0&\sin{\theta}&\cos{\theta}\\\end{matrix}\right]\left[\begin{matrix}\sqrt{1-u_y^2}&u_y&0\\-u_y&\sqrt{1-u_y^2}&0\\0&0&1\\\end{matrix}\right]\left[\begin{matrix}\frac{u_x}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_z}{\sqrt{u_x^2+u_z^2}}\\0&1&0\\\frac{{-u}_z}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_x}{\sqrt{u_x^2+u_z^2}}\\\end{matrix}\right]$$
 
 After matrix multiplication and simplification, recalling that the magnitude of $\hat{\mathbf{u}}$ is one $({u_x^2+u}_y^2+u_z^2=1)$, the full matrix for rotation of angle θ about an axis of rotation $\hat{\mathbf{u}}$ is:
 
-$$\label{rot_theta_about_u} R_{\hat{u},\theta}=\left[\begin{matrix}\frac{u_x}{\sqrt{u_x^2+u_z^2}}&0&\frac{{-u}_z}{\sqrt{u_x^2+u_z^2}}\\0&1&0\\\frac{u_z}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_x}{\sqrt{u_x^2+u_z^2}}\\\end{matrix}\right]\left[\begin{matrix}\sqrt{1-u_y^2}&{-u}_y&0\\u_y&\sqrt{1-u_y^2}&0\\0&0&1\\\end{matrix}\right]\left[\begin{matrix}1&0&0\\0&cos{\theta}&-sin{\theta}\\0&sin{\theta}&cos{\theta}\\\end{matrix}\right]\left[\begin{matrix}\sqrt{1-u_y^2}&u_y&0\\-u_y&\sqrt{1-u_y^2}&0\\0&0&1\\\end{matrix}\right]\left[\begin{matrix}\frac{u_x}{\sqrt{u_x^2+u_z^2}}&0&\frac{u_z}{\sqrt{u_x^2+u_z^2}}\\0&1&0\\\frac{{-u}_z}
-{\sqrt{u_x^2+u_z^2}}&0&\frac{u_x}{\sqrt{u_x^2+u_z^2}}\\\end{matrix}\right]$$
+$$\label{rot_theta_about_u} R_(\hat{r},θ)=\left[\begin{matrix}u_x^2+(u_y^2+u_z^2 )  \cos⁡\theta & u_x u_y (1-\cos⁡θ )-u_z  \sin⁡θ & u_x u_z (1-\cos⁡θ )+u_y \sin⁡θ \\ u_x u_y (1-\cos⁡θ )+u_z  \sin⁡θ&u_y^2+(u_x^2+u_z^2 )\cos⁡θ & u_y u_z (1-\cos⁡θ )-u_x  \sin⁡θ\\ u_x u_z (1-\cos⁡θ )-u_y  \sin⁡θ & u_y u_z (1-\cos⁡θ )+u_x  \sin⁡θ & u_z^2+(u_x^2+u_y^2 )  \cos⁡ θ \end{matrix}\right]$$
 
 ::: {figure} ./images/Figure A4.jpg
 :name: figA4
