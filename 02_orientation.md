@@ -20,13 +20,13 @@ beam interactions eventually becomes more intuitive.
 
 Before any notion involving the addition of atomic positions to the
 discussion of crystallography and materials science, a general treatment
-of planes, plane normals, and other basic geometric constructs need be
+of planes, plane normals, and other basic geometric constructs needs to be
 introduced and understood. This is necessary for a variety of reasons,
 most importantly of which is that it will provide a more solid
 foundation for both tilting throughout crystallographic space, as well
 as in general lay a solid groundwork for explaining Miller indices,
 Bravais lattices, and other such constructs. The extent of this
-discussion on geometry, while basic on some level is necessary to
+discussion on geometry, while basic on some level, is necessary to
 further build upon the knowledge base of crystallographic analysis.
 
 The simplest geometrical concept in crystallography is the cube due to
@@ -80,7 +80,7 @@ paper, 54.7° is a common angle in the cubic system because it is the
 angle between the \[001\] and \[111\] poles). Only when the native
 vectors are converted to the cubic form is the correct answer, 35.3º,
 obtained. A demonstration of this conversion in a more complex,
-hexagonal system is provide in ***Figure S1***.
+hexagonal system is provide in [](#figA3).
 
 :::{figure} ./images/Figure 1.jpg
 :name: fig1
@@ -146,7 +146,7 @@ The conversion of any non-cubic system (abc) to that of a cubic one
 (xyz) uses a conversion matrix (M) Eq. [](#conversion_matrix). A schematic of illustrating
 the two systems is shown in [](#fig3) along with the conversion
 matrix with the full derivation of this conversion matrix is provided in
-the Supplemental (Conversion to cubic in ***Figures S1*** and ***S2***).
+the Supplemental (Conversion to cubic in [](#figA1) and [](#figA2)).
 Later, when discussing the microscope setup in more detail, the z-axis
 will be chosen to align with the electron beam. Consequently, we have
 chosen to align the c axis of the crystal that is to be converted with
@@ -164,8 +164,8 @@ vector coordinate system into a cubic system and the conversion matrix
 (M).
 :::
 
-The derivation of the conversion matrix Eq. [](#conversion_matrix), which includes the
-angle δ Eq. [](#delta), can be calculated from the principal axis angles
+The derivation of the conversion matrix, Eq. [](#conversion_matrix), which includes the
+angle δ, Eq. [](#delta), can be calculated from the principal axis angles
 (α,β,γ). The conversion matrix operates by setting one axis in the
 system to be converted equal to one axis in the cubic system (e.g., the
 c axis is first set commensurate with the z-axis in [](#fig3)).
@@ -176,8 +176,8 @@ decomposed into the x and z components (i.e., there is no y component)
 through sine and cosine functions of the angle β, respectively. Lastly,
 the final axis of the system to be converted to the cubic system (in
 this case b to y) must be decomposed into all three axes of the cubic
-system (a full explanation is provided Supplemental). The introduction
-of a third angle, delta (δ) Eq. [](#delta) must be employed to account for the
+system (a full explanation is provided in the Appendix). The introduction
+of a fourth angle, delta (δ) Eq. [](#delta) must be employed to account for the
 less symmetric crystals such as the monoclinic and triclinic where the
 angle γ is not 90°. The conversion of any crystallographic vector in any
 crystal system can then be calculated by multiplying the vector by the
@@ -190,7 +190,7 @@ from the \[001\] in the tetragonal system (the \[001\] converted by Eq. [](#conv
 the seven crystal systems for which the angle between vectors (i.e.,
 poles) can be calculated with the understanding that the vectors are
 described in their native form but are calculated in the cubic form (an
-example of a hexagonal system conversion if presented in ***Figure S3***). As such, all the remaining operations will be performed on cubic
+example of a hexagonal system conversion if presented in [](#figA3)). As such, all the remaining operations will be performed on cubic
 systems with the understanding that it can be generalized to any crystal
 system using the appropriate conversion matrix, or its inverse.
 
@@ -217,7 +217,7 @@ w \\
 ua\sin{\beta + vb\sin\alpha\cos\delta} \\
 vb\sin\alpha\sin\delta \\
 ua\cos{\beta + vb\cos\alpha} + wc \\
-\end{bmatrix}\# \\
+\end{bmatrix} \\
 \end{matrix}$$
 
 While it has been described as the ability to travel throughout a
@@ -315,7 +315,7 @@ constructs to the double tilt stage and then demonstrate how this
 relates to reciprocal space and the physics of electron beam
 interactions. Given that different manufacturers utilize different
 terminology, as a matter of convention, the tilts of a double tilt stage
-will be denoted as α,β, and will be equivalent to X, Y tilts,
+will be denoted as α, β, and will be equivalent to X, Y tilts,
 respectively.
 
 While stereographic projections are useful, they do not directly
@@ -444,12 +444,12 @@ to pole, or re-loading a sample and converting prior tilt conditions,
 these six formulae will be the basis set. In the following derivation of
 the tip/tilt map the utilization of diffraction and crystallographic
 terminology will be utilized but only as a frame of reference and not in
-terms of the electron beam interaction (i.e., traces of planes and not g
+terms of the electron beam interaction (i.e., traces of planes and not **g**
 vectors or Kikuchi bands).
 
 In practice, the manner in which a microscopist interacts with a
 crystalline sample is at the most basic level through diffraction spots
-or Kikuchi lines. While the principle knowledge of what these optical
+or Kikuchi lines. While the principal knowledge of what these optical
 markers represent goes to a fundamental understanding of electron beam
 interactions with samples, at the very core of electron microscopy as an
 observational tool, the understanding of these as {u}`fiduciary markers` for roadmaps provides the basis for
@@ -526,10 +526,10 @@ pattern of a \[111\] pole at 𝜶,:5,10. b) Crystallographic orientations
 of given grains (G1, G2) and angle of rotation $\varphi_c$ about each pole. c
 and d) Rotation about an arbitrary vector through a given angle $\varphi_c$ in
 two different projections. e) Matrix rotation R{sub}`loading` that describes
-sample rotation (𝝴)about the beam normal \[001\], and vertical and
+sample rotation (𝝴) about the beam normal \[001\], and vertical and
 horizontal flips about the 𝜶 and 𝜷 axes, respectively. f)Matrix rotation
 R{sub}`crystal` about a given angle ($\varphi_c$). g) Matrix rotation R{sub}`stage`
-describing the found pole back to the stage tilts. h and i) Movies
+describing the found pole back to the stage tilts. h) and i) Movies
 showing stage motion.
 :::
 
@@ -547,7 +547,7 @@ rotation matrix, $R_{total} = R_{stage}R_{crystal}R_{loading}$ that
 contains all the orientation information about the crystal as it is
 situated in the microscope. Again, it is important to note that the only
 necessary functions are combinations of the rotations provided in Eqns.
-[%s](#eq6)-[%s](#eq11).
+[%s](#rotation_x)-[%s](#mirror_z).
 
 One of the major advantages of these derivations with regards to
 previous calculations on stage motion {cite:p}`cautaerts2018alphabeta, klinger2015crystallographic, liu1994simple, liu1995simple, qing1989equation, qing1989calculation`
@@ -619,7 +619,7 @@ but the most direct is a rotation about an arbitrary axis by an angle
 \[001\] direction to be aligned with the probe, the axis of rotation
 will always lie in the xy plane and will take the form of \[uv0\]
 because it is calculated through the cross-product of the known vector
-and \[001\] (see ***Figure S4***). It should be noted that this is
+and \[001\] (see [](#figA4)). It should be noted that this is
 special to this case, and a more general formulation needs to be derived
 for a general operation. This will be subsequently utilized to describe
 the trace of planes.
@@ -659,7 +659,7 @@ r_{x}r_{y}\left( 1 - \cos\theta \right) & r_{y}^{2} + r_{x}^{2}\cos\theta & - r_
 
 The mathematical derivation of the rotation matrix
 ($R_{\widehat{r},\theta}$) of an angle $\theta$ about an arbitrary axis
-is presented in full in the Supplemental (***Figures S4-S5***). As an
+is presented in full in the Appendix ([](#figA4) and [](#figA5)). As an
 aside, it should be noted that with respect to crystallographic tip/tilt
 maps, the rotation about an arbitrary axis is not necessary. Two
 rotations (and subsequent inverse rotations) can be utilized that will
@@ -667,7 +667,7 @@ accomplish the same rotation, but in subsequent utilization of these
 derivations for calculation of the local misorientation angle and axis
 between two adjacent grains there will arise a misalignment depending on
 the order of rotation. This is discussed in further detail in the
-Supplemental section (***Figure S5***).
+Appendix section surrounding ([](#figA5)).
 
 As previously described, in order to orient the crystal with respect to
 the known pole ([](#fig6)a) an additional rotation is required.
@@ -685,7 +685,7 @@ Whereas the rotation of the known vector to the probe direction was
 accomplished through a direct rotation from one position to another, the
 majority of double tilt stages do not operate in this manner and are
 performed through a two-step process with one axis beholden to the
-other. As can be illustrated in ***Figure S4***, the order of rotation
+other. As can be illustrated in [](#figA4) , the order of rotation
 in a two-step process can affect the outcome of the final position, and
 hence order of tilt is a necessary consideration. The rotation of any
 vector to the final tip/tilt location $\alpha$/$\beta$ is accomplished
@@ -758,7 +758,7 @@ $$\label{beta_tilt}\begin{matrix}
 
 The X,Y,Z terms are not the vector describing the known vector or any
 starting vectors, but the final converted vectors through $R_{total}$
-(e.g., if the known vector was \[111\], XYZ would not be defined by
+(e.g., if the known vector was \[111\], XYZ would not necessarily be defined by
 \[111\]). Note that these can be expressed in terms of other
 trigonometric functions that are equivalent mathematically, but it is
 most convenient to use the inverse tangent function in practice because
@@ -812,7 +812,7 @@ reader is guided to the online code (insert inline documentation here)
 to create basic tip/tilt maps for any system at their leisure.
 
 Systems that are more complex could also be illustrated (see
-Supplemental ***Figure S6*** for examples), but it should again be
+Supplemental [](#figA6)  for examples), but it should again be
 mentioned that a) that while the vectors are described in their native
 format, the math is done in a cubic form, and b) any vector possible may
 be plotted because these are vector representations. The plots in
@@ -834,10 +834,10 @@ and the hexagonal unit cell (d-f) with c/a ratios of 1.63 (d,e) and 2.72
 
 ### Calculation of Planes in a Tip Tilt Map
 
-The development of a tip/tilt map for any given crystal system provided
+The development of a tip/tilt map for any given crystal system provides
 a manner in which to predict the tilt motion of any possible vector
 within each system. These tip/tilt maps are most relevant to
-stereographic projections or poles figures that indicate the motion
+stereographic projections or pole figures that indicate the motion
 between poles within a freely rotating system. In order to make a more
 complete comparison, it is necessary to add a description of the travel
 between poles. This will also facilitate the transition from real space
@@ -864,7 +864,7 @@ crystallography and electron beam interaction.
 Concerning plotting actual Kikuchi lines as compared to plotting the
 tilt coordinates between various poles, a standard convention must be
 adopted. While Kikuchi lines are formed in pairs corresponding to both
-the positive and negative g vectors, within the accuracy of any double
+the positive and negative **g** vectors, within the accuracy of any double
 tilt stage given possible errors such as motor backlash and machining
 tolerance it is more convenient to plot a single set of directions for
 the trace of any given plane whose vector has been normalized (i.e., the
@@ -872,7 +872,7 @@ normal of the (222) can be described as \[111\]). This is not to say
 that the mathematics could not be derived for the exact tilt coordinates
 for each specific allowed plane for any crystal, but in terms of
 practical analysis, the normalized vector for each family will be
-considered. ***Figure S7*** illustrates a tilt map for an FCC austenitic
+considered. [](#figA7)  illustrates a tilt map for an FCC austenitic
 stainless steel (unit cell \~3.86 Å) oriented in the \[111\] orientation
 with the {440} planes expressed, and a CBED pattern in the same
 orientation. These Kikuchi bands represent a major plane that would be
@@ -918,10 +918,9 @@ vectors). Because these vectors are in standard orientation, they must
 be rotated as the poles were above through the multiplication of
 $R_{tot}$ [](#eq21). This will yield the Cartesian vector sequence which
 then is required to be converted to $\alpha$/$\beta$ coordinates using
-Eqns. [%s](#eq22)-[%s](#eq24). Computing these sequences for various low index planes of
+Eqns. [%s](#alpha_tilt)-[%s](#beta_tilt). Computing these sequences for various low index planes of
 interest yields in each system the complete tip/tilt diagram that can be
-seen in [](#fig9). The attached python module allows the reader to
-create tip/tilt diagrams for generic cubic and hexagonal constructs.
+seen in [](#fig9). 
 Variation of crystal parameters, starting poles, tilt conditions, and
 stage limits are allowable. Whereas the normals can be described by the
 Miller indices in the cubic system, for the hexagonal planes the plane
@@ -930,8 +929,8 @@ and then plotted. As has been previously mentioned ([](#fig5)), due
 to the motion of the double tilt stage the traces of the planes can
 exhibit S-curves and are not always straight. This motion is exactly how
 the planes of atoms within the microscope behave across the entire tilt
-space, and the *{u}`reason why g-vectors in diffraction patterns collected at different ZA can appear to rotate in relation to one another`*. The calculation of the vector normal, or
-g-vector, to these hexagonal planes will be discussed in the next
+space, and the *{u}`reason why **g**-vectors in diffraction patterns collected at different ZA can appear to rotate in relation to one another`*. The calculation of the vector normal, or
+**g**-vector, to these hexagonal planes will be discussed in the next
 section.
 
 :::{figure} ./images/Figure 9.jpg
@@ -1067,7 +1066,7 @@ cross product of two of the unit vectors dotted by the third. In
 condensed form it appears in Eq. [](#volume_cell).
 
 $$\label{volume_cell}\begin{matrix}
-V = (axb) \bullet c = abc\sqrt{1 - {\cos\alpha}^{2} - {\cos\beta}^{2} - {\cos\gamma}^{2} + 2\cos\alpha\cos\beta\cos\gamma} \\
+V = (\widehat{a} \times \widehat{b}) \cdot \widehat{c} = abc\sqrt{1 - {\cos\alpha}^{2} - {\cos\beta}^{2} - {\cos\gamma}^{2} + 2\cos\alpha\cos\beta\cos\gamma} \\
 \end{matrix}$$
 
 $$\label{vector_length_a}\begin{matrix}
@@ -1096,12 +1095,12 @@ $$\label{vector_length_c}\begin{matrix}
 
 The cubic unit cell can then be calculated by combining the reciprocal
 unit vectors (Eqs. [](#vector_length_a)-[](#vector_length_c)) into a 3x3 matrix which can then be used to
-calculate the g-vector Eq. [](#g_vector) in the cubic form for any plane.
+calculate the **g**-vector Eq. [](#g_vector) in the cubic form for any plane.
 Derivation of the inverse of this matrix multiplied by a given native
 normal will provide the plane associated with that pole. It should be
 noted that while the native description of the plane of atoms (hkl)
 (e.g., (111) tetragonal c/a =2) is utilized for this calculation, the
-resultant g-vector is in cubic form. As previously noted, the cubic form
+resultant **g**-vector is in cubic form. As previously noted, the cubic form
 is necessary to plot planes of atoms in a tip/tilt map, as well
 calculate the angle between planes Eq. [](#angle_planes) and determine the d-spacing
 of plane (Eq. [](#d_spacing), the distance between any plane is then is the length
@@ -1212,14 +1211,14 @@ In order to distinguish which planes within each crystal will diffract,
 the position and scattering power of each atom is considered. The
 equation for the structure factor Eq. [](#structure_factor) is provided below for any
 given plane of atoms described by (hkl), and depending on whether the
-solution is 1 or 0 dictates whether or not the plane will diffract,
+solution is nonzero or zero dictates whether or not the plane will diffract,
 respectively. This can be further expanded to account for more complex
 crystals with any number of atoms each at any position within the unit
 cell. Note that since the atomic positions of each atom are used, there
 need not be any conversion from non-cubic systems.
 
 $$\label{structure_factor}\begin{matrix}
-F_{hkl} = \sum_{j = 1}^{N}{\sum f_{j}}e^{\left\lbrack - 2\pi i\left( hx_{j} + ky_{j} + lz_{j} \right) \right\rbrack} \\
+F_{hkl} = \sum_{j = 1}^{N} f_{j} e^{\left\lbrack - 2\pi i\left( hx_{j} + ky_{j} + lz_{j} \right) \right\rbrack} \\
 \end{matrix}$$
 
 where f{sub}`j` is the scattering factor of the j-th atom, x{sub}`j`,y{sub}`j`, z{sub}`j`
@@ -1235,7 +1234,7 @@ Zone law Eq. [](#zone_law). Depending on the definition of applicable poles
 positions of those poles could be calculated using Eq. [](#zone_law) and plotted.
 
 $$\label{zone_law}\begin{matrix}
-hu*kv*lw = 0\ given\ \lbrack uvw\rbrack\ and\ (hkl) \\
+hu+kv+lw = 0\ \text{given }  \lbrack uvw\rbrack\ \text{and} \ (hkl) \\
 \end{matrix}$$
 
 These tip/tilt maps of well-defined crystals are only a small part of

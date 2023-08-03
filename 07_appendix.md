@@ -90,6 +90,7 @@ $$\label{rot_theta_about_u} R_(\hat{r},θ)=\left[\begin{matrix}u_x^2+(u_y^2+u_z^
 ::: {figure} ./images/Figure A4.jpg
 :name: figA4
 Direct rotation about an arbitrary axis as compared to two rotations about unit vector axes.
+:::
 
 ::: {figure} ./images/Figure A5.jpg
 :name: figA5

@@ -9,14 +9,14 @@ travel, but extraterrestrial travel as well through the knowledge of
 celestial orbits of the moon and planets {cite:p}`gehrz2007nasa`. Yet, even the most detailed maps eventually became outdated and possibly misread or misinterpreted depending on the level of spatial awareness of the
 traveler. The advent of GPS in 1973 eventually brought about a
 revolution among travelers for ease of use, but more importantly for the
-confidence, it instilled in that no matter how complicated the route, a
+confidence it instilled, in that no matter how complicated the route, a
 step-by-step guide was provided. A similar approach is needed for the
 nanoscopic world of electron microscopy. A guide that provides
 microscopists the ability to record where they have been in a sample,
 and to develop roadmaps for themselves and others to assist in future
-analysis. Those positions could be converted between microscopes if and
+analysis is required. Those positions could be converted between microscopes if and
 when the sample needed to be re-analyzed. Just as a physical road map
-need be turned and flipped to compare to a landmark, fiduciary marker,
+needs to be turned and flipped to compare to a landmark, fiduciary marker,
 or reference position, so too should electron microscopists have the
 ability to flip and rotate positional data when moving a sample to a
 different microscope.
@@ -26,7 +26,7 @@ become important (e.g., shape, size, and morphology), but so too did
 relating the crystallographic knowledge to those microstructures. The
 spatial resolution of transmission electron microscopes (TEM) opened an
 entirely new world as compared to X-ray and spectroscopic techniques. It
-lead to the discovery and confirmation of deoxyribonucleic acid (DNA) in
+led to the discovery and confirmation of deoxyribonucleic acid (DNA) in
 the 1950s {cite:p}`watson1953molecular`, and is currently providing materials
 researchers the ability to examine crystals atom-by-atom {cite:p}`meyer2008imaging` as well as to move atoms one by one to create larger structures at
 the atomic scale {cite:p}`dyck2018building`. The push towards picometer
@@ -66,7 +66,7 @@ decreased sources of funding {cite:p}`maia2018haves`. Current generation
 spectrometers can be as costly as the base microscope itself. With the
 revolution of aberration correction advancing resolution to the
 picometer scale {cite:p}`yankovich2014picometre`, the inclusion of a corrector,
-whether image or probe, has increasingly commonplace on all new
+whether image or probe, has become increasingly commonplace on all new
 purchases. This increased technology has added to the steep costs of
 doing innovative microscopy. These factors have made it such that each
 minute spent in any microscopy session is precious. It has also made
@@ -89,7 +89,7 @@ for observing microstructural information over longer length scales,
 such as counting cells {cite:p}`porter1945study, lidke2012advances`. The
 complex nature of the electron interaction physics of material science
 research such as crystallinity, defects, and variable Z contrast, makes
-automation more difficult and most likely why it has slowed the adoption
+automation more difficult and is most likely why it has slowed the adoption
 and development in the field. This is not to mention the exceedingly
 smaller length scales that become crucial to understanding any number of
 atomic phenomena that control bulk materials properties.
@@ -194,5 +194,5 @@ including the use of digital capture to more accurately navigate a
 sample as well as identification of grain boundary type. Finally, the
 third section explores practical applications of nanocartography; how to
 correctly calibrate stage motion as well as apply derivations from
-sections one and two. Taken in whole, this Element serves as a rich
+sections one and two. Taken in whole, this work serves as a rich
 summary of optimization of TEM data collection and analysis.
