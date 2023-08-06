@@ -1,5 +1,5 @@
 ---
-title: 'Nanocartography: Planning for success in analytical electron microscopy'
+title: 'Nanocartography: Planning for Success in Analytical Electron Microscopy'
 short_title: Nanocartography
 numbering:
   heading_2: false
