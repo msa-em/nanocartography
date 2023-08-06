@@ -950,6 +950,16 @@ dislocation microstructures in three dimensions {cite:p}`liu2011three, hata2020e
 
 % This is also in ./images/image28.png
 
+% Interactive version of the Ag-Au movie
+
+:::{figure} #app:AgAu_tilt_series
+:name: fig21_interactive
+Tilt series collected across a Ag-Au grain boundary
+exhibiting void evolution ahead of an stress corrosion cracking (SCC)
+tip in the binary alloy {cite:p}`badwe2018decoupling`.
+:::
+
+
 :::{figure} ./images/fig21.mp4
 :name: fig21
 
