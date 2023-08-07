@@ -43,7 +43,7 @@ The necessity of nanocartography will be imperative toward the
 development of automated TEM. Regardless of how well automated image
 analysis may become, the projection aspect of TEM analysis will still
 require human directed analysis to a point. On the road to more
-automated data, collection and analysis there must be a transition by
+automated data, collection, and analysis there must be a transition by
 which microscopists are provided full control to map samples. More
 importantly, the cost of instrumentation is an issue that will only
 become more complicated with automated microscopy.

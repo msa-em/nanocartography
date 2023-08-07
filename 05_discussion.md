@@ -288,7 +288,7 @@ having the ability to tilt against or along a given interface.
 Tomography and APT will always be a more accurate description of the
 three-dimensional volume, but they both suffer from being locally
 destructive techniques in addition to only providing an extremely narrow
-view of the sample volume. Creating rapid tilt series at any given step
+view of the sample volume. By creating rapid tilt series at any given step
 size using the protocols, all interfaces within a sample, regardless of
 orientation, may be transformed into a digital movie that allows for
 more informative data presentation. Since the step sizes between tilts
@@ -299,7 +299,7 @@ dislocations have been demonstrated in the literature {cite:p}`liu2011three, hat
 map for any given crystal has been solved, tilt series directions for
 any plane can quickly be calculated. Instead of following the trace of
 the plane systematically, if the directions for the trace of the plane
-are calculated it provides for easier data collection.
+are calculated, then it provides for easier data collection.
 
 As with many of the subjects described herein, relating adjacent
 crystals to one another is an important topic in material science
@@ -308,8 +308,8 @@ et al. demonstrated how knowledge of crystallographic poles of two cubic
 crystals could assist in solving the local misorientation angle between
 them {cite:p}`liu1994simple, liu1995simple`, and Jeong et al. {cite:p}`jeong2010characterization`
 attempted the use of a triangulation method in solving the same problem.
-In section 2 it was demonstrated how one could the orientation of cubic
-crystals be solved, but all crystal systems as well. The research herein
+In section 2 it was demonstrated how one could not only solve the orientation of cubic
+crystals, but all crystal systems as well. The research herein
 takes a similar approach to Qui to demonstrate how the calculation of
 the unit vectors for any crystal can be calculated from the solution of
 the crystal and then be compared to an adjacent crystal through a
@@ -323,8 +323,8 @@ identical results because the known vector is rotated to the \[001\]
 position, but in comparing the location of the unit vectors of two
 adjacent crystals the final misorientation angles does not yield a
 unique solution. Tilting in the α then subsequently in the β will yield
-a different result than first β then α (as shown the Supplemental
-**_Figure S4_**). Additionally, through these calculations it has been
+a different result than first β then α (as shown in 
+[](#figA4)). Additionally, through these calculations it has been
 determined that the triangulation method is not sufficient in accurately
 describing the local misorientation {cite:p}`jeong2010characterization`. Vectors chosen
 closest to the \[001\] beam direction will provide a differing result

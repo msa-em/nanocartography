@@ -94,20 +94,20 @@ the α tilt axis using two ZA and the methodology formulated to solve
 unknown crystals. [](#fig28) illustrates selected area diffraction
 (SAD) patterns of two ZA ((a)\<110\> and (b)\<112\>) of a CuNi alloy, of
 which the details of the alloy are provided in subsequent sections and
-in the Supplemental. The tilt coordinates of each of the found ZA is
+in the Appendix. The tilt coordinates of each of the found ZA is
 shown in [](#fig28)c. The angle necessary to connect these two ZA
 will correspond to a specific g-vector in the diffraction pattern, in
 this case the {111} vector connects the \<110\> and \<112\> and the
 angle from the α tilt axis is 6°. Therefore, in the SAD patterns an
 angle orthogonal to the measured angle in [](#fig28)c (i.e., angle
-+/- 90° due to the Kikuchi band being orthogonal to the g-vector) will
++/- 90° due to the Kikuchi band being orthogonal to the **g**-vector) will
 illustrate where a fiduciary marker for the α tilt axis can be measured
 for all diffraction patterns. As the projection of the lattice planes
 will rotate slightly at oblique angles, the use of the unknown
 calculator will accurately account for the measuring and plotting traces
 between ZA. This is the exact reasoning for why diffraction patterns
 collected across the entire tilt stage require slight rotations by which
-to keep the g-vectors aligned. The S-curves illustrated in section 2
+to keep the **g**-vectors aligned. The S-curves illustrated in section 2
 represent the angles by which the planes rotate.
 
 :::{figure} ./images/Figure 27.jpg
@@ -211,7 +211,7 @@ symmetry of a \<111\> cubic crystal is presented at stage positions
 α,β:10.9,5.0 ([](#fig30)). Depending on the level of confidence
 with the found pole, the next step is to either tilt to a second known
 pole somewhere within the tilt stage to set a second waypoint or to
-follow orient to a known g-vector.
+follow orient to a known **g**-vector.
 
 Since the preliminary calculations of the crystallographic solution are
 based upon the first known pole (e.g., \<111\>) the remainder of the
@@ -270,7 +270,7 @@ large tilt condition) to achieve clear dislocation images. It would
 allow a microscopist to then either find an additional crystal or tilt
 to a less desirable pole. Lastly, when presented with opportunity to
 utilize a crystallographic solution, microscopists could more
-confidently confirm the specific crystal and avoid mis-identification by
+confidently confirm the specific crystal and avoid misidentification by
 rapidly tilting to multiple poles. This type of analysis would not only
 be beneficial for assuaging scientific reviewers, but would again be
 most beneficial to inexperienced users who are not accustomed to rapid

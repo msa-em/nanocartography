@@ -58,15 +58,15 @@ Illustration showing the conversion of a hexagonal matrix to cubic form.
 
 ### Rotation about an Arbitrary Axis
 
-Rotations about the principal axes are simple to state, but are of limited use when considering general crystal orientations.  Instead, it is useful to rotate about an arbitrary axis in space for any angle, not just rotation about one of the principal axes (Eqns. 6-8).  As previously stated, this rotation is not necessary to create useful tip/tilt maps, but it is necessary when comparing two crystals in a misorientation matrix.  The misalignment that arises in the misorientation matrix as compared to the tip/tilt maps is that while the vector moves to the correct position in both derivations (e.g., the [111] to the [001]), the location of the unit vectors (i.e., [001], [100], and [010]) will vary depending on pathway.  This will be derived subsequently, but is illustrated schematically in Figure S4.  
+Rotations about the principal axes are simple to state, but are of limited use when considering general crystal orientations.  Instead, it is useful to rotate about an arbitrary axis in space for any angle, not just rotation about one of the principal axes (Eqns. [](#rotation_x) to [](#mirror_z)).  As previously stated, this rotation is not necessary to create useful tip/tilt maps, but it is necessary when comparing two crystals in a misorientation matrix.  The misalignment that arises in the misorientation matrix as compared to the tip/tilt maps is that while the vector moves to the correct position in both derivations (e.g., the [111] to the [001]), the location of the unit vectors (i.e., [001], [100], and [010]) will vary depending on pathway.  This will be derived subsequently, but is illustrated schematically in [](#figA4).  
 
 The vector [uvw] is rotated to the [001] orientation about [xy0] through angle θ.  The schematic details two pathways by which to achieve this rotation; path 1 which is about a single axis, and path 2 which is through two concurrent tilts about the additional unit vector axes (in this case x and y).  A movie is provided that indicates the motion of path 2.  In both cases the [111] vector is rotated to [001], but the location of the unit axes (as shown by the projection of a cube down the [111]) will differ by some angle (Δ) as compared to the rotation about the arbitrary axis.  Note that the illustrated angle is exaggerated for effect, and is only approximately a few degrees.  Depending on the order of the pathway, the angle (Δ) would also be different, hence providing two distinct projections of the unit vectors for misorientation calculations.
 
 The example described above and illustrated in [](#figA4) pertains directly to the formulation of a tip/tilt map for a double tilt stage (i.e., the rotation axis is always calculated normal to the [001] orientation), but a more general formulation of the tilt about an arbitrary axis needs be derived to account for non-crystallographic motions.  Therefore, the full derivation is provided below.  
 
-To describe this general rotation, a sequence of steps can be used to decompose any rotation down into rotations about the principal axes.  To accomplish this the desired axis of rotation needs to be rotated to coincide with any one of the principal axes through two rotations about the other axes (in the tip/tilt map calculation the z or probe axis is chosen).  The desired rotation about the arbitrary axis is accomplished with the system aligned along a principal axis (e.g., $φ_{c}$.  Finally, the arbitrary axis is returned to its original location by performing the inverse of the first two rotations.  For more details of this process, consult (Ian R., 2015). 
+To describe this general rotation, a sequence of steps can be used to decompose any rotation down into rotations about the principal axes.  To accomplish this the desired axis of rotation needs to be rotated to coincide with any one of the principal axes through two rotations about the other axes (in the tip/tilt map calculation the z or probe axis is chosen).  The desired rotation about the arbitrary axis is accomplished with the system aligned along a principal axis (e.g., $φ_{c}$).  Finally, the arbitrary axis is returned to its original location by performing the inverse of the first two rotations.  For more details of this process, consult {cite:p}`Cole2015`. 
 
-The axis of rotation is a unit vector, $\hat{\mathbf{u}}=(u_x,\ u_y,\ u_z)$ and the desired angle of rotation about this axis is θ.  Without loss of generality, the arbitrary axis will be rotated to the x-axis where the rotation by θ occurs.  First, $\hat{\mathbf{u}}$ rotates into the x-y plane by rotating about the y-axis by an angle $φ_{1}$.  This angle is computed by the requirement that the resulting vector, $\widehat{\mathbf{u}_\mathbf{1}}=(u_{1,x},\ u_{1,y},0)$ has no y-component.  The angle $φ_{1}$ which accomplishes this rotation is $\varphi_1=\tan^{-1}{\left(\frac{u_z}{u_x}\right)}$ and can be found from the z-component (Figure S5). 
+The axis of rotation is a unit vector, $\hat{\mathbf{u}}=(u_x,\ u_y,\ u_z)$ and the desired angle of rotation about this axis is θ.  Without loss of generality, the arbitrary axis will be rotated to the x-axis where the rotation by θ occurs.  First, $\hat{\mathbf{u}}$ rotates into the x-y plane by rotating about the y-axis by an angle $φ_{1}$.  This angle is computed by the requirement that the resulting vector, $\widehat{\mathbf{u}_\mathbf{1}}=(u_{1,x},\ u_{1,y},0)$ has no y-component.  The angle $φ_{1}$ which accomplishes this rotation is $\varphi_1=\tan^{-1}{\left(\frac{u_z}{u_x}\right)}$ and can be found from the z-component ([](#figA5)). 
 
 
 $$\label{math_matrix} \left[\begin{matrix}\cos{\varphi_1}&0&\sin{\varphi_1}\\0&1&0\\-\sin{\varphi_1}&0&\cos{\varphi_1}\\\end{matrix}\right]\left[\begin{matrix}u_x\\u_y\\u_z\\\end{matrix}\right]=\ \left[\begin{matrix}u_x\cos{\varphi_1}+u_z\sin{\varphi_1}\\u_y\\{-u}_x\sin{\varphi_1}+u_z\cos{\varphi_1}\\\end{matrix}\right]=\ \left[\begin{matrix}u_{1,x}\\u_{1,y}\\0\\\end{matrix}\right]$$
@@ -115,9 +115,9 @@ Plotting the traces of planes of atoms was accomplished by using the normal to t
 Plot of tilt map for [111] FCC austenitic stainless steel in the [111] orientation with the {440} planes expressed (a) and a CBED pattern in the same orientation (b).
 :::
 
-### Vector of Equations
+### Vector Equations to Matrix
 
-The key to solving the system of equations for the coordinate vectors in Eqns. 57-59 is to rewrite them as vector equations for the elements of $\vec{p}, \vec{q}$, and $\vec{t}$.  Writing out all nine equations gives:
+The key to solving the system of equations for the coordinate vectors in Eqns. [](#linear_A1)-[](#linear_A3) is to rewrite them as vector equations for the elements of $\vec{p}, \vec{q}$, and $\vec{t}$.  Writing out all nine equations gives:
 
 $$\label{XA1} u_{A1}p_{Ax}+v_{A1}q_{Ax}+w_{A1}t_{Ax}=x_{A1}$$
 $$\label{YA1} u_{A1}p_{Ay}+v_{A1}q_{Ay}+w_{A1}t_{Ay}=y_{A1}$$
@@ -129,28 +129,28 @@ $$\label{XA3} u_{A3}p_{Ax}+v_{A3}q_{Ax}+w_{A3}t_{Ax}=x_{A3}$$
 $$\label{YA3} u_{A3}p_{Ay}+v_{A3}q_{Ay}+w_{A3}t_{Ay}=y_{A3}$$
 $$\label{ZA3} u_{A3}p_{Az}+v_{A3}q_{Az}+w_{A3}t_{Az}=z_{A3}$$
 
-In this order, the patterns in these equations are not clear, so instead, they are grouped as Eqns.{S13, S16, S19}, Eqns.{S14, S17, S20}, and Eqns.{S15, S18, S21}.  These groupings yield:
+In this order, the patterns in these equations are not clear, so instead, they are grouped as Eqns. [](#XA1), [](#XA2), [](#XA3), Eqns. [](#YA1), [](#YA2), [](#YA3), and Eqns. Eqns. [](#ZA1), [](#ZA2), [](#ZA3).  These groupings yield:
 
-$\label{XA1} u_{A1}p_{Ax}+v_{A1}q_{Ax}+w_{A1}t_{Ax}=x_{A1}$ 
+$$\label{XA1_v2} u_{A1}p_{Ax}+v_{A1}q_{Ax}+w_{A1}t_{Ax}=x_{A1}$$ 
 
-$\label{XA2} u_{A2}p_{Ax}+v_{A2}q_{Ax}+w_{A2}t_{Ax}=x_{A2}$
+$$\label{XA2_v2} u_{A2}p_{Ax}+v_{A2}q_{Ax}+w_{A2}t_{Ax}=x_{A2}$$
 
-$\label{XA3} u_{A3}p_{Ax}+v_{A3}q_{Ax}+w_{A3}t_{Ax}=x_{A3}$
-
-
-$\label{YA1} u_{A1}p_{Ay}+v_{A1}q_{Ay}+w_{A1}t_{Ay}=y_{A1}$
-
-$\label{YA2} u_{A2}p_{Ay}+v_{A2}q_{Ay}+w_{A2}t_{Ay}=y_{A2}$
-
-$\label{YA3} u_{A3}p_{Ay}+v_{A3}q_{Ay}+w_{A3}t_{Ay}=y_{A3}$
+$$\label{XA3_v2} u_{A3}p_{Ax}+v_{A3}q_{Ax}+w_{A3}t_{Ax}=x_{A3}$$
 
 
+$$\label{YA1_v2} u_{A1}p_{Ay}+v_{A1}q_{Ay}+w_{A1}t_{Ay}=y_{A1}$$
 
-$\label{ZA1} u_{A1}p_{Az}+v_{A1}q_{Az}+w_{A1}t_{Az}=z_{A1}$
+$$\label{YA2_v2} u_{A2}p_{Ay}+v_{A2}q_{Ay}+w_{A2}t_{Ay}=y_{A2}$$
 
-$\label{ZA2} u_{A2}p_{Az}+v_{A2}q_{Az}+w_{A2}t_{Az}=z_{A2}$
+$$\label{YA3_v2} u_{A3}p_{Ay}+v_{A3}q_{Ay}+w_{A3}t_{Ay}=y_{A3}$$
 
-$\label{ZA3} u_{A3}p_{Az}+v_{A3}q_{Az}+w_{A3}t_{Az}=z_{A3}$
+
+
+$$\label{ZA1_v2} u_{A1}p_{Az}+v_{A1}q_{Az}+w_{A1}t_{Az}=z_{A1}$$
+
+$$\label{ZA2_v2} u_{A2}p_{Az}+v_{A2}q_{Az}+w_{A2}t_{Az}=z_{A2}$$
+
+$$\label{ZA3_v2} u_{A3}p_{Az}+v_{A3}q_{Az}+w_{A3}t_{Az}=z_{A3}$$
 
 In this grouping, these systems become much more recognizable as matrix equations:
 
@@ -160,6 +160,6 @@ $$\label{YA_matrix} \left[\begin{matrix}u_{A1}&v_{A1}&w_{A1}\\u_{A2}&v_{A2}&w_{A
 
 $$\label{ZA_matrix} \left[\begin{matrix}u_{A1}&v_{A1}&w_{A1}\\u_{A2}&v_{A2}&w_{A2}\\u_{A3}&v_{A3}&w_{A3}\\\end{matrix}\right]\left[\begin{matrix}p_{Az}\\q_{Az}\\t_{Az}\\\end{matrix}\right]=\left[\begin{matrix}z_{A1}\\z_{A2}\\z_{A3}\\\end{matrix}\right]$$
 
-In particular, the 3x3 matrices in each grouping are the same, which means that the same set of row operations will row reduce all of them simultaneously.  As such, they are combined into a single augmented matrix that is Eqn. 60 in the text.
+In particular, the 3x3 matrices in each grouping are the same, which means that the same set of row operations will row reduce all of them simultaneously.  As such, they are combined into a single augmented matrix that is Eqn. [](#augmented_matrix) in the text.
 
 $$\label{augmented_matrix_appendix} \left[\begin{matrix}u_{A1}&v_{A1}&w_{A1}\\u_{A2}&v_{A2}&w_{A2}\\u_{A3}&v_{A3}&w_{A3}\\\end{matrix}\middle|\begin{matrix}x_{A1}&y_{A1}&z_{A1}\\x_{A2}&y_{A2}&z_{A2}\\x_{A3}&y_{A3}&z_{A3}\\\end{matrix}\right]$$
