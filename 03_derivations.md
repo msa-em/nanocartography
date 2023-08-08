@@ -1047,9 +1047,7 @@ exaggerated for demonstration purposes). The trace of the Kikuchi line
 will then be a line plotted through each point, hence mirroring the
 trace of the plane.
 
-***SOMETHING IS WRONG WITH THIS FIGURE?***
-
-:::{figure} ./images/image29.tiff
+:::{figure} ./images/image22.jpg
 :name: fig22
 
 Plotting Kikuchi lines as scattering vectors (a) as
