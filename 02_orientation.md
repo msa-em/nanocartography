@@ -895,7 +895,7 @@ rotation matrix is nearly identical to the rotation about an arbitrary
 axis ($R_{\widehat{r},\theta}$) derived in [](#eq18) with the caveat that
 a more generic derivation can be developed that is not required to tilt
 to the beam direction.
-
+<!---
 :::{figure} ./images/Figure 8.jpg
 :name: fig8
 
@@ -904,6 +904,18 @@ vectors along a crystallographic plane (green arrows) given the plane
 normal (red arrow). a) \[111\] vector and (111) plane. b) Plotting
 vectors along the (111) plane rotating about the \[111\] vector.
 :::
+-->
+
+
+:::{figure} #app:orientation_example_111
+:name: fig8
+
+Schematic illustrating the derivation of traces of
+vectors along a crystallographic plane (green arrows) given the plane
+normal (red arrow). a) \[111\] vector and (111) plane. b) Plotting
+vectors along the (111) plane rotating about the \[111\] vector.
+:::
+
 
 The rotation matrix can be calculated by first determining any normal
 vector (green arrows [](#fig8)b) to the plane normal (red arrow
