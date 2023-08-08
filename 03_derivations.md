@@ -213,7 +213,7 @@ $$\label{number_maps}N_{maps} = \ \frac{(X - pY)}{(1 - p)Y}$$
 
 $$\label{stage_position}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 
-:::{figure} ./images/image21.png
+:::{figure} ./notebooks/data/Montage.mp4
 :name: fig14
 
 Movie illustrating montaging of MoO{sub}`3` particles on a carbon
@@ -959,7 +959,7 @@ exhibiting void evolution ahead of an stress corrosion cracking (SCC)
 tip in the binary alloy {cite:p}`badwe2018decoupling`.
 :::
 
-
+<!---
 :::{figure} ./images/fig21.mp4
 :name: fig21
 
@@ -967,6 +967,7 @@ Tilt series collected across a Ag-Au grain boundary
 exhibiting void evolution ahead of an stress corrosion cracking (SCC)
 tip in the binary alloy {cite:p}`badwe2018decoupling`.
 :::
+-->
 
 Using both the interface calculations combined with the crystallographic
 solution of any grain within the sample allows for rapid collection of

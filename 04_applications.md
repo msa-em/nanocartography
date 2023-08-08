@@ -418,10 +418,10 @@ conversion of the previously noted poles/ZA are quickly achieved. The
 movie included in [](#fig32) demonstrates how diffraction patterns
 would rotate commensurate with sample rotation in the cradle.
 
-:::{figure} ./images/image40.tiff
+:::{figure} ./notebooks/data/CollabAnalysis.mp4
 :name: fig32
 
-![](./images/image41.png)
+<!---![](./images/image41.png)-->
 
 Collaborative sample analysis at multiple institutions
 through predicative tilting and mapping and movie illustrating sample
