@@ -357,10 +357,15 @@ necessary to be able to convert a stereographic projection to a tip/tilt
 map for any given crystal system. This can be achieved through rotation
 matrices.
 
+<!---
 :::{figure} ./images/Figure 5.jpg
 :name: fig5
 
 ![](./images/image7.png)
+-->
+
+:::{figure} #app:g_vector_rotation_movie
+:name: fig5
 
 Stereographic projection (a) versus a tip/tilt map (b) of
 a cube oriented in the \[001\] orientation illustrating how the oblique
