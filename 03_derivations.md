@@ -213,7 +213,7 @@ $$\label{number_maps}N_{maps} = \ \frac{(X - pY)}{(1 - p)Y}$$
 
 $$\label{stage_position}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$$
 
-:::{figure} ./notebooks/data/Montage.mp4
+:::{figure} #app:montage_movie
 :name: fig14
 
 Movie illustrating montaging of MoO{sub}`3` particles on a carbon

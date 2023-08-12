@@ -418,7 +418,7 @@ conversion of the previously noted poles/ZA are quickly achieved. The
 movie included in [](#fig32) demonstrates how diffraction patterns
 would rotate commensurate with sample rotation in the cradle.
 
-:::{figure} ./notebooks/data/CollabAnalysis.mp4
+:::{figure} #app:collab_analysis_movie
 :name: fig32
 
 <!---![](./images/image41.png)-->
