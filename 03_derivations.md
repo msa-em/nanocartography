@@ -1158,10 +1158,10 @@ a large number of poles within a sample to compare to crystallographic
 mapping programs such as Crystal Maker {cite:p}`palmer2015visualization` or JEMS
 {cite:p}`stadelmann1987ems`.
 
-:::{figure} ./images/Figure 25.jpg
+:::{figure} #app:unknown_calculator_movie
 :name: fig25
 
-![](./images/image33.png)
+<!---![](./images/image33.png)-->
 
 Unknown calculator illustrating how to tilt along
 g-vectors or Kikuchi lines to build unknown crystal maps using a) a
