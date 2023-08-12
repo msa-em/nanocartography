@@ -149,7 +149,7 @@ small angle tilting of the sample.
 
 In order to understand the limitations of the tilt map produced for any
 number of operations, it is necessary to calculate and map out the limit
-of the stage motions. This can be achieved by assuming symmetry of the
+of the stage motions {cite:p}`olszta2022stage`. This can be achieved by assuming symmetry of the
 stage motion and tilting to a set number of α tilts and then determining
 the corresponding limit of the β tilt. When mapped on the JEOL ARM200CF
 the standard double tilt holder has the shape of a "squircle" or
