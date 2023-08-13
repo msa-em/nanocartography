@@ -3,6 +3,9 @@ version: 1
 project:
   title: 'Nanocartography: Planning for success in analytical electron microscopy'
   short_title: Nanocartography
+  description: With the increasing diversity in material systems, ever-expanding number of analysis techniques, and the large capital costs of next generation instruments the ability to quickly and efficiently collect data in the electron microscope has become paramount to successful data analysis.
+  banner: banner.png
+  thumbnail: thumbnail.png
   authors:
     - name: Matthew J Olszta
       affiliation: Pacific Northwest National Laboratory, Richland, WA 99354, USA
@@ -45,17 +48,10 @@ project:
     IPF: inverse pole figure
     DOE: Department of Energy
   thebe:
-      server: true
+    server: true
 site:
   template: book-theme
   title: Nanocartography
   logo_text: Nanocartography
-  nav: []
-  projects:
-      - slug: myst
-        path: .
-  actions:
-    - title: Learn More
-      url: https://myst-tools.org/docs/mystjs
-  domains: []
-
+  domains:
+    - microscopy-EM000001.curve.space
