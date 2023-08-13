@@ -31,7 +31,7 @@ the 1950s {cite:p}`watson1953molecular`, and is currently providing materials
 researchers the ability to examine crystals atom-by-atom {cite:p}`meyer2008imaging` as well as to move atoms one by one to create larger structures at
 the atomic scale {cite:p}`dyck2018building`. The push towards picometer
 resolution a short 80 years after its introduction has been rivaled by
-few technologies for volumetric analysis such as atom probe tomography
+few technologies for volumetric analysis.  Such techniques like atom probe tomography do provide similar, or better, chemical sensitivity, but still lack in numerous other aspects.
 {cite:p}`blavette1993tomographic, cerezo1988application`. Yet, the ever-expanding
 spectral, structural, and crystallographic techniques available in the
 TEM still make it the most versatile and attractive analysis technique
