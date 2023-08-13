@@ -77,7 +77,7 @@ electron microscopy will be geared towards doing smarter microscopy and
 automation {cite:p}`spurgeon2020towards, olszta2022stage`, similar to what has been
 accomplished in the field of X-ray crystallography {cite:p}`abola2000automation`.
 The eventual progression into full automation presents the possibility
-of much of the underlying mathematics and physics being overlooked as
+of much of the underlying mathematics and physics being overlooked, as
 microscopes will eventually perform much of the data collection.
 
 Automation and machine learning, while first pioneered and developed in
@@ -88,16 +88,16 @@ framework of understanding biological materials was born out of a need
 for observing microstructural information over longer length scales,
 such as counting cells {cite:p}`porter1945study, lidke2012advances`. The
 complex nature of the electron interaction physics of material science
-research such as crystallinity, defects, and variable Z contrast, makes
+research (e.g., crystallinity, defects, and variable Z contrast) makes
 automation more difficult and is most likely why it has slowed the adoption
 and development in the field. This is not to mention the exceedingly
 smaller length scales that become crucial to understanding any number of
 atomic phenomena that control bulk materials properties.
 
 As electron microscopy is a projection technique, there will always be a
-conundrum in analyzing material properties in that the thinner the
+conundrum in analyzing material properties. While the thinner the
 sample becomes the more accurate the information collected (e.g.,
-decreased multiple scattering); yet, the thinner the sample becomes the
+decreased multiple scattering), as the sample gets thinner the
 less representative the information is of the entire bulk sample (e.g.,
 only a thin slice of a three dimensional object is being observed).
 Additionally, the thinner the sample the more questions of surface
@@ -169,7 +169,7 @@ but more importantly the ability to digitally measure that information.
 
 The basis of nanocartography is understanding the control and predictive
 tilting of a double tilt stage in relation to the orientation and motion
-of all crystal systems, in addition to the physical constructs within a
+of all crystal systems.  Additionally, it pertains to the physical constructs within a
 sample (such as grain boundaries and interfaces) and their relationship
 to crystallographic orientations. The development of these formulations
 have long been understood, but rarely, if ever, discussed with
