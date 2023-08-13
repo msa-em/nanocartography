@@ -6,7 +6,7 @@ numbering:
 ---
 
 The methodologies and protocols derived subsequently in this paper build
-off the derivations in section 2, and serve to better interface
+off the derivations in Naviation and Orientation, and serve to better interface
 crystallographic and stage motion in a practical manner. Transmission
 and scanning transmission electron microscopy (S/TEM) data presented in
 this paper were collected on an aberration, C{sub}`s` corrected JEOL ARM200CF
@@ -35,7 +35,7 @@ calculate the tilt coordinates without further observation of the sample
 past the initial collection of the current pattern.
 
 This is important for beam sensitive samples and small samples within a
-polycrystalline matrix where either the beam can destroy the sample or
+polycrystalline matrix, where either the beam can destroy the sample or
 the non-eucentricity of the stage translates the sample away from the
 field of view during tilting. In order to calibrate a tilt map, one of
 two methodologies can be utilized depending on level of programing
@@ -46,8 +46,8 @@ that a subsequent point and click on the computer screen to tilt any
 desired pole/plane to the center position could be accomplished
 ([](#fig12)). At any point within the double tilt stage the
 immediate motion of the stage traverses in a linear fashion out to
-\~7-10°, at which point due to the motion of the β tilt in relation to
-the α any trace begins to rotate and nonlinear effects become
+\~7-10°.  At this point, due to the motion of the β tilt in relation to
+the α, any trace begins to rotate and nonlinear effects become
 noticeable. Since most local digital fields of view illuminate \~5-6° of
 tilt (\~90-100 mrad), the calibration will be considered linear. Only
 the α need be considered, as the entire relationship of tip/tilt map can
@@ -133,8 +133,7 @@ k-space.
 
 Precise off axis tilting of the electron probe using the condenser lens
 deflector coil system has long been utilized to examine the location of
-specific diffracted beams (center beam darkfield {cite:p}`carter1996transmission`)
-and also to perform techniques such as hollow cone diffraction {cite:p}`kondo1984new` and precession electron diffraction (PED) {cite:p}`vincent1994double, midgley2015precession`. Tilting the beam can be
+specific diffracted beams (center beam darkfield {cite:p}`carter1996transmission`), to perform techniques such as hollow cone diffraction {cite:p}`kondo1984new`, and conduct precession electron diffraction (PED) {cite:p}`vincent1994double, midgley2015precession`. Tilting the beam can be
 considered a conjugate of tilting the sample, and hence the use of
 digital capture can be utilized to dictate the tilt of the beam.
 
@@ -175,8 +174,8 @@ probe in a circular manner (b).
 
 ### Image Montaging
 
-Although not directly related to the stage tilt movement and additional
-protocol that has been proven extremely productive in scanning electron
+Although not directly related to the stage tilt movement, an additional
+protocol that has proven extremely productive in scanning electron
 microscopy (SEM) is the notion of montaging images at a specific
 magnification/resolution to create a larger image. The increased
 resolution of the higher magnification maps provides for richer, more
@@ -188,13 +187,13 @@ performed manually by the microscopist because a small number of maps
 are required to cover an area of interest, and as well because of the
 time prohibitive nature of limited scope availability. The ability to
 automatically montage data has not been a necessary feature on most
-microscopes, but with the coming age of automation, there will be a need
+microscopes, but with the coming age of automation {cite:p}`spurgeon2020towards, olszta2022stage`, there will be a need
 to perform overnight montaging of samples for data triaging in
 subsequent sessions. As has been demonstrated throughout this work, the
 ability to have a map or specific list of commands provides a sense of
 direction for the microscopist. While a montage could be done manually,
 gauging where the previous region of interest overlaps with the current
-image, a table of stage tilts would be more beneficial to the user.
+image, a table of stage positions would be more beneficial to the user.
 Given a desired distance, X, image dimension, Y, and necessary image
 overlap (p, as a fraction) the number of maps necessary to create a
 montaged image is given in Eq. [](#number_maps). The table of stage positions can
@@ -300,8 +299,8 @@ respective unit vectors ([](#fig15)d).
 :name: fig15
 
 Schematic illustrating how the local misorientation
-between two crystals is formulated. a and b) Crystals A and B in a given
-orientation. c) Misorientation angle and axis between the two crystals.
+between two crystals is formulated. a) and b) Crystals A and B in a given
+orientation, respectively. c) Misorientation angle and axis between the two crystals.
 d) Conversion to primary axes coordinate system.
 :::
 
@@ -491,7 +490,7 @@ used to calculate the description of the plane normals.
 The ability to correctly and accurately predict the motion of crystals
 in an electron microscope using a double tilt stage is crucial to
 collecting the optimal data over a wide range of fields of study. In
-section 2, a full explanation of how to derive these calculations was
+Navigation and Orientation, a full explanation of how to derive these calculations was
 conducted; first the crystal was treated as a physical object and then
 subsequently a physics based filter was applied through the structure
 factor. The advantage of this approach is that the motion of
@@ -523,7 +522,7 @@ sign of rotation of the boundary to the α tilt axis is reversed between
 [](#fig16)a and b because of the sign convention of how the α tilt
 axis is calibrated. The relationship of the current tilt conditions to
 the fiduciary angle to the α axis is important because, as was
-demonstrated in the section 2 for planes of atoms, in the double tilt
+demonstrated in Navigation and Orienation for planes of atoms, in the double tilt
 stage linear features will rotate when tilted to higher angles. That is
 to say, θ in [](#fig16)a will vary slightly based on the given α,β
 tilt conditions.
@@ -558,7 +557,7 @@ $$\label{vector_perpendicular}{\widehat{b}}_{perpendicular} = \begin{bmatrix}
 0 \\
 \end{bmatrix}$$
 
-Section 2 details a rotation about an arbitrary axis (see Supplemental),
+Navigation and Orientation details a rotation about an arbitrary axis (see Appendix),
 and this will be used to rotate about both the vectors
 ${\widehat{a}}_{parallel}$ and ${\widehat{b}}_{perpendicular}$ Eq. [](#rotation_matrix_theta). The general formula for rotation of angle $\varphi$ about an axis
 of rotation $\widehat{u}$ (with length equal to one) is:
@@ -616,7 +615,7 @@ chemistry by APT, S/TEM still provides a manner by which to analyze
 chemistry in addition to relating it to crystallography and other
 microstructural features such as dislocations and defects. More
 importantly, whereas the region of interest in APT is highly localized
-and is dependent on precise sample preparation (i.e., it is possible
+and is dependent on precise sample preparation (e.g., it is possible
 that only a small portion of an interface is captured within one tip),
 S/TEM allows a more global perspective for any given sample. One sample
 may contain tens of grain boundaries with lengths on the order of
@@ -666,7 +665,7 @@ in {u}`any orientation can be tilted on edge by collecting two tilt conditions` 
 tilt condition (provided reasonable assumptions of sample thickness and
 tilt range of a given holder). When the boundary is tilted against its
 long axis in a purely orthogonal manner in a known quantity (φ in
-[](#fig16)b) the geometry of an inclined sample can be measured to
+[](#fig16)b), the geometry of an inclined sample can be measured to
 determine not only the necessary tilt conditions to be aligned on edge,
 but as well provide a reasonable measure of the sample thickness
 ([](#fig17)).
@@ -846,10 +845,7 @@ The unit vector matrix, which describes the location of the unit cell
 axes, can be subsequently utilized to calculate the vector normal
 orientation of either crystal (red solid arrow in the cross-section view
 of [](#fig24)b) since the grain boundary plane edge on is
-commensurate with the crystallographic plane. That is to say, along the
-interface the grain boundary can be envisioned to have a corresponding
-plane of atoms in a specific orientation with relationship to the
-adjacent grain. The vector normal Eq. [](#vector_perpendicular) to the long axis can be
+commensurate with the crystallographic plane. That is to say, the orientation of the atomic spacings on the repspective crystallogrpahic faces of the grain boudnary can be determined. The vector normal Eq. [](#vector_perpendicular) to the long axis can be
 calculated (dashed line in the plan view of [](#fig24)b) and
 multiplied by the inverse of the tilt condition matrix, $M_{\alpha\beta}^{-1}$. This
 vector describes the current tilt conditions where the grain boundary is
@@ -925,7 +921,7 @@ While each are simple consequences of the interface motion, a brief
 discussion of each is necessary to build upon more complex protocols.
 Electron tomography has matured into a powerful tool for a wide variety
 of fields, from biology to materials science {cite:p}`hayashida2019parameters, hayashida2016practical, lidke2012advances`. The high tilt
-requirement often provides limiting factors for technique including
+requirement often provides limiting factors for this technique including
 special holders, larger pole pieces, and narrow sample geometries. When
 performed correctly, tomography can be a useful tool to circumvent the
 projection issues of TEM, but at the cost of losing the relationship
@@ -941,10 +937,10 @@ to the stage axes, single axis tilt series may not provide a clear
 picture. For instance, when a grain boundary decorated with precipitates
 is tilted in a non-logical manner (i.e., not against its long axis) it
 is difficult to observe the full distribution of precipitates or voids
-on the boundary {cite:p}`badwe2018decoupling` ([](#fig21)). Yet, when the
+on the boundary. Yet, when the
 boundary is tilted against its long axis, the boundary moves in a
-logical fashion, and the distribution can be readily observed. Equally,
-if not more, important is the ability to create tilt series along
+logical fashion, and the distribution can be readily observed {cite:p}`badwe2018decoupling` ([](#fig21)). Equally important,
+if not more, is the ability to create tilt series along
 specific planes of atoms that can be beneficial to demonstrate
 dislocation microstructures in three dimensions {cite:p}`liu2011three, hata2020electron, yamasaki2015visualization`.
 
@@ -978,7 +974,7 @@ eucentricity on the β is minimized.
 
 The mathematical derivations (Eqs. [](#vector_parallel)-[](#beta_final)) for tilting along or against
 the long axis of an interface at discrete angular steps regardless of
-orientation (i.e., orthogonal or oblique to the major tilt axes)
+orientation (e.g., orthogonal or oblique to the major tilt axes)
 provides the ability to correctly orient interfaces for spectral
 analyses, and can also be utilized in combination with the solution of
 adjacent crystals to create useful tilt series data.
@@ -988,7 +984,7 @@ adjacent crystals to create useful tilt series data.
 The ability to create tip/tilt maps of any crystal system is important
 for nanocartography at any length scale. Given a known pole and in plane
 orientation, microscopists can quickly and reproducibly tilt anywhere
-within the stage tilt limits. In section 2 it was noted that tip/tilt
+within the stage tilt limits. In Navigation and Orientation it was noted that tip/tilt
 conjugates of crystalline stereographic projections (i.e., a
 stereographic projection including Kikuchi bands) could also be produced
 in a similar manner, except that the fidelity of such maps may not be
@@ -1062,7 +1058,7 @@ Plots of a basic cubic crystal and the trace of the
 (111) plane, and a Kikuchi bands at a Bragg angle of 5°.
 :::
 
-As Kickuchi bands represent dynamical diffraction from crystallographic
+As Kikuchi bands represent dynamical diffraction from crystallographic
 planes, so too can kinematical diffraction spots also be plotted in a
 similar fashion, except that instead of plotting lines at the Bragg
 angle, diffraction spots (±) could be plotted at twice the Bragg angle
