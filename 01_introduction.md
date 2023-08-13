@@ -185,14 +185,13 @@ labs but rarely published. Incorporation into the context of
 nanocartography became exceedingly relevant.
 
 The following publication is divided into three major sections followed
-by discussion and conclusions. The first develops mathematical concepts
+by discussion and conclusions. The first, Navigation and Orientation, develops mathematical concepts
 of nanocartography, illustrating how vector analysis, TEM stage
 movement, and crystallography can be combined to accurately navigate
-sample analysis. The second portion utilizes the derivations from
+sample analysis. The second, Practical Derivations, utilizes the derivations from
 section one to develop practical derivations for nanocartography,
 including the use of digital capture to more accurately navigate a
-sample as well as identification of grain boundary type. Finally, the
-third section explores practical applications of nanocartography; how to
+sample as well as identification of grain boundary type. Finally, Practical Applications explores practical applications of nanocartography; how to
 correctly calibrate stage motion as well as apply derivations from
 sections one and two. Taken in whole, this work serves as a rich
 summary of optimization of TEM data collection and analysis.
