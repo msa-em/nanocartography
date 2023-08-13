@@ -146,7 +146,7 @@ The conversion of any non-cubic system (abc) to that of a cubic one
 (xyz) uses a conversion matrix (M) Eq. [](#conversion_matrix). A schematic of illustrating
 the two systems is shown in [](#fig3) along with the conversion
 matrix with the full derivation of this conversion matrix is provided in
-the Supplemental (Conversion to cubic in [](#figA1) and [](#figA2)).
+the Appendix (Conversion to cubic in [](#figA1) and [](#figA2)).
 Later, when discussing the microscope setup in more detail, the z-axis
 will be chosen to align with the electron beam. Consequently, we have
 chosen to align the c axis of the crystal that is to be converted with
