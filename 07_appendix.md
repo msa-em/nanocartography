@@ -85,7 +85,7 @@ $$\label{matrix_product} R_{\hat{u},\theta}=\left[\begin{matrix}\frac{u_x}{\sqrt
 
 After matrix multiplication and simplification, recalling that the magnitude of $\hat{\mathbf{u}}$ is one $({u_x^2+u}_y^2+u_z^2=1)$, the full matrix for rotation of angle θ about an axis of rotation $\hat{\mathbf{u}}$ is:
 
-$$\label{rot_theta_about_u} R_(\hat{r},θ)=\left[\begin{matrix}u_x^2+(u_y^2+u_z^2 )  \cos⁡\theta & u_x u_y (1-\cos⁡θ )-u_z  \sin⁡θ & u_x u_z (1-\cos⁡θ )+u_y \sin⁡θ \\ u_x u_y (1-\cos⁡θ )+u_z  \sin⁡θ&u_y^2+(u_x^2+u_z^2 )\cos⁡θ & u_y u_z (1-\cos⁡θ )-u_x  \sin⁡θ\\ u_x u_z (1-\cos⁡θ )-u_y  \sin⁡θ & u_y u_z (1-\cos⁡θ )+u_x  \sin⁡θ & u_z^2+(u_x^2+u_y^2 )  \cos⁡ θ \end{matrix}\right]$$
+$$\label{rot_theta_about_u} R_{(\hat{u},θ)}=\left[\begin{matrix}u_x^2+(u_y^2+u_z^2 )  \cos⁡\theta & u_x u_y (1-\cos⁡θ )-u_z  \sin⁡θ & u_x u_z (1-\cos⁡θ )+u_y \sin⁡θ \\ u_x u_y (1-\cos⁡θ )+u_z  \sin⁡θ&u_y^2+(u_x^2+u_z^2 )\cos⁡θ & u_y u_z (1-\cos⁡θ )-u_x  \sin⁡θ\\ u_x u_z (1-\cos⁡θ )-u_y  \sin⁡θ & u_y u_z (1-\cos⁡θ )+u_x  \sin⁡θ & u_z^2+(u_x^2+u_y^2 )  \cos⁡ θ \end{matrix}\right]$$
 
 ::: {figure} ./images/Figure A4.jpg
 :name: figA4
