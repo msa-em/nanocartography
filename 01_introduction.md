@@ -74,7 +74,7 @@ collaboration and user facilities an attractive option for researchers
 who do not have the capability to perform higher end research at their
 home institutions. All of this taken into consideration, the future of
 electron microscopy will be geared towards doing smarter microscopy and
-automation {cite:p}`spurgeon2020towards``olszta2022stage`, similar to what has been
+automation {cite:p}`spurgeon2020towards, olszta2022stage`, similar to what has been
 accomplished in the field of X-ray crystallography {cite:p}`abola2000automation`.
 The eventual progression into full automation presents the possibility
 of much of the underlying mathematics and physics being overlooked as
