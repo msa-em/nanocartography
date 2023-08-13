@@ -9,7 +9,7 @@ travel, but extraterrestrial travel as well through the knowledge of
 celestial orbits of the moon and planets {cite:p}`gehrz2007nasa`. Yet, even the most detailed maps eventually became outdated and possibly misread or misinterpreted depending on the level of spatial awareness of the
 traveler. The advent of GPS in 1973 eventually brought about a
 revolution among travelers for ease of use, but more importantly for the
-confidence it instilled, in that no matter how complicated the route, a
+confidence it instilled.  No matter how complicated the route, a
 step-by-step guide was provided. A similar approach is needed for the
 nanoscopic world of electron microscopy. A guide that provides
 microscopists the ability to record where they have been in a sample,
