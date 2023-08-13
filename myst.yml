@@ -1,4 +1,4 @@
-# See docs at: https://myst-tools.org/docs/mystjs/frontmatter
+# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   title: 'Nanocartography: Planning for success in analytical electron microscopy'
@@ -47,6 +47,7 @@ project:
     XEDS: x-ray energy-dispersive Spectroscopy
     IPF: inverse pole figure
     DOE: Department of Energy
+  github: https://github.com/msa-em/nanocartography
   thebe:
     server: true
 site:
