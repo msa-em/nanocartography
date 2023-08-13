@@ -9,7 +9,7 @@ numbering:
 
 The premise of utilizing nanocartography for electron microscopic
 analysis centers on the knowledge of the α and β axes of a double tilt
-stage (note: as described in section 2, the α,β convention is equivalent
+stage (note: as described in Navigation and Orientation, the α,β convention is equivalent
 to X and Y tilt axes). A similar procedure can be performed for a single
 tilt stage, but it precludes much of the information that can be
 collected (i.e., the ability to tilt within a crystal and stage motion
@@ -55,7 +55,7 @@ orientation of the α tilt axis (b). For all other tilt calculations in
 TEM (BF) mode the angle to the α axis will be measured from this line.
 :::
 
-As previously demonstrated in section 3.1, the calibration of TEM
+As previously demonstrated in Practical Derivations, the calibration of TEM
 diffraction and STEM (Ronchigram) modes can be performed with any
 crystalline sample, preferably one with larger, single crystals as the
 calibration will be performed utilizing the position of diffraction
@@ -107,7 +107,7 @@ will rotate slightly at oblique angles, the use of the unknown
 calculator will accurately account for the measuring and plotting traces
 between ZA. This is the exact reasoning for why diffraction patterns
 collected across the entire tilt stage require slight rotations by which
-to keep the **g**-vectors aligned. The S-curves illustrated in section 2
+to keep the **g**-vectors aligned. The S-curves illustrated in Navigation and Orientation
 represent the angles by which the planes rotate.
 
 :::{figure} ./images/Figure 27.jpg
@@ -141,7 +141,7 @@ because it is typically the most eucentric of the two axes. In order to
 best be able to utilize these protocols, it is necessary to be able to
 measure the radial angle between the α axis and a given fiduciary,
 whether it be a diffraction spot, Kikuchi line, or interface. As noted
-in section 3.1, these calibrations can be incorporated into an algorithm
+in Pracitcal Derivations, these calibrations can be incorporated into an algorithm
 utilizing digital capture in order to use the computer screen to perform
 small angle tilting of the sample.
 
@@ -295,7 +295,7 @@ dependent upon objects that, while being often crystallographically
 related, are not themselves crystalline. Objects such as grain
 boundaries, surfaces, and interfaces are all important to microscopic
 analysis, and as such, the description of their motion is of great
-interest to microscopists. In section 3, an interface calculator was
+interest to microscopists. In Practical Derivations, an interface calculator was
 derived which allows full control of finding a boundary on edge, and how
 to tilt along the long axis of the boundary. This is discussed through a
 variety of different techniques in these papers, and there are limitless
@@ -393,7 +393,7 @@ stage, provides a manner to communicate the data collected from one
 scope to another. The provided movie illustrates how diffraction
 patterns would rotate with sample rotation in the cradle.
 
-At CSM a sample could be loaded, and two fiduciary markers would be
+At CSM a sample could be loaded and two fiduciary markers would be
 logged. The first, a global fiduciary marker in relation to the holder
 (which will later be accounted for in the rotation matrix as $R_{horz}$
 and $R_{vert}$). Once loaded, a conspicuous local fiduciary marker on

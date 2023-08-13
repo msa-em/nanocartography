@@ -925,7 +925,7 @@ The rotation matrix can be calculated by first determining any normal
 vector (green arrows [](#fig8)b) to the plane normal (red arrow
 [](#fig8)a,b), where this vector lies in the desired
 crystallographic plane. This truly arbitrary rotation matrix is found by
-evaluating [](#eq18) with the arbitrary axis of rotation being the plane
+evaluating [](#rot_theta_about_u) with the arbitrary axis of rotation being the plane
 normal and the angle of rotation becoming the desired step size of the
 line to be plotted. A set of vectors is created by applying the rotation
 matrix to one of the poles repeatedly until it returns to its original
