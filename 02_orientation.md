@@ -183,8 +183,8 @@ angle γ is not 90°. The conversion of any crystallographic vector in any
 crystal system can then be calculated by multiplying the vector by the
 conversion matrix Eq. [](#converted_vector).
 
-Taking into consideration the \[111\] vector in the tetragonal unit cell
-as exhibited in [](#fig1), when converted to the cubic system it
+As an example, the \[111\] vector in the tetragonal unit cell
+as exhibited in [](#fig1), when converted to the cubic system
 can be described as a \[0.5 0.5 1\] (or \[112\]) vector, which is 35.3°
 from the \[001\] in the tetragonal system (the \[001\] converted by Eq. [](#converted_vector) remains the \[001\]). These equations can then be utilized for any of
 the seven crystal systems for which the angle between vectors (i.e.,
@@ -491,7 +491,7 @@ envision the relationship of the found ZA to the tilt stage ([](#fig6)b, where t
 rotation can best be considered by illustrating a vector in a cube
 (e.g., \[111\] in [](#fig6)) in both the standard projection
 ([](#fig6)c) and a projection normal to the vector ([](#fig6)d), and the $\varphi_c$ being the relative rotation by which the entire
-cube rotates. Again, while the CBED pattern of the \[111\] is presented
+cube rotates. Again, while the CBED pattern of the \[111\] is presented,
 it is only used to orient the practical aspect of the microscope to
 developing a tip/tilt map. From these initial data, the tip/tilt map can
 be derived as follows.
@@ -532,7 +532,7 @@ of given grains (G1, G2) and angle of rotation $\varphi_c$ about each pole. c
 and d) Rotation about an arbitrary vector through a given angle $\varphi_c$ in
 two different projections. e) Matrix rotation R{sub}`loading` that describes
 sample rotation (𝝴) about the beam normal \[001\], and vertical and
-horizontal flips about the 𝜶 and 𝜷 axes, respectively. f)Matrix rotation
+horizontal flips about the 𝜶 and 𝜷 axes, respectively. f) Matrix rotation
 R{sub}`crystal` about a given angle ($\varphi_c$). g) Matrix rotation R{sub}`stage`
 describing the found pole back to the stage tilts. h) and i) Movies
 showing stage motion.
@@ -776,8 +776,7 @@ above. A demonstration of stage movement is shown in [](#fig6) h and i that show
 as well as with a representative BCC Si phase ball and stick model to
 illustrate how the crystal would rotate with the stage ([](#fig6)i).
 
-Examples of plotting of various poles and tilt conditions is shown in
-for both cubic and hexagonal systems. Cubic vectors \[001\] and \[111\]
+To better demonstrate this, a discussion of plotting of various poles and tilt conditions for both cubic and hexagonal systems is provided. Cubic vectors \[001\] and \[111\]
 oriented at the (α,β:0,0) condition with a variety of other vectors are
 shown ([](#fig7)a and b, respectively). The asymmetry of the double
 tilt stage movement presented in [](#fig5) and again in [](#fig7)a becomes apparent, with the \[112\] not being located at equal α,β
@@ -954,7 +953,7 @@ section.
 :name: fig9
 
 Tip/tilt maps of cubic and hexagonal crystals oriented at
-with the \[001\] and \[001\](a and b, respectively) at the (α,β:0,0)
+with the \[001\] and \[001\] (a and b, respectively) at the (α,β:0,0)
 positions.
 :::
 
@@ -1117,11 +1116,11 @@ Derivation of the inverse of this matrix multiplied by a given native
 normal will provide the plane associated with that pole. It should be
 noted that while the native description of the plane of atoms (hkl)
 (e.g., (111) tetragonal c/a =2) is utilized for this calculation, the
-resultant **g**-vector is in cubic form. As previously noted, the cubic form
+resultant **g**-vector is in cubic form. As previously discussed, the cubic form
 is necessary to plot planes of atoms in a tip/tilt map, as well
 calculate the angle between planes Eq. [](#angle_planes) and determine the d-spacing
-of plane (Eq. [](#d_spacing), the distance between any plane is then is the length
-of the normal vector in cubic form). It should be stressed that when
+of plane (Eq. [](#d_spacing). This distance between any plane is then the length
+of the normal vector in cubic form. It should be stressed that when
 plotting or representing the planes, the nomenclature for the {u}`native planes` are still used. The description of the native
 normals can also be calculated for demonstration purposes (Eqs. [](#g_native) and
 [](#inversion_matrix) by multiplying the cubic description of the normal by the inverse of
