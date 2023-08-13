@@ -32,7 +32,7 @@ researchers the ability to examine crystals atom-by-atom {cite:p}`meyer2008imagi
 the atomic scale {cite:p}`dyck2018building`. The push towards picometer
 resolution a short 80 years after its introduction has been rivaled by
 few technologies for volumetric analysis.  Such techniques like atom probe tomography do provide similar, or better, chemical sensitivity, but still lack in numerous other aspects.
-{cite:p}`blavette1993tomographic, cerezo1988application`. Yet, the ever-expanding
+{cite:p}`blavette1993tomographic, cerezo1988application`. The ever-expanding
 spectral, structural, and crystallographic techniques available in the
 TEM still make it the most versatile and attractive analysis technique
 for a wide range of research fields.
@@ -59,10 +59,10 @@ sample.
 [^1]: Desktop Microscopist is a trademark of Desktop Microscopist
 
 There is a need for increased speed and efficiency in electron
-microscopy due to a wider field of materials being analyzed, an
+microscopy due to a wider field of materials being analyzed.  With an
 increasing amount of analytical techniques being developed, higher
 capital costs associated with purchasing newer instrumentation, and
-decreased sources of funding {cite:p}`maia2018haves`. Current generation
+decreased sources of funding it is imperative that all researchers have the opportunity to conduct the best research {cite:p}`maia2018haves`. Current generation
 spectrometers can be as costly as the base microscope itself. With the
 revolution of aberration correction advancing resolution to the
 picometer scale {cite:p}`yankovich2014picometre`, the inclusion of a corrector,
@@ -74,7 +74,7 @@ collaboration and user facilities an attractive option for researchers
 who do not have the capability to perform higher end research at their
 home institutions. All of this taken into consideration, the future of
 electron microscopy will be geared towards doing smarter microscopy and
-automation {cite:p}`spurgeon2020towards`, similar to what has been
+automation {cite:p}`spurgeon2020towards`, 'olszta2022stage', similar to what has been
 accomplished in the field of X-ray crystallography {cite:p}`abola2000automation`.
 The eventual progression into full automation presents the possibility
 of much of the underlying mathematics and physics being overlooked as
