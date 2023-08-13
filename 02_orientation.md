@@ -517,12 +517,12 @@ entire rotation matrix representing the crystal orientation, and
 subsequently any other possible vector can then be plotted accordingly
 through that matrix.
 
-:::{figure} ./images/image8.png
+:::{figure} #app:double_tilt_movie
 :name: fig6
 
-![](./images/image9.png)
+<!---![](./images/image9.png)
 
-![](./images/Figure6.jpg)
+![](./images/Figure6.jpg)-->
 
 Schematic and movies illustrating crystal rotation around
 a single vector/pole in relation to the stage tilt axes and their
