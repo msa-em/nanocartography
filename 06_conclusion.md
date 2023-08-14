@@ -4,9 +4,9 @@ numbering:
   enumerator: 6.%s
 ---
 
-The ability to precisely navigate nanoscopic volumes will become
+Precise navigation of nanoscopic volumes will become
 increasingly important to the field of materials science and electron
-microscopy. While there have been a number of researchers who have
+microscopy, especially with the adjvent to aberration correction. While there have been a number of researchers who have
 developed methodologies to predict both the stage motion of a double
 tilt stage and crystallographic motion and diffraction analysis, these
 have all typically been approached from an a priori stance where the
@@ -31,8 +31,8 @@ higher the demand for instrumentation time. To overcome this,
 microscopists will be required to not only become faster and more
 accurate, but as well optimize every protocol available. Coupled with
 the increased ease of site-specific sample preparation of FIB and plasma
-FIB technology where a large number of samples can be prepared from all
-sample types, there has is a need to perform better and more efficient
+FIB technologies, where a large number of samples can be prepared from all
+sample types, there is a need to perform better and more efficient
 microscopy in order to take full advantage of collaborations between
 institutions. Nanocartography, mapping of TEM samples from the global
 scale down to the atomic column level, is a path forward to provide all
@@ -43,7 +43,7 @@ The necessity of nanocartography will be imperative toward the
 development of automated TEM. Regardless of how well automated image
 analysis may become, the projection aspect of TEM analysis will still
 require human directed analysis to a point. On the road to more
-automated data, collection, and analysis there must be a transition by
+automated data collection and analysis there must be a transition by
 which microscopists are provided full control to map samples. More
 importantly, the cost of instrumentation is an issue that will only
 become more complicated with automated microscopy.
@@ -55,3 +55,5 @@ transferred to additional sessions, and samples can be shared between
 instruments without each microscopist having to re-map the sample.
 Preplanning of data analysis in between sessions could also assist in
 targeting desired information.
+
+Therefore, development of a more rigorous, methodical approach to electron microcscopy is required that will usher its continued growth as a science and not simply a tool.
