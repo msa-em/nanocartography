@@ -8,8 +8,8 @@ The ability to accurately control the stage motion with respect to
 crystallography has long been a desirable function in any microscopist's
 toolbox. While Desktop Microscopist was one of the first programs to
 accurately predict diffraction patterns and measure relative stage
-positions given a specific crystallographic information, others have
-done similar plotting programs for a variety of applications. ALPHABETA
+positions given specific crystallographic information, others have
+created similar plotting programs for a variety of applications. ALPHABETA
 a was designed to accurately determine two beam locations for proper
 dislocation and microstructural analysis of stainless steels {cite:p}`cautaerts2018alphabeta`. A number of papers have detailed the study of either the
 double tilt stage and/or its relation to crystallographic analysis, but
@@ -37,7 +37,7 @@ Taking each of these components as individual parts assists in
 developing tools by which it becomes easier to create and develop maps
 of the crystallographic orientations within a sample in addition to its
 overall relationship to the sample. These tools can then be utilized in
-a variety of manners to quickly and efficiently manipulate the sample,
+a variety of manners to quickly and efficiently manipulate the sample
 and also plan for future analyses.
 
 ## Crystals as Physical Objects
@@ -54,9 +54,9 @@ boundaries) and their motion using a double tilt stage. Much of the
 published research regarding the use of a double tilt stage for TEM
 analysis has focused solely on the motion of the stage, and very few
 have combined it with its relation to crystals. As noted prior,
-{cite:p}`cautaerts2018alphabeta`, Cautaerts et al. approached the use of a
+Cautaerts et al. approached the use of a
 double tilt stage to calculate the motion of a cubic crystal for use in
-determining the optimal tilt conditions for two beam analysis. While
+determining the optimal tilt conditions for two beam analysis {cite:p}`cautaerts2018alphabeta`. While
 this provided more information than simple stage motion, it still did
 not fully concern all crystal types.
 
@@ -85,7 +85,7 @@ similar mathematics of plotting planes of atoms, the motion of
 non-crystalline physical objects such as grain boundaries, surfaces, or
 matrix/precipitate interfaces could quickly be defined. The power and
 flexibility of considering crystals and their motion in real space is
-demonstrated when they could then be related back to
+demonstrated most easily by relating them to
 non-crystallographic objects within the sample.
 
 Grain boundary and interface analysis are key components in assessing
@@ -109,7 +109,7 @@ non-crystalline objects such as grain boundaries.
 Additionally, the ability to describe the full stage motion with respect
 to these objects also provides a pathway to understand their
 three-dimensional structure within the confines of the foil. To date,
-electron tomography plus atom probe tomography provides the highest
+electron tomography and atom probe tomography provides the highest
 three-dimensional spatial resolution (even considering a multitude of
 artifacts) of materials within the spectrum of analytical materials
 science analysis tools. For all of the advantages these techniques
@@ -130,7 +130,7 @@ crystallographic orientation, it may not be possible to achieve said
 orientation within that tilt range. As has been previously demonstrated,
 with the location of a few zone axes, the coordinates of the principle
 axes can be accurately calculated {cite:p}`liu1995simple`. The comparison of the
-principle axes of two neighboring grains can then be utilized) to
+principle axes of two neighboring grains can then be utilized to
 calculate the location misorientation and the axis of misorientation
 that then leads to grain boundary type. Again, future development of
 scanning diffraction techniques will eventually automate this analysis,
@@ -154,8 +154,7 @@ space description) is the same as the Miller indices description
 (reciprocal space). As previously noted, the motion of a crystal is
 predicated on the real space description, but in electron microscopy
 analysis, the majority of terminology deals with reciprocal space.
-Therefore, decoupling these two explanations as first described in the
-section above through vector math and then subsequently the conversion
+Therefore, decoupling these two explanations as first described in Naviation and Orientation through vector math and then subsequently the conversion
 to reciprocal space is necessary for better understanding.
 
 This additional conversion takes advantage of the previous conversion of
@@ -195,7 +194,7 @@ plotted is not diffraction or Kikuchi lines, but the pathways between
 poles. Whether tilt stages will ever be developed that provide the
 precision to accurately discriminate between the (200) or (400) Kikuchi
 lines is beyond the scope of this paper, but similar methodologies could
-be developed if and when this ever becomes reality. Even so, given the
+be developed if and when this becomes reality. Even so, given the
 tendency for local sample foiling and misorientations, even with the
 most accurate stages this type of tilting may never be practical.
 
@@ -226,7 +225,7 @@ knowledge of crystallographic samples. Much like current EBSD analysis
 on modern SEMs, their analyses are beholden to input of candidate
 crystals for optimal results. By considering crystals (and their motion)
 as physical objects rather than through diffraction and reciprocal
-space, it allowed and easier transition to considering the motion of
+space, it allows an easier transition to considering the motion of
 non-crystalline objects such as grain boundaries and interfaces. More
 importantly, it opens the avenue to mapping samples that can then be
 later scrutinized for planning of subsequent microscopic analysis or
@@ -285,7 +284,7 @@ distribution of grain boundary precipitates can provide a more
 representative picture of the sample being analyzed. This can be
 accomplished through simple logical tilt series that takes advantage of
 having the ability to tilt against or along a given interface.
-Tomography and APT will always be a more accurate description of the
+Tomography and APT will always provide a more accurate description of the
 three-dimensional volume, but they both suffer from being locally
 destructive techniques in addition to only providing an extremely narrow
 view of the sample volume. By creating rapid tilt series at any given step
@@ -298,7 +297,7 @@ allows for quicker data collection. Lastly, while tilt series of
 dislocations have been demonstrated in the literature {cite:p}`liu2011three, hata2020electron, yamasaki2015visualization`, if the tilt
 map for any given crystal has been solved, tilt series directions for
 any plane can quickly be calculated. Instead of following the trace of
-the plane systematically, if the directions for the trace of the plane
+the plane manually, if the directions for the trace of the plane
 are calculated, then it provides for easier data collection.
 
 As with many of the subjects described herein, relating adjacent
@@ -308,7 +307,7 @@ et al. demonstrated how knowledge of crystallographic poles of two cubic
 crystals could assist in solving the local misorientation angle between
 them {cite:p}`liu1994simple, liu1995simple`, and Jeong et al. {cite:p}`jeong2010characterization`
 attempted the use of a triangulation method in solving the same problem.
-In section 2 it was demonstrated how one could not only solve the orientation of cubic
+In Navigation and Orientation it was demonstrated how one could not only solve the orientation of cubic
 crystals, but all crystal systems as well. The research herein
 takes a similar approach to Qui to demonstrate how the calculation of
 the unit vectors for any crystal can be calculated from the solution of
