@@ -171,6 +171,7 @@ beneficial to understanding crystallographic data of an unknown sample.
 
 :::{figure} #app:superellipse
 :name: fig29
+:placeholder: images/superellipse.png
 
 Double tilt stage limits as calculated through a
 squircle (superellipse) estimation using various r values.

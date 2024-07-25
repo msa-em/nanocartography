@@ -7,7 +7,7 @@ project:
   short_title: Nanocartography
   description: With the increasing diversity in material systems, ever-expanding number of analysis techniques, and the large capital costs of next generation instruments the ability to quickly and efficiently collect data in the electron microscope has become paramount to successful data analysis.
   banner: banner.png
-  thumbnail: thumbnail.png
+  thumbnail: thumbnail.webp
   authors:
     - name: Matthew J Olszta
       affiliations:
