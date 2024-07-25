@@ -10,8 +10,13 @@ project:
   thumbnail: thumbnail.webp
   authors:
     - name: Matthew J Olszta
+      orcid: 0000-0002-8182-5439
+      corresponding: true
       affiliations:
-        - name: Pacific Northwest National Laboratory, Richland, WA 99354, USA
+        - id: pnnl
+          department: Energy and Environment Directorate
+          institution: Pacific Northwest National Laboratory
+          address: Richland, WA 99354, USA
           ror: 05h992307
       phone: (509) 371-7217
       fax: (509) 375-3033
@@ -19,7 +24,10 @@ project:
     - name: Kevin R Fiedler
       orcid: 0000-0002-9656-7663
       affiliations:
-        - name: Washington State University, Tri-Cities, Richland, WA, 99354, USA
+        - id: wsu
+          department: Department of Mathematics
+          institution: Washington State University, Tri-Cities
+          address: Richland, WA, 99354, USA
           ror: 05dk0ce17
   funding:
     - statement: Pacific Northwest National Laboratory is a multiprogram national laboratory operated by Battelle for the U.S. Department of Energy under contract DEAC05-76RL01830.
@@ -27,7 +35,9 @@ project:
       source:
         - name: U.S. Department of Energy Office of Science, Basic Energy Sciences, Materials Sciences and Engineering Division
           doi: 10.13039/100000015
-  keywords: []
+  keywords:
+    - Transmission Electron Microscopy
+    - Crystallography
   numbering:
     heading_2: true
     heading_3: true
