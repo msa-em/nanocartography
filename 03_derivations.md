@@ -950,6 +950,7 @@ dislocation microstructures in three dimensions {cite:p}`liu2011three, hata2020e
 
 :::{figure} #app:AgAu_tilt_series
 :name: fig21_interactive
+:placeholder: images/ag-au-interactive.png
 Tilt series collected across a Ag-Au grain boundary
 exhibiting void evolution ahead of an stress corrosion cracking (SCC)
 tip in the binary alloy {cite:p}`badwe2018decoupling`.
