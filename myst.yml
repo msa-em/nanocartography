@@ -5,15 +5,24 @@ project:
   short_title: Nanocartography
   authors:
     - name: Matthew J Olszta
-      affiliation: Pacific Northwest National Laboratory, Richland, WA 99354, USA
+      affiliations:
+        - name: Pacific Northwest National Laboratory, Richland, WA 99354, USA
+          ror: 05h992307
       phone: (509) 371-7217
       fax: (509) 375-3033
       email: matthew.olszta@pnnl.gov
     - name: Kevin R Fiedler
-      affiliation: Washington State University, Tri-Cities, Richland, WA, 99354, USA
+      orcid: 0000-0002-9656-7663
+      affiliations:
+        - name: Washington State University, Tri-Cities, Richland, WA, 99354, USA
+          ror: 05dk0ce17
+  funding:
+    - statement: Pacific Northwest National Laboratory is a multiprogram national laboratory operated by Battelle for the U.S. Department of Energy under contract DEAC05-76RL01830.
+      id: DEAC05-76RL01830
+      source:
+        - name: U.S. Department of Energy Office of Science, Basic Energy Sciences, Materials Sciences and Engineering Division
+          doi: 10.13039/100000015
   keywords: []
-  # github:
-  # bibliography: []
   numbering:
     heading_2: true
     heading_3: true
@@ -44,18 +53,9 @@ project:
     XEDS: x-ray energy-dispersive Spectroscopy
     IPF: inverse pole figure
     DOE: Department of Energy
-  thebe:
-      server: true
+  github: https://github.com/msa-em/nanocartography
+  jupyter: true
+  open_access: true
+  license: CC-BY-4.0
 site:
   template: book-theme
-  title: Nanocartography
-  logo_text: Nanocartography
-  nav: []
-  projects:
-      - slug: myst
-        path: .
-  actions:
-    - title: Learn More
-      url: https://myst-tools.org/docs/mystjs
-  domains: []
-
