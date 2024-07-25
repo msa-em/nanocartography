@@ -2,6 +2,7 @@
 version: 1
 project:
   id: msa-em-nanocartography
+  doi: 10.69761/DNKA1581
   title: 'Nanocartography: Planning for success in analytical electron microscopy'
   short_title: Nanocartography
   authors:
