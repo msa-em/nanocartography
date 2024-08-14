@@ -52,7 +52,7 @@ project:
     ZA: zone axis
     FCC: face-centered cubic
     BCC: body-centered cubic
-    CBED: vonvergent beam electron diffraction
+    CBED: convergent beam electron diffraction
     HAADF: high angle annular dark field
     BF: bright field
     PED: precession electron diffraction
