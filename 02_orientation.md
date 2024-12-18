@@ -366,6 +366,7 @@ matrices.
 
 :::{figure} #app:g_vector_rotation_movie
 :name: fig5
+:static: ./images/Figure 5 static.png
 
 Stereographic projection (a) versus a tip/tilt map (b) of
 a cube oriented in the \[001\] orientation illustrating how the oblique
@@ -510,7 +511,7 @@ between two grains).
 In order to create a tip/tilt map, the known vector will be rotated
 through a sequence of rotations to align it with the \[001\] probe
 orientation, subsequently rotated with respect to the crystal
-orientation ($\varphi_c$) using [](#eq8), and finally the stage will be tilted
+orientation ($\varphi_c$) using [](#rotation_z), and finally the stage will be tilted
 from the probe position to the found conditions (observed tilts)
 ([](#fig6)e-g). The known pole will be utilized to derive the
 entire rotation matrix representing the crystal orientation, and
@@ -519,10 +520,7 @@ through that matrix.
 
 :::{figure} #app:double_tilt_movie
 :name: fig6
-
-<!---![](./images/image9.png)
-
-![](./images/Figure6.jpg)-->
+:static: ./images/Figure 6 static.png
 
 Schematic and movies illustrating crystal rotation around
 a single vector/pole in relation to the stage tilt axes and their
@@ -896,23 +894,14 @@ as the plot of all possible vectors within the plane, and therefore a
 rotation matrix with the plane normal substituting for the arbitrary
 axis of rotation is necessary (see [](#fig8)). As will be shown, this
 rotation matrix is nearly identical to the rotation about an arbitrary
-axis ($R_{\widehat{r},\theta}$) derived in [](#eq18) with the caveat that
+axis ($R_{\widehat{r},\theta}$) derived in [](#rotation_matrix_theta) with the caveat that
 a more generic derivation can be developed that is not required to tilt
 to the beam direction.
-<!---
-:::{figure} ./images/Figure 8.jpg
-:name: fig8
-
-Schematic illustrating the derivation of traces of
-vectors along a crystallographic plane (green arrows) given the plane
-normal (red arrow). a) \[111\] vector and (111) plane. b) Plotting
-vectors along the (111) plane rotating about the \[111\] vector.
-:::
--->
 
 
 :::{figure} #app:orientation_example_111
 :name: fig8
+:static: ./images/Figure 8.jpg
 
 Schematic illustrating the derivation of traces of
 vectors along a crystallographic plane (green arrows) given the plane
@@ -932,7 +921,7 @@ matrix to one of the poles repeatedly until it returns to its original
 location (in the case of 1-degree steps this will yield 360 total
 vectors). Because these vectors are in standard orientation, they must
 be rotated as the poles were above through the multiplication of
-$R_{tot}$ [](#eq21). This will yield the Cartesian vector sequence which
+$R_{tot}$ [](#rotation_total). This will yield the Cartesian vector sequence which
 then is required to be converted to $\alpha$/$\beta$ coordinates using
 Eqns. [%s](#alpha_tilt)-[%s](#beta_tilt). Computing these sequences for various low index planes of
 interest yields in each system the complete tip/tilt diagram that can be

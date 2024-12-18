@@ -1,7 +1,7 @@
 ---
 title: Appendix
 numbering:
-  enumerator: 6.%s
+  enumerator: 7.%s
 ---
 
 ### Conversion to Cubic
@@ -15,7 +15,7 @@ $$
 
 This has introduced another quantity, D, which is the length of the side of the triangle opposite the angle δ.   Solving for δ yields:
 
-$$\label{delta} \delta={\cos}^{-1}{\left(\frac{\left(a\sin{\beta}\right)^2+\left(b\sin{\alpha}\right)^2-D^2}{2ab\sin{\alpha}\sin{\beta}}\right)}$$
+$$\label{appendix_delta_initial} \delta={\cos}^{-1}{\left(\frac{\left(a\sin{\beta}\right)^2+\left(b\sin{\alpha}\right)^2-D^2}{2ab\sin{\alpha}\sin{\beta}}\right)}$$
 
 :::{figure} ./images/Figure A1.jpg
 :name: figA1
@@ -129,7 +129,7 @@ $$\label{XA3} u_{A3}p_{Ax}+v_{A3}q_{Ax}+w_{A3}t_{Ax}=x_{A3}$$
 $$\label{YA3} u_{A3}p_{Ay}+v_{A3}q_{Ay}+w_{A3}t_{Ay}=y_{A3}$$
 $$\label{ZA3} u_{A3}p_{Az}+v_{A3}q_{Az}+w_{A3}t_{Az}=z_{A3}$$
 
-In this order, the patterns in these equations are not clear, so instead, they are grouped as Eqns. [](#XA1), [](#XA2), [](#XA3), Eqns. [](#YA1), [](#YA2), [](#YA3), and Eqns. Eqns. [](#ZA1), [](#ZA2), [](#ZA3).  These groupings yield:
+In this order, the patterns in these equations are not clear, so instead, they are grouped as Eqns. [](#XA1), [](#XA2), [](#XA3), Eqns. [](#YA1), [](#YA2), [](#YA3), and Eqns. [](#ZA1), [](#ZA2), [](#ZA3).  These groupings yield:
 
 $$\label{XA1_v2} u_{A1}p_{Ax}+v_{A1}q_{Ax}+w_{A1}t_{Ax}=x_{A1}$$ 
 
