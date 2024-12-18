@@ -75,7 +75,7 @@ project:
   license: CC-BY-4.0
   exports:
     - format: typst
-      template: ../../typst-templates/msa
+      template: curvenote-templates/msa
       output: nanocartography.pdf
       articles:
         - 01_introduction.md
