@@ -812,7 +812,8 @@ This change in c/a ratio can also be observed in [](#fig2).
 Additionally, with the change in c/a ratio it is also noted that the
 angle between the primary and secondary prism poles do not change
 because they are orthogonal to the c axis, and hence are unaffected. The
-reader is guided to the online code (insert inline documentation here)
+reader is guided to the notebooks accompanying this article
+(https://github.com/msa-em/nanocartography/tree/main/notebooks)
 to create basic tip/tilt maps for any system at their leisure.
 
 Systems that are more complex could also be illustrated (see
