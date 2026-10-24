@@ -5,6 +5,12 @@ numbering:
   heading_2: false
 ---
 
++++ {"part": "epigraph"}
+
+[![Peer reviewed: open referee reports](images/em_peer_reviewed_badge.svg)](99_peer_review.md)
+
++++
+
 +++ {"part": "abstract"}
 
 With the increasing diversity in material systems, ever-expanding number
