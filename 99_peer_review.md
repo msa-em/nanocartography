@@ -4,13 +4,6 @@ numbering:
   enumerator: 7.%s
 ---
 
-This article was first submitted to Microscopy and Microanalysis, where it received the two referee reports reproduced below.
-While the manuscript was waiting for a third referee, the Microscopy and Microanalysis editors suggested publishing it in Elemental Microscopy instead.
-Neither referee requested major changes, and the authors addressed all of the referee comments in this version of the article.
-Both referees are anonymous.
-
-## First Report
-
 ### Reviewer 1
 
 :::{note} Reviewer Comment
