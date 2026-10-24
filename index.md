@@ -26,6 +26,8 @@ collaboration throughout the field.
 
 +++
 
+[![Peer reviewed: open referee reports](images/em_peer_reviewed_badge.svg)](99_peer_review.md)
+
 ## Acknowledgements
 
 The authors acknowledge financial support of the U.S. Department of Energy
