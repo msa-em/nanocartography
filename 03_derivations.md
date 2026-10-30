@@ -214,6 +214,7 @@ $$\label{stage_position}{Image}_{N + 1} = X_{0} \pm (X - Xp),Y_{0} \pm (Y - Yp)$
 
 :::{figure} #app:montage_movie
 :name: fig14
+:static: ./images/Figure 14 static.png
 
 Movie illustrating montaging of MoO{sub}`3` particles on a carbon
 film.
@@ -421,7 +422,7 @@ p_{Ay} & q_{Ay} & t_{Ay} \\
 p_{Az} & q_{Az} & t_{Az} \\
 \end{bmatrix}$$
 
-The previous rotation matrix was derived for Crystal A [](#eq62), but
+The previous rotation matrix was derived for Crystal A [](#R_A), but
 the exact procedure applies to Crystal B without any modifications
 beyond the subscript, and is denoted by:
 
@@ -836,10 +837,10 @@ tip/tilt position (α,β coordinates) within that crystal can be described
 condition). This vector can be calculated by multiplying the rotation
 matrix of the given α,β conditions (Eqs. [](#rotation_about_alpha) and [](#rotation_about_beta)) by the unit vector
 matrix Eq. [](#R_A) to form a rotation matrix at that specific α,β tilt
-condition Eq. [](M_alpha_beta). This in effect rotates the unit vector at that
+condition Eq. [](#M_alpha_beta). This in effect rotates the unit vector at that
 specific tilt condition to the beam direction \[001\], and as such
 multiplying the inverse of this matrix $M_{\alpha\beta}^{-1}$ by the beam direction
-will provide the vector at the given tilt conditions Eq. [](u_alpha_beta).
+will provide the vector at the given tilt conditions Eq. [](#u_alpha_beta).
 
 The unit vector matrix, which describes the location of the unit cell
 axes, can be subsequently utilized to calculate the vector normal
@@ -949,22 +950,14 @@ dislocation microstructures in three dimensions {cite:p}`liu2011three, hata2020e
 % Interactive version of the Ag-Au movie
 
 :::{figure} #app:AgAu_tilt_series
-:name: fig21_interactive
-:placeholder: images/ag-au-interactive.png
-Tilt series collected across a Ag-Au grain boundary
-exhibiting void evolution ahead of an stress corrosion cracking (SCC)
-tip in the binary alloy {cite:p}`badwe2018decoupling`.
-:::
-
-<!---
-:::{figure} ./images/fig21.mp4
 :name: fig21
+:placeholder: images/ag-au-interactive.png
+:static: images/Figure 21 static.png
 
 Tilt series collected across a Ag-Au grain boundary
 exhibiting void evolution ahead of an stress corrosion cracking (SCC)
 tip in the binary alloy {cite:p}`badwe2018decoupling`.
 :::
--->
 
 Using both the interface calculations combined with the crystallographic
 solution of any grain within the sample allows for rapid collection of
@@ -1157,8 +1150,7 @@ mapping programs such as Crystal Maker {cite:p}`palmer2015visualization` or JEMS
 
 :::{figure} #app:unknown_calculator_movie
 :name: fig25
-
-<!---![](./images/image33.png)-->
+:static: ./images/Figure 25 static.png
 
 Unknown calculator illustrating how to tilt along
 g-vectors or Kikuchi lines to build unknown crystal maps using a) a

@@ -421,8 +421,7 @@ would rotate commensurate with sample rotation in the cradle.
 
 :::{figure} #app:collab_analysis_movie
 :name: fig32
-
-<!---![](./images/image41.png)-->
+:static: ./images/Figure 32 static.png
 
 Collaborative sample analysis at multiple institutions
 through predicative tilting and mapping and movie illustrating sample
